@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: sprite
+    uniqueID: 1155261983
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
