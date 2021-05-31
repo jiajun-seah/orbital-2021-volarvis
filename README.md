@@ -7,6 +7,7 @@ Both of us have always been interested in developing games, especially as we are
 With the current pandemic situation, we hope our game can serve as a form of distraction for people of all age groups to take some time off and venture into the world of Volarvis.
 
 Team Members: {Seah Jia Jun; Ng Xiang Han}
+
 Advisor: Cheng Xianhao
 
 Proposed Level of Achievement: Apollo 11
