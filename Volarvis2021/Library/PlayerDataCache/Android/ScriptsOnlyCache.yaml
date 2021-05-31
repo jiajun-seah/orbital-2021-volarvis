@@ -383,6 +383,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3236}
     - Class: 114
       Script: {instanceID: 3294}
+    - Class: 114
+      Script: {instanceID: 4336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1077,4 +1079,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/ShopPage.unity
   - Assets/Scenes/LibraryPage.unity
   - Assets/Scenes/SettingsPage.unity
-  playerPath: /Users/ngxianghan/Documents/Y1S2/Orbital/Volarvis.apk
+  playerPath: C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis.apk
