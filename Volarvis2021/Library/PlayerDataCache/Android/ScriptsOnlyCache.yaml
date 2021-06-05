@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AutoLetterbox.ForceCameraRatio
     - MainMenu
     - NavBar
     - SceneLoading
@@ -444,6 +445,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4440}
     - Class: 114
       Script: {instanceID: 4786}
+    - Class: 114
+      Script: {instanceID: 29164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1069,6 +1072,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 95d86d606c5893d3ac8050d29afcf305
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: AutoLetterbox
+    className: ForceCameraRatio
   platform: 13
   scenePathNames:
   - Assets/Scenes/StartPage.unity
@@ -1079,4 +1088,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/ShopPage.unity
   - Assets/Scenes/LibraryPage.unity
   - Assets/Scenes/SettingsPage.unity
-  playerPath: C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis-2-6-21.apk
+  playerPath: C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis-5-6-21.apk
