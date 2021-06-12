@@ -1,11 +1,11 @@
 sceneSetups:
 - path: Assets/Scenes/StartPage.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
-- path: Assets/Scenes/SplashPage.unity
   isLoaded: 0
   isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/SplashPage.unity
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scenes/LoadingScreen.unity
   isLoaded: 0

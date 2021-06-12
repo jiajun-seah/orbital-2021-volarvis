@@ -1,131 +1,2053 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 15961 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis2021
+/Users/ngxianghan/Documents/Y1S2/Orbital/Volarvis2021
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49721
-Successfully changed project path to: C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis2021
-C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis2021
+50463
+Successfully changed project path to: /Users/ngxianghan/Documents/Y1S2/Orbital/Volarvis2021
+/Users/ngxianghan/Documents/Y1S2/Orbital/Volarvis2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 128.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 97.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis2021/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ngxianghan/Documents/Y1S2/Orbital/Volarvis2021/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
-    Vendor:   
-    VRAM:     7980 MB
-    Driver:   27.20.100.9079
+2021-06-10 14:03:17.005 Unity[2900:118197] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-06-10 14:03:17.005 Unity[2900:118197] Metal devices available: 1
+2021-06-10 14:03:17.005 Unity[2900:118197] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-06-10 14:03:17.006 Unity[2900:118197] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004535 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.61 ms, found 1 plugins.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002572 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 55.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.648 seconds
+- Completed reload, in  5.386 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001967 seconds.
+Registered in 0.005172 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.46 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 48.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 Application::InitializeProject()
+ #22 -[EditorApplication applicationDidFinishLaunching:]
+ #23 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #24 ___CFXRegistrationPost1_block_invoke
+ #25 _CFXRegistrationPost1
+ #26 ___CFXNotificationPost_block_invoke
+ #27 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #28 _CFXNotificationPost
+ #29 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #30 -[NSApplication _postDidFinishNotification]
+ #31 -[NSApplication _sendFinishLaunchingNotification]
+ #32 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #33 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #34 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #35 _NSAppleEventManagerGenericHandler
+ #36 _AppleEventsCheckInAppWithBlock
+ #37 _AppleEventsCheckInAppWithBlock
+ #38 aeProcessAppleEvent
+ #39 AEProcessAppleEvent
+ #40 _DPSNextEvent
+ #41 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #42 -[NSApplication run]
+ #43 NSApplicationMain
+ #44 EditorMain(int, char const**)
+ #45 main
+ #46 start
+ #47 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 Application::InitializeProject()
+ #22 -[EditorApplication applicationDidFinishLaunching:]
+ #23 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #24 ___CFXRegistrationPost1_block_invoke
+ #25 _CFXRegistrationPost1
+ #26 ___CFXNotificationPost_block_invoke
+ #27 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #28 _CFXNotificationPost
+ #29 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #30 -[NSApplication _postDidFinishNotification]
+ #31 -[NSApplication _sendFinishLaunchingNotification]
+ #32 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #33 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #34 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #35 _NSAppleEventManagerGenericHandler
+ #36 _AppleEventsCheckInAppWithBlock
+ #37 _AppleEventsCheckInAppWithBlock
+ #38 aeProcessAppleEvent
+ #39 AEProcessAppleEvent
+ #40 _DPSNextEvent
+ #41 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #42 -[NSApplication run]
+ #43 NSApplicationMain
+ #44 EditorMain(int, char const**)
+ #45 main
+ #46 start
+ #47 ???
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.563 seconds
+- Completed reload, in  1.417 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.8 MB.
+Unloading 2053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 175.2 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2397.
-Total: 3.350300 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.144600 ms MarkObjects: 2.820200 ms  DeleteObjects: 0.068500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Sprites/texture/egg-texture-tiny.png
-  artifactKey: Guid(e917c98f9c3aa454ab4d07acab3fe50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/texture/egg-texture-tiny.png using Guid(e917c98f9c3aa454ab4d07acab3fe50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c6412158b42a7796693c999d3ec787') in 0.197228 seconds
-  Import took 0.203160 seconds .
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2473.
+Total: 2.453678 ms (FindLiveObjects: 0.272404 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.048296 ms  DeleteObjects: 0.046431 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Sprites/texture/egg-texture.png
-  artifactKey: Guid(746cf247bb6399a409f48de722007dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/texture/egg-texture.png using Guid(746cf247bb6399a409f48de722007dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2724f39e2d0d9f91e6b92672053155') in 0.028448 seconds
-  Import took 0.032941 seconds .
+  path: Assets/SIgnInButton.cs
+  artifactKey: Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SIgnInButton.cs using Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7792154668f97f85ad89b13683709b67') in 0.553426 seconds
+  Import took 0.559772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1536.882477 seconds.
+  path: Assets/SIgnInButton.cs
+  artifactKey: Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SIgnInButton.cs using Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefe22685a3b206f1748ce9cbfe572c8') in 0.010788 seconds
+  Import took 0.034955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.699915 seconds.
+  path: Assets/SIgnInButton.cs
+  artifactKey: Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SIgnInButton.cs using Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee32ad0d6b5e2c5fefc7810ed7ecaaa') in 0.001465 seconds
+  Import took 0.007095 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003993 seconds.
+Registered in 0.002370 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.478 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1922 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.6 MB.
-System memory in use after: 105.7 MB.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2407.
-Total: 2.433500 ms (FindLiveObjects: 0.208900 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.078600 ms  DeleteObjects: 0.054400 ms)
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.2 MB.
+System memory in use after: 177.3 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2477.
+Total: 2.422134 ms (FindLiveObjects: 0.272664 ms CreateObjectMapping: 0.077881 ms MarkObjects: 2.043405 ms  DeleteObjects: 0.027253 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008796 seconds.
+Registered in 0.001658 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.96 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 11.026 seconds
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 3.21 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1922 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.6 MB.
-System memory in use after: 105.7 MB.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2411.
-Total: 11.290700 ms (FindLiveObjects: 2.568700 ms CreateObjectMapping: 0.796500 ms MarkObjects: 7.831500 ms  DeleteObjects: 0.087600 ms)
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.5 MB.
+System memory in use after: 177.6 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2481.
+Total: 2.491684 ms (FindLiveObjects: 0.257237 ms CreateObjectMapping: 0.122542 ms MarkObjects: 2.082526 ms  DeleteObjects: 0.028495 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005309 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.8 MB.
+System memory in use after: 178.0 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2485.
+Total: 2.283249 ms (FindLiveObjects: 0.231810 ms CreateObjectMapping: 0.085661 ms MarkObjects: 1.937939 ms  DeleteObjects: 0.026864 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.1 MB.
+System memory in use after: 178.3 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2489.
+Total: 2.552980 ms (FindLiveObjects: 0.266297 ms CreateObjectMapping: 0.071198 ms MarkObjects: 2.187417 ms  DeleteObjects: 0.026923 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009723 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.4 MB.
+System memory in use after: 178.6 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2493.
+Total: 2.749121 ms (FindLiveObjects: 0.296263 ms CreateObjectMapping: 0.076612 ms MarkObjects: 2.346711 ms  DeleteObjects: 0.028313 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 36.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.4 MB.
+System memory in use after: 140.5 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 2493.
+Total: 32.649445 ms (FindLiveObjects: 1.316592 ms CreateObjectMapping: 0.143880 ms MarkObjects: 31.076405 ms  DeleteObjects: 0.106729 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12033.456589 seconds.
+  path: Assets/SIgnInButton.cs
+  artifactKey: Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SIgnInButton.cs using Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dd539825e56d38eb0ed4f5ce028603') in 0.107087 seconds
+  Import took 0.189329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.751228 seconds.
+  path: Assets/LogIn.cs
+  artifactKey: Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LogIn.cs using Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2e1472111f201a2e866ee4ea3d6d4c') in 0.001798 seconds
+  Import took 0.005910 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.0 MB.
+System memory in use after: 179.1 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2497.
+Total: 4.294598 ms (FindLiveObjects: 0.500612 ms CreateObjectMapping: 0.149398 ms MarkObjects: 3.604230 ms  DeleteObjects: 0.038995 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 13.060698 seconds.
+  path: Assets/GoogleLogin.cs
+  artifactKey: Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleLogin.cs using Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769d414cd6551d48c02c859a6d59950b') in 0.004864 seconds
+  Import took 0.009431 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.3 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2501.
+Total: 2.251105 ms (FindLiveObjects: 0.210395 ms CreateObjectMapping: 0.067473 ms MarkObjects: 1.949135 ms  DeleteObjects: 0.023193 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.7 MB.
+System memory in use after: 179.8 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2505.
+Total: 2.236890 ms (FindLiveObjects: 0.269063 ms CreateObjectMapping: 0.068698 ms MarkObjects: 1.873556 ms  DeleteObjects: 0.024565 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1458.500388 seconds.
+  path: Assets/GoogleLogin.cs
+  artifactKey: Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleLogin.cs using Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b20b528802821964ba6ac802c24e453') in 0.011790 seconds
+  Import took 0.016206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1063.443074 seconds.
+  path: Assets/GoogleSignOut.cs
+  artifactKey: Guid(d45a900d03a104da3b498b6081f45c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSignOut.cs using Guid(d45a900d03a104da3b498b6081f45c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1272887092abe2a160a376e89c35c426') in 0.017173 seconds
+  Import took 0.040674 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2033 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.0 MB.
+System memory in use after: 180.1 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2510.
+Total: 2.218263 ms (FindLiveObjects: 0.260221 ms CreateObjectMapping: 0.074368 ms MarkObjects: 1.859882 ms  DeleteObjects: 0.022835 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002703 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.3 MB.
+System memory in use after: 180.5 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2513.
+Total: 2.758309 ms (FindLiveObjects: 0.237293 ms CreateObjectMapping: 0.125635 ms MarkObjects: 2.361923 ms  DeleteObjects: 0.032395 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.388 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.6 MB.
+System memory in use after: 180.8 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 2.394496 ms (FindLiveObjects: 0.239166 ms CreateObjectMapping: 0.078757 ms MarkObjects: 2.045840 ms  DeleteObjects: 0.029660 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 540.561179 seconds.
+  path: Assets/GoogleLogin.cs
+  artifactKey: Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleLogin.cs using Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc34fc94003e35e8fd2702e22748f4c') in 0.017910 seconds
+  Import took 0.022870 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2032 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.0 MB.
+System memory in use after: 181.1 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2521.
+Total: 2.588200 ms (FindLiveObjects: 0.280152 ms CreateObjectMapping: 0.068937 ms MarkObjects: 2.211530 ms  DeleteObjects: 0.026732 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1098.433861 seconds.
+  path: Assets/GoogleLogin.cs
+  artifactKey: Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleLogin.cs using Guid(7557881782bec4bab8837e5fad288dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e81f00c68c0f6bb839e536df3856076') in 0.010673 seconds
+  Import took 0.017637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.788276 seconds.
+  path: Assets/Sprites/loading-screen/1x1.png
+  artifactKey: Guid(c3c34e396a46f4439925b24e67779a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/loading-screen/1x1.png using Guid(c3c34e396a46f4439925b24e67779a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca85e054e56538669baa21ac6143e10') in 0.679554 seconds
+  Import took 0.684550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1106.483574 seconds.
+  path: Assets/GoogleSave.cs
+  artifactKey: Guid(e84594954b6c44cdd956bc2351d86b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleSave.cs using Guid(e84594954b6c44cdd956bc2351d86b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44772aa68b1f133245a0e7814b6faf83') in 0.016236 seconds
+  Import took 0.044298 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2033 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.9 MB.
+System memory in use after: 189.0 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 2.360889 ms (FindLiveObjects: 0.295295 ms CreateObjectMapping: 0.075026 ms MarkObjects: 1.964439 ms  DeleteObjects: 0.025353 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

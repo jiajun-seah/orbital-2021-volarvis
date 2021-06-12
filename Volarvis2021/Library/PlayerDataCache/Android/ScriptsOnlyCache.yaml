@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AutoLetterbox.ForceCameraRatio
     - MainMenu
     - NavBar
+    - SIgnInButton
     - SceneLoading
     - Shapes2D.Shape
     - StartScript
@@ -65,21 +66,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 2108}
     - Class: 114
-      Script: {instanceID: 2178}
-    - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2318}
     - Class: 114
       Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3342}
+    - Class: 114
+      Script: {instanceID: 3458}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -114,21 +115,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 2108}
     - Class: 114
-      Script: {instanceID: 2178}
-    - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2318}
     - Class: 114
       Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3342}
+    - Class: 114
+      Script: {instanceID: 3458}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -163,21 +164,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 2108}
     - Class: 114
-      Script: {instanceID: 2178}
-    - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2318}
     - Class: 114
       Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3342}
+    - Class: 114
+      Script: {instanceID: 3458}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -212,19 +213,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 2178}
-    - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2318}
     - Class: 114
       Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 4798}
+      Script: {instanceID: 3342}
+    - Class: 114
+      Script: {instanceID: 5094}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -259,29 +260,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1662}
+      Script: {instanceID: 1756}
     - Class: 114
-      Script: {instanceID: 1724}
+      Script: {instanceID: 1820}
     - Class: 114
-      Script: {instanceID: 1834}
+      Script: {instanceID: 1938}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 2108}
     - Class: 114
-      Script: {instanceID: 2178}
-    - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2318}
     - Class: 114
       Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2762}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3342}
+    - Class: 114
+      Script: {instanceID: 3458}
+    - Class: 114
+      Script: {instanceID: 30834}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -316,21 +319,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1984}
+      Script: {instanceID: 2108}
     - Class: 114
-      Script: {instanceID: 2178}
-    - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2318}
     - Class: 114
       Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3342}
+    - Class: 114
+      Script: {instanceID: 3458}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -365,27 +368,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1724}
+      Script: {instanceID: 1820}
     - Class: 114
-      Script: {instanceID: 1834}
-    - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 1938}
     - Class: 114
       Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2762}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2926}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 3304}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 4346}
+      Script: {instanceID: 3520}
+    - Class: 114
+      Script: {instanceID: 4622}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -420,33 +423,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1548}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1834}
+      Script: {instanceID: 1938}
     - Class: 114
-      Script: {instanceID: 2168}
+      Script: {instanceID: 2308}
     - Class: 114
-      Script: {instanceID: 2178}
-    - Class: 114
-      Script: {instanceID: 2564}
-    - Class: 114
-      Script: {instanceID: 2624}
+      Script: {instanceID: 2318}
     - Class: 114
       Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2910}
+      Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 3104}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3140}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3246}
+      Script: {instanceID: 3304}
     - Class: 114
-      Script: {instanceID: 4346}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 4448}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4622}
+    - Class: 114
+      Script: {instanceID: 4728}
+    - Class: 114
+      Script: {instanceID: 5090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -559,6 +562,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GooglePlayGames.OurUtils
+    className: NearbyHelperObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Notifications.Android.dll
     namespaceName: Unity.Notifications.Android
     className: AndroidReceivedNotificationMainThreadDispatcher
@@ -612,16 +621,16 @@ ScriptsOnlyBuild:
     className: TapEffect
   - hash:
       serializedVersion: 2
-      Hash: cfdd0010efd7b54c2b7512656dbc9119
-    assemblyName: Unity.2D.IK.Runtime.dll
-    namespaceName: UnityEngine.U2D.IK
-    className: IKManager2D
-  - hash:
-      serializedVersion: 2
       Hash: 8c1f4f5fb1724bfae2d1d4abaddf8d29
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Shapes2DPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: cfdd0010efd7b54c2b7512656dbc9119
+    assemblyName: Unity.2D.IK.Runtime.dll
+    namespaceName: UnityEngine.U2D.IK
+    className: IKManager2D
   - hash:
       serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea
@@ -930,6 +939,12 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GooglePlayGames.OurUtils
+    className: PlayGamesHelperObject
+  - hash:
+      serializedVersion: 2
       Hash: b424b4eeb810aecb0ff91c62639241e9
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -1078,6 +1093,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 17c3a2ad7407f4db6ecef5696b8cf544
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SIgnInButton
   platform: 13
   scenePathNames:
   - Assets/Scenes/StartPage.unity
@@ -1088,4 +1109,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/ShopPage.unity
   - Assets/Scenes/LibraryPage.unity
   - Assets/Scenes/SettingsPage.unity
-  playerPath: C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis-6-6-21.apk
+  playerPath: /Users/ngxianghan/Documents/Y1S2/Orbital/volarvis09062021.apk
