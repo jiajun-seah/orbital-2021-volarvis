@@ -85,3 +85,6 @@ $RECYCLE.BIN/
 
 #WIP Prbital files
 orbital-main/
+
+*.keystore
+*.apk
