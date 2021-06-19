@@ -2355,80 +2355,9 @@ Transform:
   m_LocalScale: {x: 1.3400337, y: 1.3400337, z: 1.3400337}
   m_Children:
   - {fileID: 1951347157}
-  - {fileID: 1445110153}
   m_Father: {fileID: 68856338}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1445110152
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1445110153}
-  - component: {fileID: 1445110154}
-  m_Layer: 0
-  m_Name: ItemAssets
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1445110153
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445110152}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1437895575}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1445110154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445110152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99bf97a6c99d44540bd4bd9e66ebbc63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bananaSprite: {fileID: 21300000, guid: edeaab187a014724d81b954b634133d5, type: 3}
-  basilSprite: {fileID: 21300000, guid: 777eec682ef1f59428b5635910fe6543, type: 3}
-  beansSprite: {fileID: 21300000, guid: 5d34dfbe95a2ca44d838d0af5f8ce755, type: 3}
-  blueberrySprite: {fileID: 21300000, guid: c3942119efa63c44d9ed5f62eb9f5154, type: 3}
-  breadSprite: {fileID: 21300000, guid: 4afa68f5eb9184e428edbf1694413c6a, type: 3}
-  butterSprite: {fileID: 21300000, guid: 46a4f80693ea7234cbc1fa3d27f7629e, type: 3}
-  cabbageSprite: {fileID: 21300000, guid: 49f1ffdfac4d99b46b110ec0f4608792, type: 3}
-  carrotSprite: {fileID: 21300000, guid: a2d2b155986512348b8af45637dfe67a, type: 3}
-  cheeseSprite: {fileID: 21300000, guid: 20da37b2151584b4d8efd7c0f03c2978, type: 3}
-  chilliSprite: {fileID: 21300000, guid: f407c1142cb67664fbaff3695c4b8cbd, type: 3}
-  chocolateSprite: {fileID: 21300000, guid: 17587e8269245bf4baed8d4157b873f6, type: 3}
-  creamSprite: {fileID: 21300000, guid: 3ce98c0ef8448464895ba3b38030920c, type: 3}
-  fishSprite: {fileID: 21300000, guid: f6d418195371ba04781ca2022620072f, type: 3}
-  flourSprite: {fileID: 21300000, guid: 91c92e3f0e0084e4b9ebc0f3e118847c, type: 3}
-  iceSprite: {fileID: 21300000, guid: 7324d507ee01cb748885c3f118c8ef4d, type: 3}
-  mushroomSprite: {fileID: 21300000, guid: 86bc2f1955c4c524192459dd667b9be6, type: 3}
-  musselsSprite: {fileID: 21300000, guid: b65719756c3723b48979d530ef561c1a, type: 3}
-  onionSprite: {fileID: 21300000, guid: 315c2b5bac438ab41b4991e3b5cf26e8, type: 3}
-  potatoSprite: {fileID: 21300000, guid: ed65a0713ca69634da8a7e071db6d98e, type: 3}
-  prawnSprite: {fileID: 21300000, guid: a4690e0db1076a44e89a211ed0fe0b2c, type: 3}
-  riceSprite: {fileID: 21300000, guid: 000b110bb0a49e34c80f0bf612b5fbae, type: 3}
-  sausagesSprite: {fileID: 21300000, guid: 39bfba8a3ac269542acde40e52ee4b63, type: 3}
-  springOnionSprite: {fileID: 21300000, guid: 0fbb7548fd49826479154d147cd91ec0, type: 3}
-  strawberrySprite: {fileID: 21300000, guid: b4b46cd7692a12e4f8940f6bd8c36f5a, type: 3}
-  sugarSprite: {fileID: 21300000, guid: 6a9017a44ae91104084fcf3e4ff48785, type: 3}
-  vanillaBeanSprite: {fileID: 21300000, guid: 0909b6f1ebc65874e8f6de73152b0fcb, type: 3}
-  waterSprite: {fileID: 21300000, guid: b966812de0307e840b3fa754d57ae1e5, type: 3}
 --- !u!1 &1639197647
 GameObject:
   m_ObjectHideFlags: 0
@@ -3272,7 +3201,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiInventory: {fileID: 1099517043}
-  kernelOne: 0
 --- !u!212 &1951347159
 SpriteRenderer:
   m_ObjectHideFlags: 0

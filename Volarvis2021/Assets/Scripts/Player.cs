@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
 
     [SerializeField] private UI_Inventory uiInventory;
     
+    //[SerializeField] private UI_Volastro volastroOne;
+    
     //Inventory (Ingredients)
     public Inventory inventory;
 

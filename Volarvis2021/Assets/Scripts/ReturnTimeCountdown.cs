@@ -23,6 +23,36 @@ public class ReturnTimeCountdown : MonoBehaviour
     public string location = "";
     public bool hasReturned = false;
 
+
+    //ingredients (scriptable)
+    public IngredientScriptableObject bananaScriptable;
+    public IngredientScriptableObject basilScriptable;
+    public IngredientScriptableObject beansScriptable;
+    public IngredientScriptableObject blueberryScriptable;
+    public IngredientScriptableObject breadScriptable;
+    public IngredientScriptableObject butterScriptable;
+    public IngredientScriptableObject cabbageScriptable;
+    public IngredientScriptableObject carrotScriptable;
+    public IngredientScriptableObject cheeseScriptable;
+    public IngredientScriptableObject chilliScriptable;
+    public IngredientScriptableObject chocolateScriptable;
+    public IngredientScriptableObject creamScriptable;
+    public IngredientScriptableObject fishScriptable;
+    public IngredientScriptableObject flourScriptable;
+    public IngredientScriptableObject iceScriptable;
+    public IngredientScriptableObject mushroomScriptable;
+    public IngredientScriptableObject musselsScriptable;
+    public IngredientScriptableObject onionScriptable;
+    public IngredientScriptableObject potatoScriptable;
+    public IngredientScriptableObject prawnScriptable;
+    public IngredientScriptableObject riceScriptable;
+    public IngredientScriptableObject sausagesScriptable;
+    public IngredientScriptableObject springOnionScriptable;
+    public IngredientScriptableObject strawberryScriptable;
+    public IngredientScriptableObject sugarScriptable;
+    public IngredientScriptableObject vanillaBeanScriptable;
+    public IngredientScriptableObject waterScriptable;
+
     private void Awake()
     {
         if (instance == null)
@@ -142,7 +172,7 @@ public class ReturnTimeCountdown : MonoBehaviour
             if (baseDropRate > Random.Range(RNDLOWER, RNDUPPER))
             {
                 Player.instance.inventory.addIngredient(ingredient);
-                Debug.Log("Adding " + ingredient.ingredientType.ToString() + " from adventure");
+                Debug.Log("Adding " + ingredient.ToString() + " from adventure");
             }
         }
     }
@@ -151,157 +181,157 @@ public class ReturnTimeCountdown : MonoBehaviour
     {
         Debug.Log("Finished meadows");
         //Universal Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Bread, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Butter, amount = 1 }, 0.2, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cheese, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cream, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Onion, amount = 1 }, 0.2, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Potato, amount = 1 }, 0.2, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Rice, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sugar, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = breadScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = butterScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cheeseScriptable, amount = 1 }, 0.1, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = creamScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = potatoScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = riceScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 2);
 
         //Localised Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Banana, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Blueberry, amount = 1 }, 0.05, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cabbage, amount = 1 }, 0.4, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Mushroom, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sausages, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = bananaScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = blueberryScriptable, amount = 1 }, 0.05, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cabbageScriptable, amount = 1 }, 0.4, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = mushroomScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sausagesScriptable, amount = 1 }, 0.6, 2);
     }
 
     public void finishTangle()
     {
         //Universal Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Bread, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Butter, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cheese, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cream, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Onion, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Potato, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Rice, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sugar, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = breadScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = butterScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cheeseScriptable, amount = 1 }, 0.1, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = creamScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = potatoScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = riceScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 2);
 
         //Localised Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Carrot, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Blueberry, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cabbage, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Chilli, amount = 1 }, 0.05, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Beans, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Strawberry, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Basil, amount = 1 }, 0.1, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = carrotScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = blueberryScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cabbageScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = chilliScriptable, amount = 1 }, 0.05, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = beansScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = strawberryScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = basilScriptable, amount = 1 }, 0.1, 2);
     }
 
     public void finishPeaks()
     {
         //Universal Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Bread, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Butter, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cheese, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cream, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Onion, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Potato, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Rice, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sugar, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = breadScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = butterScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cheeseScriptable, amount = 1 }, 0.1, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = creamScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = potatoScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = riceScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 2);
 
         //Localised Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Water, amount = 1 }, 0.4, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Ice, amount = 1 }, 0.8, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cabbage, amount = 1 }, 0.05, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Carrot, amount = 1 }, 0.05, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = waterScriptable, amount = 1 }, 0.4, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = iceScriptable, amount = 1 }, 0.8, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cabbageScriptable, amount = 1 }, 0.05, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = carrotScriptable, amount = 1 }, 0.05, 2);
     }
 
     public void finishLava()
     {
         //Universal Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Bread, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Butter, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cheese, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cream, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Onion, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Potato, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Rice, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sugar, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = breadScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = butterScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cheeseScriptable, amount = 1 }, 0.1, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = creamScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = potatoScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = riceScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 2);
 
         //Localised Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Flour, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Chilli, amount = 1 }, 0.8, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Mushroom, amount = 1 }, 0.05, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sausages, amount = 1 }, 0.05, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = flourScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = chilliScriptable, amount = 1 }, 0.8, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = mushroomScriptable, amount = 1 }, 0.05, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sausagesScriptable, amount = 1 }, 0.05, 2);
     }
 
     public void finishCorals()
     {
 
         //Universal Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Bread, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Butter, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cheese, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cream, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Onion, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Potato, amount = 1 }, 0.1, 1);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Rice, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sugar, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = breadScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = butterScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cheeseScriptable, amount = 1 }, 0.1, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = creamScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = potatoScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = riceScriptable, amount = 1 }, 0.5, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 2);
 
         //Localised Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Water, amount = 1 }, 0.8, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Fish, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Prawn, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Mussels, amount = 1 }, 0.1, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = waterScriptable, amount = 1 }, 0.8, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = fishScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = prawnScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = musselsScriptable, amount = 1 }, 0.1, 2);
     }
 
     public void finishGrove()
     {
         //Universal Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Bread, amount = 1 }, 0.5, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Butter, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cheese, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cream, amount = 1 }, 0.5, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Onion, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Potato, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Rice, amount = 1 }, 0.5, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sugar, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = breadScriptable, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = butterScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cheeseScriptable, amount = 1 }, 0.1, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = creamScriptable, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = potatoScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = riceScriptable, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 3);
 
         //Localised Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Flour, amount = 1 }, 0.05, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Blueberry, amount = 1 }, 0.4, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Chocolate, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = flourScriptable, amount = 1 }, 0.05, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = blueberryScriptable, amount = 1 }, 0.4, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = chocolateScriptable, amount = 1 }, 0.2, 2);
     }
 
     public void finishChateau()
     {
         //Universal Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Bread, amount = 1 }, 0.5, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Butter, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cheese, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cream, amount = 1 }, 0.5, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Onion, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Potato, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Rice, amount = 1 }, 0.5, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sugar, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = breadScriptable, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = butterScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cheeseScriptable, amount = 1 }, 0.1, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = creamScriptable, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = potatoScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = riceScriptable, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 3);
 
         //Localised Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Flour, amount = 1 }, 0.05, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Fish, amount = 1 }, 0.05, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.VanillaBean, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = flourScriptable, amount = 1 }, 0.05, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = fishScriptable, amount = 1 }, 0.05, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = vanillaBeanScriptable, amount = 1 }, 0.2, 2);
     }
 
     public void finishCave()
     {
         //Universal Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Bread, amount = 1 }, 0.5, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Butter, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cheese, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Cream, amount = 1 }, 0.5, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Onion, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Potato, amount = 1 }, 0.1, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Rice, amount = 1 }, 0.5, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Sugar, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = breadScriptable, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = butterScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cheeseScriptable, amount = 1 }, 0.1, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = creamScriptable, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = potatoScriptable, amount = 1 }, 0.2, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = riceScriptable, amount = 1 }, 0.5, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 3);
 
         //Localised Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Carrot, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Chilli, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Fish, amount = 1 }, 0.6, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.Banana, amount = 1 }, 0.05, 3);
-        addIngredientFromAdventure(new Ingredient { ingredientType = Ingredient.IngredientType.SpringOnion, amount = 1 }, 0.1, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = carrotScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = chilliScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = fishScriptable, amount = 1 }, 0.6, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = bananaScriptable, amount = 1 }, 0.05, 3);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = springOnionScriptable, amount = 1 }, 0.1, 2);
     }
 
 }

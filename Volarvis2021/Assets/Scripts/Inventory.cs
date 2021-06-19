@@ -11,26 +11,7 @@ public class Inventory
 
     public Inventory()
     {
-        ingredients = new List<Ingredient>();
-
-        /*
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.Water, amount = 3 });
-
-        
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.Banana, amount = 3 });
-        
-        
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.Basil, amount = 1 });
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.Beans, amount = 1 });
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.Beans, amount = 1 });
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.Beans, amount = 1 });
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.VanillaBean, amount = 1 });
-        
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.Beans, amount = 1 });
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.Sugar, amount = 1 });
-        addIngredient(new Ingredient { ingredientType = Ingredient.IngredientType.Bread, amount = 1 });
-        */
-        
+        ingredients = new List<Ingredient>();       
 
         Debug.Log("New inventory created");
     }
@@ -42,7 +23,7 @@ public class Inventory
             bool ingredientAlreadyInInventory = false;
             foreach (Ingredient inventoryIngredient in ingredients)
             {
-                if (inventoryIngredient.ingredientType == ingredient.ingredientType)
+                if (inventoryIngredient.ingredientScriptableObject == ingredient.ingredientScriptableObject)
                 {
                     inventoryIngredient.amount += ingredient.amount;
                     ingredientAlreadyInInventory = true;
@@ -59,7 +40,7 @@ public class Inventory
         }
         onIngredientListChanged?.Invoke(this, EventArgs.Empty);
 
-        Debug.Log(ingredient.ingredientType.ToString() + " was added.");
+        Debug.Log(ingredient.ToString() + " was added.");
 }
 
     public List<Ingredient> getIngredients()
