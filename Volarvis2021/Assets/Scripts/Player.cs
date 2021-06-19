@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+
 
 //The player class is essentially the Game Manager
 public class Player : MonoBehaviour
@@ -11,7 +13,9 @@ public class Player : MonoBehaviour
     
     //Inventory (Ingredients)
     public Inventory inventory;
-    public int kernelOne;
+
+    //Adventure Status
+    public DateTime firstVolastroReturnTime;
 
 
     private void Awake()
@@ -26,7 +30,12 @@ public class Player : MonoBehaviour
         {
             inventory = new Inventory();
         }
-        
+
+        if (Player.instance.firstVolastroReturnTime == null)
+        {
+            firstVolastroReturnTime = DateTime.Now;
+        }
+
 
         else if (instance != this)
         {
