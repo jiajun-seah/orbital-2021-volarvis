@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7ba64da47b6094187c4f5392c40c04, type: 3}
+  m_Name: chocolateCupcakes
+  m_EditorClassIdentifier: 
+  dexNum: 60
+  foodName: Chocolate Cupcakes
+  hungerVal: 30
+  happinessVal: 20
+  ingredient1: {fileID: 11400000, guid: 6b5eec5dfe9296a4d844c0bf0d0f5315, type: 2}
+  ingredient2: {fileID: 11400000, guid: 5643c39f109d99348910f1806e527de1, type: 2}
+  ingredient3: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}
+  ingredient4: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
+  fieryVal: 0
+  icyVal: 3
+  magicalVal: 2
+  nauticalVal: 1
+  aerialVal: 1
+  terraVal: 0
+  foodSprite: {fileID: 21300000, guid: fda6c9d4307fc3347af1b010decfb18a, type: 3}

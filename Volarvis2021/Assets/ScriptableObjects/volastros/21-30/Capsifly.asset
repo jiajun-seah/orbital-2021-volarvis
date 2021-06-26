@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0e2690aa285a64297523e65d5f6268, type: 3}
+  m_Name: Capsifly
+  m_EditorClassIdentifier: 
+  dexNum: 22
+  volastroName: 'Capsifly '
+  growthStage: 3
+  dexType: 'Pepper Fly '
+  dexOrigin: 'Livid Lava '
+  dexDescription: 'Capsifly has a large red nose that is very spicy in taste. It
+    is a mystery how it''s tiny leaf wings can keep Capsifly afloat. '
+  volastroSprite: {fileID: 21300000, guid: 96d1e1403f8f3414f8f1a1db555b1090, type: 3}

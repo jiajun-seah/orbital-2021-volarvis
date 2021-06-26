@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7ba64da47b6094187c4f5392c40c04, type: 3}
+  m_Name: strawberryCupcake
+  m_EditorClassIdentifier: 
+  dexNum: 50
+  foodName: Strawberry Cupcake
+  hungerVal: 20
+  happinessVal: 20
+  ingredient1: {fileID: 11400000, guid: 6b5eec5dfe9296a4d844c0bf0d0f5315, type: 2}
+  ingredient2: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}
+  ingredient3: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
+  ingredient4: {fileID: 11400000, guid: bde953b7b0bdfa849a80c434f999c8ab, type: 2}
+  fieryVal: 0
+  icyVal: 1
+  magicalVal: 3
+  nauticalVal: 0
+  aerialVal: 1
+  terraVal: 0
+  foodSprite: {fileID: 21300000, guid: 97a0e069743edc342abbdeee87bd6927, type: 3}

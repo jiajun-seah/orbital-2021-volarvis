@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0e2690aa285a64297523e65d5f6268, type: 3}
+  m_Name: Crysta
+  m_EditorClassIdentifier: 
+  dexNum: 28
+  volastroName: 'Crysta '
+  growthStage: 3
+  dexType: 'Crystal Ball '
+  dexOrigin: 'Cryptic Cave '
+  dexDescription: 'Using the ball on its head, Crystal is able to tell you your future,
+    but not that far ahead. '
+  volastroSprite: {fileID: 21300000, guid: 67611d71fdb3ac94b9d36ad0bc5118e6, type: 3}

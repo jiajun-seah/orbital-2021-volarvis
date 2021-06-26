@@ -28,7 +28,7 @@ public class UI_Inventory : MonoBehaviour
         RefreshInventoryItems();
     }
 
-    private void RefreshInventoryItems()
+    public void RefreshInventoryItems()
     {
         if (itemSlotContainer != null)
         {
@@ -45,22 +45,30 @@ public class UI_Inventory : MonoBehaviour
 
             foreach (Ingredient ingredient in inventory.getIngredients())
             {
-                RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
+                if (ingredient.amount > 0)
+                {
+                    RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
 
-                //unhide the slot
-                itemSlotRectTransform.gameObject.SetActive(true);
-                //set position
-                itemSlotRectTransform.anchoredPosition = new Vector2(x * itemSlotCellSize, y * itemSlotCellSize);
-                //set sprite icon
-                Image image = itemSlotRectTransform.Find("icon").GetComponent<Image>();
-                image.sprite = ingredient.getSprite();
-                //set stack count
-                TextMeshProUGUI uiText = itemSlotRectTransform.Find("text").GetComponent<TextMeshProUGUI>();
-                uiText.SetText(ingredient.amount.ToString());
+                    //assign ingredient to its ClickHandler
+                    ClickHandler cScript = itemSlotRectTransform.GetComponent<ClickHandler>();
+                    cScript.ingredient = ingredient;
+                    cScript.type = ingredient.ingredientScriptableObject;
 
+                    //unhide the slot
+                    itemSlotRectTransform.gameObject.SetActive(true);
+                    //set position
+                    itemSlotRectTransform.anchoredPosition = new Vector2(x * itemSlotCellSize, y * itemSlotCellSize);
+                    //set sprite icon
+                    Image image = itemSlotRectTransform.Find("icon").GetComponent<Image>();
+                    image.sprite = ingredient.getSprite();
+                    //set stack count
+                    TextMeshProUGUI uiText = itemSlotRectTransform.Find("text").GetComponent<TextMeshProUGUI>();
+                    uiText.SetText(ingredient.amount.ToString());
 
-
-                x++;
+                    x++;
+                }
+                
+                
                 if (x > 4)
                 {
                     x = 0;

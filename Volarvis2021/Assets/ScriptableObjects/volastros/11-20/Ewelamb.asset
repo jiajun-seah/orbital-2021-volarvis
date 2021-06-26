@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0e2690aa285a64297523e65d5f6268, type: 3}
+  m_Name: Ewelamb
+  m_EditorClassIdentifier: 
+  dexNum: 13
+  volastroName: 'Ewelamb '
+  growthStage: 3
+  dexType: 'Lamb '
+  dexOrigin: 'Mild Meadows '
+  dexDescription: 'Ewelamb is a budding mountain climber and it would rather frolick
+    around the lush meadows than practice its climbing. '
+  volastroSprite: {fileID: 21300000, guid: ad749f34058b63848ab3f03f37fc80fb, type: 3}

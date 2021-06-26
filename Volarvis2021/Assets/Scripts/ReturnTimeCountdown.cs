@@ -79,7 +79,7 @@ public class ReturnTimeCountdown : MonoBehaviour
     {
         if (ReturnTimeCountdown.instance.hasReturned)
         {
-            //add to inventory
+            //add to inventory and reset state
             switch (ReturnTimeCountdown.instance.location)
             {
                 default:

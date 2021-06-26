@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad0e2690aa285a64297523e65d5f6268, type: 3}
+  m_Name: Conii
+  m_EditorClassIdentifier: 
+  dexNum: 35
+  volastroName: 'Conii '
+  growthStage: 4
+  dexType: 'Pastel Rabbit '
+  dexOrigin: 'Glimmery Grove '
+  dexDescription: 'Conii is elusive and is rare to find because they are often hunted
+    for their fur which tastes like cotton candy. '
+  volastroSprite: {fileID: 21300000, guid: 70f320217fe43dc44a7ef15968163a3f, type: 3}

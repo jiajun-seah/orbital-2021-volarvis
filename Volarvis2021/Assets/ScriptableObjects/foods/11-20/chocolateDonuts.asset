@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7ba64da47b6094187c4f5392c40c04, type: 3}
+  m_Name: chocolateDonuts
+  m_EditorClassIdentifier: 
+  dexNum: 11
+  foodName: Chocolate Donuts
+  hungerVal: 30
+  happinessVal: 20
+  ingredient1: {fileID: 11400000, guid: 3208570fa87727740829ef2adf142614, type: 2}
+  ingredient2: {fileID: 11400000, guid: 5643c39f109d99348910f1806e527de1, type: 2}
+  ingredient3: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
+  ingredient4: {fileID: 11400000, guid: d5e308967ecd08348a64379ebbeac48d, type: 2}
+  fieryVal: 0
+  icyVal: 2
+  magicalVal: 1
+  nauticalVal: 0
+  aerialVal: 2
+  terraVal: 0
+  foodSprite: {fileID: 21300000, guid: 5eb31e650a636144a9293187ac6a532e, type: 3}

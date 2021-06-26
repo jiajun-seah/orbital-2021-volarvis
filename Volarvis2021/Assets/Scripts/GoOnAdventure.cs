@@ -6,14 +6,11 @@ using UnityEngine;
 
 public class GoOnAdventure : MonoBehaviour
 {
-    private static float RNDLOWER = 0f;
-    private static float RNDUPPER = 1f;
-
     //public event EventHandler onWentOnAdventure;
 
     public void visitMeadows() //1 minute (for ease of testing. Real game will be 5 min)
     {
-        Player.instance.firstVolastroReturnTime = DateTime.Now.AddMinutes(1f);
+        Player.instance.firstVolastroReturnTime = DateTime.Now.AddSeconds(5);
         ReturnTimeCountdown.instance.location = "meadows";
         ReturnTimeCountdown.instance.startCounting();
 
@@ -22,7 +19,7 @@ public class GoOnAdventure : MonoBehaviour
 
     public void visitTangle() //3 minutes (for ease of testing. Real game will be 30 min)
     {
-        Player.instance.firstVolastroReturnTime = DateTime.Now.AddMinutes(3f);
+        Player.instance.firstVolastroReturnTime = DateTime.Now.AddSeconds(5);
         ReturnTimeCountdown.instance.location = "tangle";
         ReturnTimeCountdown.instance.startCounting();
 
@@ -31,7 +28,7 @@ public class GoOnAdventure : MonoBehaviour
 
     public void visitPeaks() //5 minutes (for ease of testing. Real game will be 45 min)
     {
-        Player.instance.firstVolastroReturnTime = DateTime.Now.AddMinutes(5f);
+        Player.instance.firstVolastroReturnTime = DateTime.Now.AddSeconds(5);
         ReturnTimeCountdown.instance.location = "peaks";
         ReturnTimeCountdown.instance.startCounting();
 
