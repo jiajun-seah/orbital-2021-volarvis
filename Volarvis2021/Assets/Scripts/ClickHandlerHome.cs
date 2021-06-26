@@ -14,5 +14,9 @@ public class ClickHandlerHome : MonoBehaviour
         fridge = Player.instance.fridge;
     }
 
+    public void selectedFood() {
+        Feeding.instance.food = food;
+        Feeding.instance.type = type;
+    }
   
 }

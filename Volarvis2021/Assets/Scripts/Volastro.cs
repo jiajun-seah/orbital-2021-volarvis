@@ -32,7 +32,7 @@ public class Volastro
         Debug.Log("New Volastro: " + this.baseVolastro.volastroName + " created");
     }
 
-    public Volastro updateTrait(string traitName, int amount)
+    /*public Volastro updateTrait(string traitName, int amount)
     {
         int oldFiery = this.traitsVal[0];
         int oldIcy = this.traitsVal[1];
@@ -67,6 +67,20 @@ public class Volastro
         Debug.Log("traits updated");
 
         return new Volastro(this, this.hungerVal, this.happinessVal, new int[] { oldFiery, oldIcy, oldMagical, oldAerial, oldTerra });
+    }*/
+    // my method
+
+    public void updateTrait(int hunger, int happiness, int[] foodTraits) {
+        Debug.Log(this.traitsVal.Length);
+        Debug.Log(foodTraits.Length);
+        for (int i = 0; i < 6; i++) {
+            this.traitsVal[i] += foodTraits[i];
+        }
+        this.hungerVal -= hunger;
+        this.happinessVal -= happiness;
+        onVolastroChanged?.Invoke(this, EventArgs.Empty);
+        Debug.Log("Traits updated!");
+        Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
     }
 
     public int getFieryVal()

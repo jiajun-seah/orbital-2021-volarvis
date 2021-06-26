@@ -26,7 +26,6 @@ public class Player : MonoBehaviour
     //Adventure Status
     public DateTime firstVolastroReturnTime;
 
-
     private void Awake()
     {
 

@@ -203,7 +203,7 @@ public class Cook : MonoBehaviour
 
             foreach (KeyValuePair<int, IngredientScriptableObject[]> entry in recipeDict)
             {
-                if (entry.Value.Equals(checkCrockpot))
+                if (entry.Value.SequenceEqual(checkCrockpot))
                 {
                     foodDexNum = entry.Key;
                     break;
