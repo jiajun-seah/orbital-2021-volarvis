@@ -81,6 +81,9 @@ public class Volastro
         onVolastroChanged?.Invoke(this, EventArgs.Empty);
         Debug.Log("Traits updated!");
         Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+        // changing the bar (dont need an event to handle this i presume)
+        BarsScript.instance._hungerBar.fillAmount = this.hungerVal / 100;
+        BarsScript.instance._happinessBar.fillAmount = this.happinessVal / 100;
     }
 
     public int getFieryVal()

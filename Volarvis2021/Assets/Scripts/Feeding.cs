@@ -25,10 +25,10 @@ public class Feeding : MonoBehaviour
     void Start() {
         fridge = Player.instance.fridge;
         volastroOne = Player.instance.volastroOne;
-        foodVal = new int[] {type.fieryVal, type.icyVal, type.magicalVal, type.nauticalVal, type.aerialVal, type.terraVal};
     }
 
     public void OnClickFeed() {
+        foodVal = new int[] {type.fieryVal, type.icyVal, type.magicalVal, type.nauticalVal, type.aerialVal, type.terraVal};
         fridge.removeFood(food); // removing from fridge
         volastroOne.updateTrait(type.happinessVal, type.hungerVal, foodVal); // update volastro
     }

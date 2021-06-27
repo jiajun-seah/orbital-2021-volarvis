@@ -12,41 +12,41 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50246
+49904
 Successfully changed project path to: /Users/ngxianghan/Documents/Y1S2/Orbital/Volarvis2021
 /Users/ngxianghan/Documents/Y1S2/Orbital/Volarvis2021
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 79.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/ngxianghan/Documents/Y1S2/Orbital/Volarvis2021/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-26 16:11:43.873 Unity[1671:63282] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2021-06-26 16:11:43.873 Unity[1671:63282] Metal devices available: 1
-2021-06-26 16:11:43.873 Unity[1671:63282] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
-2021-06-26 16:11:43.873 Unity[1671:63282] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-06-27 12:16:55.542 Unity[1211:32026] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-06-27 12:16:55.542 Unity[1211:32026] Metal devices available: 1
+2021-06-27 12:16:55.542 Unity[1211:32026] 0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+2021-06-27 12:16:55.543 Unity[1211:32026] Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56671
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56211
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003591 seconds.
+Registered in 0.000520 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 51.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.854 seconds
+- Completed reload, in  2.866 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009491 seconds.
+Registered in 0.001402 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 47.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 GPGSUpgrader start
  #0 GetStacktrace(int)
@@ -149,435 +149,379 @@ GPGSUpgrader done
  #47 ???
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.384 seconds
+- Completed reload, in  1.350 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 176.1 MB.
 System memory in use after: 176.2 MB.
 
-Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2509.
-Total: 2.922968 ms (FindLiveObjects: 0.339701 ms CreateObjectMapping: 0.136232 ms MarkObjects: 2.389704 ms  DeleteObjects: 0.056134 ms)
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2510.
+Total: 2.455919 ms (FindLiveObjects: 0.236072 ms CreateObjectMapping: 0.093681 ms MarkObjects: 2.086153 ms  DeleteObjects: 0.039276 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Inventory.cs
-  artifactKey: Guid(ca429619e1c6fca4e847712b79a33968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Inventory.cs using Guid(ca429619e1c6fca4e847712b79a33968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379b3d2b9f4cc7ec7402ac6fd671fef4') in 0.487258 seconds
-  Import took 0.491634 seconds .
+  path: Assets/Scripts/Feeding.cs
+  artifactKey: Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Feeding.cs using Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41c54320c266dbd83c151a0cde159c3') in 0.479833 seconds
+  Import took 0.485822 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Scripts/IngredientScriptableObject.cs
-  artifactKey: Guid(34cddf3b61af132469c8fd4de3abc130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/IngredientScriptableObject.cs using Guid(34cddf3b61af132469c8fd4de3abc130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63055675af7f47f9dede49faf358ba0b') in 0.001589 seconds
-  Import took 0.005243 seconds .
+  Time since last request: 166.902930 seconds.
+  path: Assets/Sprites/volastros/front-facing-coconaut.png
+  artifactKey: Guid(1c645c2914ab3ca4d9597066257b4b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/volastros/front-facing-coconaut.png using Guid(1c645c2914ab3ca4d9597066257b4b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f51561b6238175796ecf1c7353223a') in 0.561100 seconds
+  Import took 0.566068 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Scripts/IngredientManager.cs
-  artifactKey: Guid(9607db9715968a64d884045bfa50a292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/IngredientManager.cs using Guid(9607db9715968a64d884045bfa50a292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b5c77aa22335e8b98b078ffcc709ca') in 0.001240 seconds
-  Import took 0.004884 seconds .
+  Time since last request: 1074.192464 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI
+  artifactKey: Guid(fcbf7a57e575944e8847f9ed5c5a5427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI using Guid(fcbf7a57e575944e8847f9ed5c5a5427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1384c46f6027b2e9e15cc78b640fbf63') in 0.004067 seconds
+  Import took 0.040115 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.570594 seconds.
-  path: Assets/Scripts/Volastro.cs
-  artifactKey: Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Volastro.cs using Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950c6ebaf4f1e25daeeae639bdfbe203') in 0.002730 seconds
-  Import took 0.008922 seconds .
+  Time since last request: 0.061032 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 12.png
+  artifactKey: Guid(269491d773faa4b78aa9c1d4c6a1a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 12.png using Guid(269491d773faa4b78aa9c1d4c6a1a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb58b87da02f3cf69aa7e7b9ea37d48f') in 0.037749 seconds
+  Import took 0.042273 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.422426 seconds.
-  path: Assets/Scripts/UICook_Inventory.cs
-  artifactKey: Guid(ff0873fb1454b4f448040dcfbc638b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UICook_Inventory.cs using Guid(ff0873fb1454b4f448040dcfbc638b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92850d3688e1a307a624f6e86177a1bd') in 0.003134 seconds
-  Import took 0.009793 seconds .
+  Time since last request: 0.000202 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 22.png
+  artifactKey: Guid(11b5063e11cde4680a094a9bbca13383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 22.png using Guid(11b5063e11cde4680a094a9bbca13383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2beaf2dcf7bfe03f75920b046454cb') in 0.011409 seconds
+  Import took 0.017236 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.409211 seconds.
-  path: Assets/Scripts/UI_Inventory.cs
-  artifactKey: Guid(373c069b9e60bc640b677aee3482fec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI_Inventory.cs using Guid(373c069b9e60bc640b677aee3482fec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a14d2129721bf4042ebc33be843a8d') in 0.003026 seconds
-  Import took 0.009049 seconds .
+  Time since last request: 0.000354 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 36.png
+  artifactKey: Guid(4567951899c584cf3ab8802d30151419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 36.png using Guid(4567951899c584cf3ab8802d30151419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f744024006122e50bf8c5b8acb2f538') in 0.019062 seconds
+  Import took 0.025383 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Scripts/UI_Inventory.cs
-  artifactKey: Guid(373c069b9e60bc640b677aee3482fec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI_Inventory.cs using Guid(373c069b9e60bc640b677aee3482fec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a14d2129721bf4042ebc33be843a8d') in 0.002101 seconds
-  Import took 0.008114 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 44.png
+  artifactKey: Guid(80a171cbfd68547d5a2e2883e8e4298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 44.png using Guid(80a171cbfd68547d5a2e2883e8e4298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9161bda55be7f6ed230f54ba8bc4cb0b') in 0.019140 seconds
+  Import took 0.025034 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.442987 seconds.
-  path: Assets/Scripts/UI_Volastro.cs
-  artifactKey: Guid(4a393b41a33c7f542a216083d1be798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI_Volastro.cs using Guid(4a393b41a33c7f542a216083d1be798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5d9965f97398ad9c205f5862fc218c') in 0.002673 seconds
-  Import took 0.008903 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 43.png
+  artifactKey: Guid(2fa92686878964789b9db224a1d07ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 43.png using Guid(2fa92686878964789b9db224a1d07ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ff08a96b1e270b6fa8469b7009c7e1') in 0.012601 seconds
+  Import took 0.019294 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.969745 seconds.
-  path: Assets/Shapes2D/Preferences.asset
-  artifactKey: Guid(625b6ef095c26463685d2cf468f81259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shapes2D/Preferences.asset using Guid(625b6ef095c26463685d2cf468f81259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488af1e3fa001b14b395d11afe605119') in 0.270370 seconds
-  Import took 0.274681 seconds .
+  Time since last request: 0.000308 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 46.png
+  artifactKey: Guid(fc1d707607d8245fea78c6010b642e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 46.png using Guid(fc1d707607d8245fea78c6010b642e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ada286ded015e183e907761a2b096ea') in 0.013182 seconds
+  Import took 0.018770 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 46.290336 seconds.
-  path: Assets/Scripts/Ingredient.cs
-  artifactKey: Guid(708e29156d2c46348a33ae07b8c0d936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ingredient.cs using Guid(708e29156d2c46348a33ae07b8c0d936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d698bd45f576b8aa66b3f77a6c2344') in 0.002638 seconds
-  Import took 0.008018 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 33.png
+  artifactKey: Guid(cc0b4b8834ee549f49b374ca8c5d7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 33.png using Guid(cc0b4b8834ee549f49b374ca8c5d7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661f0ed2cf1b14361330a4461cac9b00') in 0.009231 seconds
+  Import took 0.013447 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.681334 seconds.
-  path: Assets/Scripts/ItemAssets.cs
-  artifactKey: Guid(99bf97a6c99d44540bd4bd9e66ebbc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ItemAssets.cs using Guid(99bf97a6c99d44540bd4bd9e66ebbc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbfd7a99aa7b6bc3db868ee7e5d8af0') in 0.002004 seconds
-  Import took 0.007904 seconds .
+  Time since last request: 0.000215 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 27.png
+  artifactKey: Guid(1ba37af43c4904ef19390e750cd57dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 27.png using Guid(1ba37af43c4904ef19390e750cd57dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43761e022d807c17ca324bc6d5d8834') in 0.015115 seconds
+  Import took 0.019510 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.060624 seconds.
-  path: Assets/ScriptableObjects/bananaScriptable.asset
-  artifactKey: Guid(2eacbdb2279da485b8ff1c3e3dd09f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/bananaScriptable.asset using Guid(2eacbdb2279da485b8ff1c3e3dd09f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc885650cfa6784b18a9c21b1da5567') in 0.005209 seconds
-  Import took 0.009784 seconds .
+  Time since last request: 0.000194 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 24.png
+  artifactKey: Guid(10725fadd69e24802bd736ccc64a1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 24.png using Guid(10725fadd69e24802bd736ccc64a1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab59de9d3c3a897c229d6366fd46075') in 0.011516 seconds
+  Import took 0.015748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/ScriptableObjects/breadScriptable.asset
-  artifactKey: Guid(a3a82ebf7160947a4af9eaea358654c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/breadScriptable.asset using Guid(a3a82ebf7160947a4af9eaea358654c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dce2964f8e5340d1c9de9a04835f97') in 0.004527 seconds
-  Import took 0.009576 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 41.png
+  artifactKey: Guid(54166cd4ebe844d89a6fbe1048dde221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 41.png using Guid(54166cd4ebe844d89a6fbe1048dde221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34b901ee0fc6b8971f2a6b23d1dc8a0') in 0.014254 seconds
+  Import took 0.018664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 51.png
+  artifactKey: Guid(a228e86e21dff472bb174d51ea9a25ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 51.png using Guid(a228e86e21dff472bb174d51ea9a25ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2141749c043e5b34458feb02729a6674') in 0.009445 seconds
+  Import took 0.013590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 16.png
+  artifactKey: Guid(bbe9a3f4ac90044af84ac836bcb9b802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 16.png using Guid(bbe9a3f4ac90044af84ac836bcb9b802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f235e40065d9753af132ef6aea80db') in 0.009326 seconds
+  Import took 0.013422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 14.png
+  artifactKey: Guid(bd822fe2366ff4c479740a6ea6329a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 14.png using Guid(bd822fe2366ff4c479740a6ea6329a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c62ebaf10bf93e601097bb94b82feee') in 0.010216 seconds
+  Import took 0.014384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 35.png
+  artifactKey: Guid(991591899a349418aa5296494a8ff3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 35.png using Guid(991591899a349418aa5296494a8ff3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fb4d518ca74e678f4df521461e1210') in 0.010094 seconds
+  Import took 0.013853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 32.png
+  artifactKey: Guid(ed36bd247342749da865b1fab6cd2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 32.png using Guid(ed36bd247342749da865b1fab6cd2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1703733ee01ab989879e1e6fe802a594') in 0.010074 seconds
+  Import took 0.015077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 26.png
+  artifactKey: Guid(9ccc3770b652045d28b4e270fe7f1063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 26.png using Guid(9ccc3770b652045d28b4e270fe7f1063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d2bb34afca3a2314e8efd800150b1f') in 0.014768 seconds
+  Import took 0.018693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 31.png
+  artifactKey: Guid(ba339f00c0b6d4d8d9dd8f5304ea9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 31.png using Guid(ba339f00c0b6d4d8d9dd8f5304ea9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7633ffe72f65b6bc83e2da75b03a0823') in 0.010958 seconds
+  Import took 0.015551 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000316 seconds.
-  path: Assets/ScriptableObjects/fishScriptable.asset
-  artifactKey: Guid(41d8b699d3484437b9e7bf49dd15a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/fishScriptable.asset using Guid(41d8b699d3484437b9e7bf49dd15a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3b09f3833a8f9bc43f4146bc32c122') in 0.004147 seconds
-  Import took 0.009165 seconds .
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 45.png
+  artifactKey: Guid(8f4461725bff34943aff06332c177415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 45.png using Guid(8f4461725bff34943aff06332c177415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009da18c543f101c6178bf67948cdbdf') in 0.009819 seconds
+  Import took 0.013522 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/ScriptableObjects/chocolateScriptable.asset
-  artifactKey: Guid(4ff8edc7137e14160bff69a43edf5b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/chocolateScriptable.asset using Guid(4ff8edc7137e14160bff69a43edf5b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2f49aeddf05c6d7b7702714675ba3c') in 0.004639 seconds
-  Import took 0.009009 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 28.png
+  artifactKey: Guid(d805bfdd935b34ca282b122c888030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 28.png using Guid(d805bfdd935b34ca282b122c888030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93ed19e0d57264a10df10257c814e62') in 0.009686 seconds
+  Import took 0.013920 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/ScriptableObjects/basilScriptable.asset
-  artifactKey: Guid(f63a57ad436674440909ea5389515dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/basilScriptable.asset using Guid(f63a57ad436674440909ea5389515dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce8d0f733a32f8ca40aa9f188dbb9a8') in 0.004999 seconds
-  Import took 0.010438 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 52.png
+  artifactKey: Guid(e956bfda45a1e407795ec4fbf7efe07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 52.png using Guid(e956bfda45a1e407795ec4fbf7efe07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ee45f972459605b8ba1328b6cdcaae') in 0.011838 seconds
+  Import took 0.015641 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/ScriptableObjects/cabbageScriptable.asset
-  artifactKey: Guid(3cbf71d1a23b7479982ab33cca5197ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/cabbageScriptable.asset using Guid(3cbf71d1a23b7479982ab33cca5197ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d5367eabe90b9d07cd45c13a3c8e6b') in 0.009196 seconds
-  Import took 0.014061 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 50.png
+  artifactKey: Guid(2cf8a98f9c05b47df8819a7cb9acf209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 50.png using Guid(2cf8a98f9c05b47df8819a7cb9acf209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe674f35b3f7a534a3cdb349f6c01a0e') in 0.007993 seconds
+  Import took 0.012016 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/ScriptableObjects/carrotScriptable.asset
-  artifactKey: Guid(2a2bb237d2561442aa5ca58d2c747f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/carrotScriptable.asset using Guid(2a2bb237d2561442aa5ca58d2c747f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed02fba9736675ab9f56e4b6648bb307') in 0.004992 seconds
-  Import took 0.011092 seconds .
+  Time since last request: 0.000250 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 20.png
+  artifactKey: Guid(9a7c20816c5ab45cc9d51d2c91e69fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 20.png using Guid(9a7c20816c5ab45cc9d51d2c91e69fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6404bdfd7cdc5399350c5f907303fe') in 0.011026 seconds
+  Import took 0.014696 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/ScriptableObjects/mushroomScriptable.asset
-  artifactKey: Guid(3d3134867698446508daa3859d827462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/mushroomScriptable.asset using Guid(3d3134867698446508daa3859d827462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13b157a1e796b63f569d1ae7a3183d0') in 0.006559 seconds
-  Import took 0.012392 seconds .
+  Time since last request: 0.000169 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 17.png
+  artifactKey: Guid(5f8d6c803befb44bc89c118436018629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 17.png using Guid(5f8d6c803befb44bc89c118436018629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e01f5810c1e4d3d9f6fe0181104c84') in 0.010678 seconds
+  Import took 0.015035 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/ScriptableObjects/cheeseScriptable.asset
-  artifactKey: Guid(8dae33ea5abaa4487bb8ca7dbe5d68ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/cheeseScriptable.asset using Guid(8dae33ea5abaa4487bb8ca7dbe5d68ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc514d8c1bf8ff3e947ebaa78f747776') in 0.008045 seconds
-  Import took 0.014667 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 23.png
+  artifactKey: Guid(b47fd4db63bf94c06b15f3f388675144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 23.png using Guid(b47fd4db63bf94c06b15f3f388675144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713948041d57f33357557a3f9027e9e0') in 0.009307 seconds
+  Import took 0.013802 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/ScriptableObjects/beansScriptable 1.asset
-  artifactKey: Guid(128eeece5af5041c6ae9d9bb5972576e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/beansScriptable 1.asset using Guid(128eeece5af5041c6ae9d9bb5972576e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd456701d6e543a5419b774dceb8e4f2') in 0.004422 seconds
-  Import took 0.010851 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 18.png
+  artifactKey: Guid(47c23340812b24864af395feca4c3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 18.png using Guid(47c23340812b24864af395feca4c3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b294a784d5b16a3b5ccebb7fcf73f122') in 0.009316 seconds
+  Import took 0.013301 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/ScriptableObjects/flourScriptable.asset
-  artifactKey: Guid(feb0b53d22c7643e9b1ec51f6c21ef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/flourScriptable.asset using Guid(feb0b53d22c7643e9b1ec51f6c21ef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52cd2bf074b7152e6afb394a7f66c5f') in 0.007092 seconds
-  Import took 0.012790 seconds .
+  Time since last request: 0.000178 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 42.png
+  artifactKey: Guid(b2e758a1418924497983686386e18670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 42.png using Guid(b2e758a1418924497983686386e18670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3734a564deecabcc42d59c4ff5feb5d') in 0.011360 seconds
+  Import took 0.015215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/ScriptableObjects/musselsScriptable.asset
-  artifactKey: Guid(cca40f2ceb02a4778be65ae6afa497dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/musselsScriptable.asset using Guid(cca40f2ceb02a4778be65ae6afa497dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba4254dfc7b9c7b06bf6b247e82870b') in 0.007966 seconds
-  Import took 0.014165 seconds .
+  Time since last request: 0.000189 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 39.png
+  artifactKey: Guid(c745f69017b304c8b8730142416138bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 39.png using Guid(c745f69017b304c8b8730142416138bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55ee8686e915083448291f98bd9a544') in 0.007949 seconds
+  Import took 0.012766 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/ScriptableObjects/butterScriptable.asset
-  artifactKey: Guid(2f9bbe243bc9240cb99d63b53c9d30ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/butterScriptable.asset using Guid(2f9bbe243bc9240cb99d63b53c9d30ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1336a15b430b38256054c79b6bfe4290') in 0.004691 seconds
-  Import took 0.010453 seconds .
+  Time since last request: 0.000194 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 34.png
+  artifactKey: Guid(7a84da28438df4023bffb3c96d3ebe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 34.png using Guid(7a84da28438df4023bffb3c96d3ebe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464439b69f5e8f7a547d20996bf0450f') in 0.008887 seconds
+  Import took 0.012796 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/ScriptableObjects/iceScriptable.asset
-  artifactKey: Guid(d344a07ea059e48b0a7f4ba53f7244c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/iceScriptable.asset using Guid(d344a07ea059e48b0a7f4ba53f7244c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1585b0f831bf71a367ff76e8403951') in 0.007049 seconds
-  Import took 0.012642 seconds .
+  Time since last request: 0.000161 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 25.png
+  artifactKey: Guid(4eb181a1475ba4975a040865b40948c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 25.png using Guid(4eb181a1475ba4975a040865b40948c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd6c7cc5b9122a2f3525bfece9b1f65') in 0.009577 seconds
+  Import took 0.013319 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/ScriptableObjects/chilliScriptable.asset
-  artifactKey: Guid(1df1945c6af534f49adf3ab695770b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/chilliScriptable.asset using Guid(1df1945c6af534f49adf3ab695770b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559a17abeb33b0e6214c51da2575f567') in 0.006532 seconds
-  Import took 0.013188 seconds .
+  Time since last request: 0.000182 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 29.png
+  artifactKey: Guid(07221909247fa4eb09dcc45e6316a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 29.png using Guid(07221909247fa4eb09dcc45e6316a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f72c007c762299611fff3b9b0296d7') in 0.008789 seconds
+  Import took 0.013957 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/ScriptableObjects/creamScriptable.asset
-  artifactKey: Guid(bb7aa94a5a43b46788fc7221a44ab2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/creamScriptable.asset using Guid(bb7aa94a5a43b46788fc7221a44ab2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47ad0416fef9e9facf89899ddf4cd9b') in 0.005048 seconds
-  Import took 0.010124 seconds .
+  Time since last request: 0.000175 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 47.png
+  artifactKey: Guid(9c6f9d49fa3ba4c60b5e69dc9a1a244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 47.png using Guid(9c6f9d49fa3ba4c60b5e69dc9a1a244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b4ff58cd61ba662b06d2453064dfbc') in 0.008350 seconds
+  Import took 0.012489 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/ScriptableObjects/blueberryScriptable.asset
-  artifactKey: Guid(ad571bee3f4a14e6c8b3fc67a74b80e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/blueberryScriptable.asset using Guid(ad571bee3f4a14e6c8b3fc67a74b80e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e52cded947c50f3fb216cfcc7da8aa3') in 0.007166 seconds
-  Import took 0.011963 seconds .
+  Time since last request: 0.000175 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 13.png
+  artifactKey: Guid(366ae973f8f1141efac97c6186c6bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 13.png using Guid(366ae973f8f1141efac97c6186c6bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664b474e5773ee0035b3ae95f0821419') in 0.010428 seconds
+  Import took 0.014114 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 750.465556 seconds.
-  path: Assets/Scripts/ClickHandlerHome.cs
-  artifactKey: Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClickHandlerHome.cs using Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd454dfe3dc480bdd85558678141ea2e2') in 0.001510 seconds
-  Import took 0.005367 seconds .
+  Time since last request: 0.000196 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 53.png
+  artifactKey: Guid(e6d4faad96fb94361b6ae09490fd01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 53.png using Guid(e6d4faad96fb94361b6ae09490fd01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4b8b7a98de73d2db267ba6fa9bf588') in 0.009432 seconds
+  Import took 0.013101 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.940325 seconds.
-  path: Assets/Scripts/ClickHandler.cs
-  artifactKey: Guid(7688212cb68359e4fbae638dfc787e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClickHandler.cs using Guid(7688212cb68359e4fbae638dfc787e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5fe81a9015d07d9b3ac0e39214b2ca') in 0.003484 seconds
-  Import took 0.009456 seconds .
+  Time since last request: 0.000174 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 15.png
+  artifactKey: Guid(c1d124fb86fcc4ab68a16d67cf980633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 15.png using Guid(c1d124fb86fcc4ab68a16d67cf980633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e662e4ae3e583c1d6ce25250071939') in 0.014129 seconds
+  Import took 0.017954 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1933.882522 seconds.
-  path: Assets/Scripts/VolastroManager.cs
-  artifactKey: Guid(1ca089ce696bd5d4883d3dbd945ad7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/VolastroManager.cs using Guid(1ca089ce696bd5d4883d3dbd945ad7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e00fdc8a06b664a9462605b74a2045') in 0.011192 seconds
-  Import took 0.039240 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 40.png
+  artifactKey: Guid(1908c45859d4044cc95a4a8dee62d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 40.png using Guid(1908c45859d4044cc95a4a8dee62d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92325c77afdc416cfaf9f90934f5ca60') in 0.008832 seconds
+  Import took 0.012219 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.604813 seconds.
-  path: Assets/Scripts/VolastroScriptableObject.cs
-  artifactKey: Guid(ad0e2690aa285a64297523e65d5f6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/VolastroScriptableObject.cs using Guid(ad0e2690aa285a64297523e65d5f6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81a197f73b451b34741a35a584bba9f') in 0.004730 seconds
-  Import took 0.011090 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 30.png
+  artifactKey: Guid(264504b4239034938bc38bf33b3bde94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 30.png using Guid(264504b4239034938bc38bf33b3bde94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1201afa3b556d35bb5a5f1a1c6badca') in 0.008182 seconds
+  Import took 0.012119 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001968 seconds.
-  path: Assets/Scripts/VolastroScriptableObject.cs
-  artifactKey: Guid(ad0e2690aa285a64297523e65d5f6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/VolastroScriptableObject.cs using Guid(ad0e2690aa285a64297523e65d5f6268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81a197f73b451b34741a35a584bba9f') in 0.003410 seconds
-  Import took 0.012074 seconds .
+  Time since last request: 0.000184 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 21.png
+  artifactKey: Guid(b0dfaa4151f07448e8a666cb8109f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 21.png using Guid(b0dfaa4151f07448e8a666cb8109f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753aed70b96e7068e7bc4213523bdb36') in 0.012717 seconds
+  Import took 0.017017 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.834946 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(6c199725f0d51824eab62a385ec82d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(6c199725f0d51824eab62a385ec82d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a8460f43d3cf2d95645080431d6bbc') in 0.003362 seconds
-  Import took 0.012436 seconds .
+  Time since last request: 0.000175 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 48.png
+  artifactKey: Guid(eeea7cc2ad5aa4700bccaf811790a8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 48.png using Guid(eeea7cc2ad5aa4700bccaf811790a8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189013c0b3e42ffb45771dd2f7ec32f1') in 0.013233 seconds
+  Import took 0.017213 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 563.877069 seconds.
-  path: Assets/Scripts/Cook.cs
-  artifactKey: Guid(f3b337f53c2c7f74e8495c18eca814a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Cook.cs using Guid(f3b337f53c2c7f74e8495c18eca814a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3febe1917f764ff7674dc31de455694b') in 0.004747 seconds
-  Import took 0.012890 seconds .
+  Time since last request: 0.000178 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 37.png
+  artifactKey: Guid(81729a213ccce424b8310109ddf1c54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 37.png using Guid(81729a213ccce424b8310109ddf1c54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c53e2cb716d39fb04b105cf50ff69ea') in 0.010160 seconds
+  Import took 0.013716 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.912960 seconds.
-  path: Assets/Scripts/CraftingRecipe.cs
-  artifactKey: Guid(4e098b0feca5947b78cc430be39e52fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CraftingRecipe.cs using Guid(4e098b0feca5947b78cc430be39e52fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f2495158167d4839d237c71f5e75ac') in 0.004232 seconds
-  Import took 0.010396 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 19.png
+  artifactKey: Guid(621bab10a94aa402db2ed03ef602338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 19.png using Guid(621bab10a94aa402db2ed03ef602338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2312b133563f166e056c6ae517097ab9') in 0.008979 seconds
+  Import took 0.012888 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.663369 seconds.
-  path: Assets/Scripts/Crockpot.cs
-  artifactKey: Guid(1e8f5a5383a5ac6498b568c30ebfbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Crockpot.cs using Guid(1e8f5a5383a5ac6498b568c30ebfbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d929e19f31b998a3afa82d1d02cee0') in 0.003929 seconds
-  Import took 0.012338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001378 seconds.
-  path: Assets/Scripts/Crockpot.cs
-  artifactKey: Guid(1e8f5a5383a5ac6498b568c30ebfbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Crockpot.cs using Guid(1e8f5a5383a5ac6498b568c30ebfbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d929e19f31b998a3afa82d1d02cee0') in 0.005764 seconds
-  Import took 0.017730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.577324 seconds.
-  path: Assets/Scripts/DontDestroyOnLoad.cs
-  artifactKey: Guid(715a00f5425c27b47a2ff83965be9f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DontDestroyOnLoad.cs using Guid(715a00f5425c27b47a2ff83965be9f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9035de2bac348472b5a3c2590a84360b') in 0.003413 seconds
-  Import took 0.011507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.634664 seconds.
-  path: Assets/Scripts/DragDrop.cs
-  artifactKey: Guid(09e19bf430e544542805294d3452b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DragDrop.cs using Guid(09e19bf430e544542805294d3452b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149c636963fa7aade73a647a48e84444') in 0.003245 seconds
-  Import took 0.010207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002554 seconds.
-  path: Assets/Scripts/DragDrop.cs
-  artifactKey: Guid(09e19bf430e544542805294d3452b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DragDrop.cs using Guid(09e19bf430e544542805294d3452b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149c636963fa7aade73a647a48e84444') in 0.003106 seconds
-  Import took 0.010380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.860617 seconds.
-  path: Assets/Scripts/Food.cs
-  artifactKey: Guid(c833fedf1054f8846b8866d32a4aec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Food.cs using Guid(c833fedf1054f8846b8866d32a4aec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96524cc0872625b66431bc958bda487c') in 0.004074 seconds
-  Import took 0.011659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003768 seconds.
-  path: Assets/Scripts/Food.cs
-  artifactKey: Guid(c833fedf1054f8846b8866d32a4aec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Food.cs using Guid(c833fedf1054f8846b8866d32a4aec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96524cc0872625b66431bc958bda487c') in 0.003498 seconds
-  Import took 0.011234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.509768 seconds.
-  path: Assets/Scripts/FoodItem.cs
-  artifactKey: Guid(e441937a99e1b0e4ab9b8dbcf0adb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FoodItem.cs using Guid(e441937a99e1b0e4ab9b8dbcf0adb1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c082159c9c15365c6a455006ff7916f') in 0.004153 seconds
-  Import took 0.010402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.683112 seconds.
-  path: Assets/Scripts/FoodManager.cs
-  artifactKey: Guid(ef2d76b9db6c50a40aaf31f60db11608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FoodManager.cs using Guid(ef2d76b9db6c50a40aaf31f60db11608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f631237c5f4374eaab4cc5d57ef69cf0') in 0.003520 seconds
-  Import took 0.009544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000884 seconds.
-  path: Assets/Scripts/FoodManager.cs
-  artifactKey: Guid(ef2d76b9db6c50a40aaf31f60db11608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FoodManager.cs using Guid(ef2d76b9db6c50a40aaf31f60db11608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f631237c5f4374eaab4cc5d57ef69cf0') in 0.002140 seconds
-  Import took 0.010560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.013342 seconds.
-  path: Assets/Scripts/FoodScriptableObject.cs
-  artifactKey: Guid(ca7ba64da47b6094187c4f5392c40c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FoodScriptableObject.cs using Guid(ca7ba64da47b6094187c4f5392c40c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0711724b40f159ec25db2c04d75a6305') in 0.003451 seconds
-  Import took 0.010293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.098864 seconds.
-  path: Assets/Scripts/Fridge.cs
-  artifactKey: Guid(10594cecfe444ed45a8dc65ab398d144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Fridge.cs using Guid(10594cecfe444ed45a8dc65ab398d144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c33c42bbb8cbbb3303c4be6d3456dfe') in 0.003154 seconds
-  Import took 0.008300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.327966 seconds.
-  path: Assets/Scripts/GoOnAdventure.cs
-  artifactKey: Guid(b40ad312117586d46ae4f0d517b9301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GoOnAdventure.cs using Guid(b40ad312117586d46ae4f0d517b9301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb6c058c6d2a3e8997112aa286cea23') in 0.004925 seconds
-  Import took 0.010932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.506621 seconds.
-  path: Assets/Scripts/ReturnTimeCountdown.cs
-  artifactKey: Guid(21f9bba75a2e07d4aa703bb76690e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ReturnTimeCountdown.cs using Guid(21f9bba75a2e07d4aa703bb76690e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16e845c7b87db02cae2f2a7138fd9c0') in 0.003478 seconds
-  Import took 0.008680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001811 seconds.
-  path: Assets/Scripts/ReturnTimeCountdown.cs
-  artifactKey: Guid(21f9bba75a2e07d4aa703bb76690e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ReturnTimeCountdown.cs using Guid(21f9bba75a2e07d4aa703bb76690e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16e845c7b87db02cae2f2a7138fd9c0') in 0.001843 seconds
-  Import took 0.008002 seconds .
+  Time since last request: 0.000221 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 49.png
+  artifactKey: Guid(c9df77896e4114340969950f5407c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 49.png using Guid(c9df77896e4114340969950f5407c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9754c63a4d819c0daa871c6115c9d173') in 0.010358 seconds
+  Import took 0.014792 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002840 seconds.
+Registered in 0.002142 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 GPGSUpgrader start
  #0 GetStacktrace(int)
@@ -694,1170 +638,43 @@ GPGSUpgrader done
  #54 ???
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.394 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2068 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.5 MB.
-System memory in use after: 182.6 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2513.
-Total: 6.016642 ms (FindLiveObjects: 0.931263 ms CreateObjectMapping: 0.157272 ms MarkObjects: 4.849852 ms  DeleteObjects: 0.076241 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 117.703186 seconds.
-  path: Assets/Scripts/Cook.cs
-  artifactKey: Guid(f3b337f53c2c7f74e8495c18eca814a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Cook.cs using Guid(f3b337f53c2c7f74e8495c18eca814a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a910999a736fd083eacbf2394739d4c1') in 0.005217 seconds
-  Import took 0.010037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 170.820330 seconds.
-  path: Assets/Scripts/UI_Fridge.cs
-  artifactKey: Guid(d392dfe4786650d4688d48586f74b055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI_Fridge.cs using Guid(d392dfe4786650d4688d48586f74b055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0895e692234768fba20a8c9610887421') in 0.003947 seconds
-  Import took 0.009810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 831.312780 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(6c199725f0d51824eab62a385ec82d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(6c199725f0d51824eab62a385ec82d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2dac81cca65c1ed505f4d0c2eaac54') in 0.005232 seconds
-  Import took 0.020210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4323.880654 seconds.
-  path: Assets/Scripts/OnClickCraft.cs
-  artifactKey: Guid(952cc94cd0700449f9e6fb6f189df602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/OnClickCraft.cs using Guid(952cc94cd0700449f9e6fb6f189df602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22fec4d0c3baf2876af41989a17c80c') in 0.016796 seconds
-  Import took 0.049050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.922931 seconds.
-  path: Assets/Scripts/UI_Crockpot.cs
-  artifactKey: Guid(b2554d436b8261c48b513ba355fa09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI_Crockpot.cs using Guid(b2554d436b8261c48b513ba355fa09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23718909cbd212916457acf079309430') in 0.003168 seconds
-  Import took 0.010411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.197721 seconds.
-  path: Assets/Scripts/PlayerStats.cs
-  artifactKey: Guid(9deb12193781a104fb27a21bcd5a338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerStats.cs using Guid(9deb12193781a104fb27a21bcd5a338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa5052e0bbca0505b5e36a4244770f9') in 0.004288 seconds
-  Import took 0.014809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001710 seconds.
-  path: Assets/Scripts/PlayerStats.cs
-  artifactKey: Guid(9deb12193781a104fb27a21bcd5a338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerStats.cs using Guid(9deb12193781a104fb27a21bcd5a338b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa5052e0bbca0505b5e36a4244770f9') in 0.004053 seconds
-  Import took 0.014316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.035389 seconds.
-  path: Assets/Scripts/ClickHandlerHome.cs
-  artifactKey: Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClickHandlerHome.cs using Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10920dacfef82b918268bbb676f35e96') in 0.003244 seconds
-  Import took 0.015461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004649 seconds.
-  path: Assets/Scripts/ClickHandlerHome.cs
-  artifactKey: Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClickHandlerHome.cs using Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10920dacfef82b918268bbb676f35e96') in 0.005414 seconds
-  Import took 0.013397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 229.652478 seconds.
-  path: Assets/Scripts/Feeding.cs
-  artifactKey: Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Feeding.cs using Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eed030619fcda8008b765fad292c46') in 0.004351 seconds
-  Import took 0.009041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043670 seconds.
-  path: Assets/Scripts/Feeding.cs
-  artifactKey: Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Feeding.cs using Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eed030619fcda8008b765fad292c46') in 0.002716 seconds
-  Import took 0.011359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1535.540546 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(6c199725f0d51824eab62a385ec82d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(6c199725f0d51824eab62a385ec82d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895e65d7e3fff24f4c7beb87ccd00371') in 0.015798 seconds
-  Import took 0.051251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5616.287512 seconds.
-  path: Assets/Scripts/Volastro.cs
-  artifactKey: Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Volastro.cs using Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f2926fa0afe9260269707a02ffdf71') in 0.013975 seconds
-  Import took 0.038168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.695878 seconds.
-  path: Assets/Scripts/Volastro.cs
-  artifactKey: Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Volastro.cs using Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3506b1daa92fffac3d3ca25b3c1374e') in 0.003281 seconds
-  Import took 0.011204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.566098 seconds.
-  path: Assets/Scripts/ClickHandlerHome.cs
-  artifactKey: Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClickHandlerHome.cs using Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4217e37379210769fc077e68b90fc4e5') in 0.007768 seconds
-  Import took 0.014648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002638 seconds.
-  path: Assets/Scripts/ClickHandlerHome.cs
-  artifactKey: Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClickHandlerHome.cs using Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4217e37379210769fc077e68b90fc4e5') in 0.003016 seconds
-  Import took 0.013760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.957573 seconds.
-  path: Assets/Scripts/ClickHandlerHome.cs
-  artifactKey: Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ClickHandlerHome.cs using Guid(8fe9f7571789cf84f8c6d3d2471e2f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341a473a78fbc187f51a63fcc0f5c8a2') in 0.001697 seconds
-  Import took 0.006975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.169109 seconds.
-  path: Assets/Scripts/Feeding.cs
-  artifactKey: Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Feeding.cs using Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f3b0f5ae390377ecb74871af7b121e') in 0.002108 seconds
-  Import took 0.008769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001206 seconds.
-  path: Assets/Scripts/Feeding.cs
-  artifactKey: Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Feeding.cs using Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f3b0f5ae390377ecb74871af7b121e') in 0.004874 seconds
-  Import took 0.017482 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002385 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-GPGSUpgrader start
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-GPGSUpgrader done
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.351 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 183.7 MB.
-System memory in use after: 183.8 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2518.
-Total: 3.541093 ms (FindLiveObjects: 0.396582 ms CreateObjectMapping: 0.157865 ms MarkObjects: 2.953526 ms  DeleteObjects: 0.031895 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010834 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-GPGSUpgrader start
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-GPGSUpgrader done
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.225 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.2 MB.
-System memory in use after: 184.3 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2522.
-Total: 4.171182 ms (FindLiveObjects: 0.645072 ms CreateObjectMapping: 0.213022 ms MarkObjects: 3.273662 ms  DeleteObjects: 0.036880 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005722 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-GPGSUpgrader start
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-GPGSUpgrader done
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.280 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.6 MB.
-System memory in use after: 184.7 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2526.
-Total: 2.215510 ms (FindLiveObjects: 0.225625 ms CreateObjectMapping: 0.080522 ms MarkObjects: 1.884102 ms  DeleteObjects: 0.024364 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002555 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-GPGSUpgrader start
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-GPGSUpgrader done
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.987 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.9 MB.
-System memory in use after: 185.0 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2530.
-Total: 9.065182 ms (FindLiveObjects: 0.804718 ms CreateObjectMapping: 0.256066 ms MarkObjects: 7.163117 ms  DeleteObjects: 0.837697 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007243 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-GPGSUpgrader start
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-GPGSUpgrader done
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.922 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.3 MB.
-System memory in use after: 185.4 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2534.
-Total: 4.024135 ms (FindLiveObjects: 0.693285 ms CreateObjectMapping: 0.193913 ms MarkObjects: 3.080057 ms  DeleteObjects: 0.055060 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 2858.413901 seconds.
-  path: Assets/Scripts/Feeding.cs
-  artifactKey: Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Feeding.cs using Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9af69c03733342079be7d57a0734d21') in 0.022675 seconds
-  Import took 0.032543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003123 seconds.
-  path: Assets/Scripts/Feeding.cs
-  artifactKey: Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Feeding.cs using Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9af69c03733342079be7d57a0734d21') in 0.005325 seconds
-  Import took 0.014049 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001438 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-GPGSUpgrader start
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-GPGSUpgrader done
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.204 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.7 MB.
-System memory in use after: 185.8 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2538.
-Total: 2.718097 ms (FindLiveObjects: 0.254188 ms CreateObjectMapping: 0.094949 ms MarkObjects: 2.336990 ms  DeleteObjects: 0.030794 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 95.291950 seconds.
-  path: Assets/Scripts/Feeding.cs
-  artifactKey: Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Feeding.cs using Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9955484db7768f05dda6d22739037cd') in 0.004948 seconds
-  Import took 0.011005 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006892 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-GPGSUpgrader start
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-GPGSUpgrader done
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
+- Completed reload, in  1.411 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2070 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 186.0 MB.
 System memory in use after: 186.1 MB.
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2542.
-Total: 2.240178 ms (FindLiveObjects: 0.230781 ms CreateObjectMapping: 0.082720 ms MarkObjects: 1.901115 ms  DeleteObjects: 0.024671 ms)
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2527.
+Total: 3.634396 ms (FindLiveObjects: 0.482557 ms CreateObjectMapping: 0.184444 ms MarkObjects: 2.911667 ms  DeleteObjects: 0.053119 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 237.996917 seconds.
-  path: Assets/Scripts/Feeding.cs
-  artifactKey: Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Feeding.cs using Guid(b8885df5a00b54719921d19aa9081cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef8a1f1a376e5ae20d79f6d5cc030e3') in 0.004643 seconds
-  Import took 0.010972 seconds .
+  Time since last request: 1379.285601 seconds.
+  path: Assets/BarsScript.cs
+  artifactKey: Guid(81920af196cb7442e9a74c5f62bdd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BarsScript.cs using Guid(81920af196cb7442e9a74c5f62bdd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4a71f4f09f3a96be0e7fa4ac3e2016') in 0.015487 seconds
+  Import took 0.022359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002173 seconds.
+  path: Assets/BarsScript.cs
+  artifactKey: Guid(81920af196cb7442e9a74c5f62bdd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BarsScript.cs using Guid(81920af196cb7442e9a74c5f62bdd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4a71f4f09f3a96be0e7fa4ac3e2016') in 0.002024 seconds
+  Import took 0.007914 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002020 seconds.
+Registered in 0.002221 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 GPGSUpgrader start
  #0 GetStacktrace(int)
@@ -1974,317 +791,59 @@ GPGSUpgrader done
  #54 ???
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.191 seconds
+- Completed reload, in  1.203 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.3 MB.
+Unloading 2070 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.4 MB.
 System memory in use after: 186.5 MB.
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2546.
-Total: 2.518369 ms (FindLiveObjects: 0.284365 ms CreateObjectMapping: 0.092504 ms MarkObjects: 2.113566 ms  DeleteObjects: 0.026874 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003876 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-GPGSUpgrader start
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-GPGSUpgrader done
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.735 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.7 MB.
-System memory in use after: 186.8 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2550.
-Total: 3.738160 ms (FindLiveObjects: 0.422230 ms CreateObjectMapping: 0.214709 ms MarkObjects: 3.065038 ms  DeleteObjects: 0.034068 ms)
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2531.
+Total: 2.359228 ms (FindLiveObjects: 0.218750 ms CreateObjectMapping: 0.079190 ms MarkObjects: 2.012535 ms  DeleteObjects: 0.047555 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 1464.081348 seconds.
-  path: Assets/Scripts/Volastro.cs
-  artifactKey: Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Volastro.cs using Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23097cdc691cb85bdfeb334ac421d6c3') in 0.088472 seconds
-  Import took 0.121750 seconds .
+  Time since last request: 1124.789938 seconds.
+  path: Assets/BarsScript.cs
+  artifactKey: Guid(78b40935ccadf4da186bc8e8376004e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BarsScript.cs using Guid(78b40935ccadf4da186bc8e8376004e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba825806dd3f453919176a797893fe9') in 0.046854 seconds
+  Import took 0.084314 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001901 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-GPGSUpgrader start
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-GPGSUpgrader done
- #0 GetStacktrace(int)
- #1 DebugStringToFile(DebugStringToFileData const&)
- #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
- #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
- #4 mono_jit_runtime_invoke
- #5 do_runtime_invoke
- #6 mono_runtime_class_init_full
- #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
- #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
- #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
- #10 mono_jit_runtime_invoke
- #11 do_runtime_invoke
- #12 mono_runtime_invoke
- #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
- #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
- #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
- #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
- #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
- #18 MonoManager::ReloadAssembly()
- #19 LoadDomainAndUserAssemblies(bool)
- #20 LoadUserAssemblies()
- #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
- #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
- #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
- #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
- #25 asio::detail::task_io_service::run(std::__1::error_code&)
- #26 IOService::Run(bool)
- #27 RunAssetImporterV2()
- #28 Application::InitializeProject()
- #29 -[EditorApplication applicationDidFinishLaunching:]
- #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
- #31 ___CFXRegistrationPost1_block_invoke
- #32 _CFXRegistrationPost1
- #33 ___CFXNotificationPost_block_invoke
- #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
- #35 _CFXNotificationPost
- #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
- #37 -[NSApplication _postDidFinishNotification]
- #38 -[NSApplication _sendFinishLaunchingNotification]
- #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
- #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
- #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
- #42 _NSAppleEventManagerGenericHandler
- #43 _AppleEventsCheckInAppWithBlock
- #44 _AppleEventsCheckInAppWithBlock
- #45 aeProcessAppleEvent
- #46 AEProcessAppleEvent
- #47 _DPSNextEvent
- #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
- #49 -[NSApplication run]
- #50 NSApplicationMain
- #51 EditorMain(int, char const**)
- #52 main
- #53 start
- #54 ???
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.365 seconds
-Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.1 MB.
-System memory in use after: 187.2 MB.
-
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2554.
-Total: 2.623129 ms (FindLiveObjects: 0.277633 ms CreateObjectMapping: 0.077320 ms MarkObjects: 2.241053 ms  DeleteObjects: 0.026026 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 26.682222 seconds.
+  Time since last request: 10.434672 seconds.
+  path: Assets/Scripts/BarsScript.cs
+  artifactKey: Guid(81920af196cb7442e9a74c5f62bdd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BarsScript.cs using Guid(81920af196cb7442e9a74c5f62bdd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0161369430929298ecf5892d8005ae1') in 0.002079 seconds
+  Import took 0.009140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.676187 seconds.
   path: Assets/Scripts/Volastro.cs
   artifactKey: Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Volastro.cs using Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1089b94098c3d074b00227e933ee131') in 0.004116 seconds
-  Import took 0.008993 seconds .
+Start importing Assets/Scripts/Volastro.cs using Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d4bc351c5dc48aa8e75e0bbd56b30c') in 0.004089 seconds
+  Import took 0.009188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.992349 seconds.
+  path: Assets/Scripts/BarsScript.cs
+  artifactKey: Guid(81920af196cb7442e9a74c5f62bdd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BarsScript.cs using Guid(81920af196cb7442e9a74c5f62bdd031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a866adae63d31c80a4adf6ce65c953c') in 0.015174 seconds
+  Import took 0.025429 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008061 seconds.
+Registered in 0.002807 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 GPGSUpgrader start
  #0 GetStacktrace(int)
@@ -2401,27 +960,27 @@ GPGSUpgrader done
  #54 ???
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.465 seconds
+- Completed reload, in  1.284 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.4 MB.
-System memory in use after: 187.5 MB.
+Unloading 2070 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.9 MB.
+System memory in use after: 187.0 MB.
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2558.
-Total: 3.506574 ms (FindLiveObjects: 0.265839 ms CreateObjectMapping: 0.092955 ms MarkObjects: 3.113289 ms  DeleteObjects: 0.033137 ms)
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 2.580934 ms (FindLiveObjects: 0.343215 ms CreateObjectMapping: 0.100255 ms MarkObjects: 2.091563 ms  DeleteObjects: 0.044784 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001387 seconds.
+Registered in 0.001479 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 GPGSUpgrader start
  #0 GetStacktrace(int)
@@ -2538,27 +1097,164 @@ GPGSUpgrader done
  #54 ???
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.302 seconds
+- Completed reload, in  1.135 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2070 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.2 MB.
+System memory in use after: 187.4 MB.
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 2.697862 ms (FindLiveObjects: 0.312183 ms CreateObjectMapping: 0.090964 ms MarkObjects: 2.264397 ms  DeleteObjects: 0.029046 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+GPGSUpgrader start
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+GPGSUpgrader done
+ #0 GetStacktrace(int)
+ #1 DebugStringToFile(DebugStringToFileData const&)
+ #2 DebugLogHandler_CUSTOM_Internal_Log(LogType, LogOption, ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeObjectPtrOpaque*)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4 mono_jit_runtime_invoke
+ #5 do_runtime_invoke
+ #6 mono_runtime_class_init_full
+ #7 ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor
+ #8  (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+ #9  (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+ #10 mono_jit_runtime_invoke
+ #11 do_runtime_invoke
+ #12 mono_runtime_invoke
+ #13 scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
+ #14 ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
+ #15 Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
+ #16 MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
+ #17 MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
+ #18 MonoManager::ReloadAssembly()
+ #19 LoadDomainAndUserAssemblies(bool)
+ #20 LoadUserAssemblies()
+ #21 AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+ #22 core::mutable_function<void ()>::DispatchT<void IOService::PostHelper<AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5>(AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_5&&, IOService::WrapCallableInFunctionTag)::'lambda'()>::Dispatch()
+ #23 asio::detail::completion_handler<core::mutable_function<void ()> >::do_complete(asio::detail::task_io_service*, asio::detail::task_io_service_operation*, std::__1::error_code const&, unsigned long)
+ #24 asio::detail::task_io_service::do_run_one(asio::detail::scoped_lock<asio::detail::posix_mutex>&, asio::detail::task_io_service_thread_info&, std::__1::error_code const&)
+ #25 asio::detail::task_io_service::run(std::__1::error_code&)
+ #26 IOService::Run(bool)
+ #27 RunAssetImporterV2()
+ #28 Application::InitializeProject()
+ #29 -[EditorApplication applicationDidFinishLaunching:]
+ #30 __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+ #31 ___CFXRegistrationPost1_block_invoke
+ #32 _CFXRegistrationPost1
+ #33 ___CFXNotificationPost_block_invoke
+ #34 -[_CFXNotificationRegistrar find:object:observer:enumerator:]
+ #35 _CFXNotificationPost
+ #36 -[NSNotificationCenter postNotificationName:object:userInfo:]
+ #37 -[NSApplication _postDidFinishNotification]
+ #38 -[NSApplication _sendFinishLaunchingNotification]
+ #39 -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+ #40 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+ #41 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+ #42 _NSAppleEventManagerGenericHandler
+ #43 _AppleEventsCheckInAppWithBlock
+ #44 _AppleEventsCheckInAppWithBlock
+ #45 aeProcessAppleEvent
+ #46 AEProcessAppleEvent
+ #47 _DPSNextEvent
+ #48 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+ #49 -[NSApplication run]
+ #50 NSApplicationMain
+ #51 EditorMain(int, char const**)
+ #52 main
+ #53 start
+ #54 ???
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 187.8 MB.
-System memory in use after: 187.9 MB.
+Unloading 2070 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.5 MB.
+System memory in use after: 187.7 MB.
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2562.
-Total: 2.792433 ms (FindLiveObjects: 0.372863 ms CreateObjectMapping: 0.096339 ms MarkObjects: 2.287067 ms  DeleteObjects: 0.035227 ms)
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 2.179219 ms (FindLiveObjects: 0.247537 ms CreateObjectMapping: 0.088564 ms MarkObjects: 1.817253 ms  DeleteObjects: 0.025187 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009026 seconds.
+Registered in 0.006964 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 GPGSUpgrader start
  #0 GetStacktrace(int)
@@ -2675,33 +1371,25 @@ GPGSUpgrader done
  #54 ???
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.408 seconds
+- Completed reload, in  1.396 seconds
 Platform modules already initialized, skipping
 Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2069 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.1 MB.
-System memory in use after: 188.2 MB.
+Unloading 2070 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.9 MB.
+System memory in use after: 188.0 MB.
 
-Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2566.
-Total: 2.360470 ms (FindLiveObjects: 0.226077 ms CreateObjectMapping: 0.078882 ms MarkObjects: 2.026900 ms  DeleteObjects: 0.027719 ms)
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 2.420004 ms (FindLiveObjects: 0.247917 ms CreateObjectMapping: 0.093635 ms MarkObjects: 2.050581 ms  DeleteObjects: 0.027021 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 790.253513 seconds.
+  Time since last request: 879.959102 seconds.
   path: Assets/Scripts/Volastro.cs
   artifactKey: Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Volastro.cs using Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cea5116e5b4fd283b81183872c57240') in 0.028431 seconds
-  Import took 0.041964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070581 seconds.
-  path: Assets/Scripts/Volastro.cs
-  artifactKey: Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Volastro.cs using Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cea5116e5b4fd283b81183872c57240') in 0.003093 seconds
-  Import took 0.014464 seconds .
+Start importing Assets/Scripts/Volastro.cs using Guid(a0341ceb479c6e741b2ac4dd2f0f07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5465452d9bd66aa662ad026d8a09321c') in 0.072880 seconds
+  Import took 0.100241 seconds .
 
