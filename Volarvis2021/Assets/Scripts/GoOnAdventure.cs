@@ -8,7 +8,7 @@ public class GoOnAdventure : MonoBehaviour
 {
     //public event EventHandler onWentOnAdventure;
 
-    public void visitMeadows() //1 minute (for ease of testing. Real game will be 5 min)
+    public void visitMeadows() //5 seconds (for ease of testing. Real game will be 5 min)
     {
         Player.instance.firstVolastroReturnTime = DateTime.Now.AddSeconds(5);
         ReturnTimeCountdown.instance.location = "meadows";
@@ -17,18 +17,18 @@ public class GoOnAdventure : MonoBehaviour
         Debug.Log("Visiting Meadows");
     }
 
-    public void visitTangle() //3 minutes (for ease of testing. Real game will be 30 min)
+    public void visitTangle() //10 seconds (for ease of testing. Real game will be 30 min)
     {
-        Player.instance.firstVolastroReturnTime = DateTime.Now.AddSeconds(5);
+        Player.instance.firstVolastroReturnTime = DateTime.Now.AddSeconds(10);
         ReturnTimeCountdown.instance.location = "tangle";
         ReturnTimeCountdown.instance.startCounting();
 
         Debug.Log("Visit Tangle");
     }
 
-    public void visitPeaks() //5 minutes (for ease of testing. Real game will be 45 min)
+    public void visitPeaks() //15 seconds (for ease of testing. Real game will be 45 min)
     {
-        Player.instance.firstVolastroReturnTime = DateTime.Now.AddSeconds(5);
+        Player.instance.firstVolastroReturnTime = DateTime.Now.AddSeconds(15);
         ReturnTimeCountdown.instance.location = "peaks";
         ReturnTimeCountdown.instance.startCounting();
 

@@ -235,8 +235,10 @@ public class ReturnTimeCountdown : MonoBehaviour
         //Localised Ingredients
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = waterScriptable, amount = 1 }, 0.4, 1);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = iceScriptable, amount = 1 }, 0.8, 2);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = flourScriptable, amount = 1 }, 0.4, 1);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cabbageScriptable, amount = 1 }, 0.05, 2);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = carrotScriptable, amount = 1 }, 0.05, 2);
+        
     }
 
     public void finishLava()

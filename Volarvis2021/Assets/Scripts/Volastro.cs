@@ -7,6 +7,8 @@ public class Volastro
 {
     public event EventHandler onVolastroChanged;
 
+
+    public static int MAX_STATS = 100;
     public VolastroScriptableObject baseVolastro;
     public int hungerVal;
     public int happinessVal;
@@ -15,8 +17,8 @@ public class Volastro
     public Volastro()
     {
         this.baseVolastro = VolastroManager.instance.ambissScriptable;
-        this.hungerVal = 100;
-        this.happinessVal = 100;
+        this.hungerVal = 0;
+        this.happinessVal = 0;
         this.traitsVal = new int[6];
 
         Debug.Log("Default normal egg Volastro created");
@@ -71,19 +73,33 @@ public class Volastro
     // my method
 
     public void updateTrait(int hunger, int happiness, int[] foodTraits) {
-        Debug.Log(this.traitsVal.Length);
-        Debug.Log(foodTraits.Length);
+        
         for (int i = 0; i < 6; i++) {
             this.traitsVal[i] += foodTraits[i];
         }
-        this.hungerVal -= hunger;
-        this.happinessVal -= happiness;
+        this.hungerVal += hunger;
+        //max hunger is 100
+        this.hungerVal = Math.Min(this.hungerVal, MAX_STATS);
+        Debug.Log("Fullness increased to " + this.hungerVal.ToString());
+
+        this.happinessVal += happiness;
+        //max hunger is 100
+        this.happinessVal = Math.Min(this.happinessVal, MAX_STATS);
+        Debug.Log("Fullness increased to " + this.happinessVal.ToString());
+
         onVolastroChanged?.Invoke(this, EventArgs.Empty);
         Debug.Log("Traits updated!");
         Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
-        // changing the bar (dont need an event to handle this i presume)
-        BarsScript.instance._hungerBar.fillAmount = this.hungerVal / 100;
-        BarsScript.instance._happinessBar.fillAmount = this.happinessVal / 100;
+
+        float hungerValAsPercentage =  (this.hungerVal / (float) 100);
+        float happinessValAsPercentage =  (this.happinessVal / (float) 100);
+
+        Debug.Log(hungerValAsPercentage.ToString());
+        Debug.Log(happinessValAsPercentage.ToString());
+
+        // changing the bar
+        BarsScript.instance._hungerBar.fillAmount = hungerValAsPercentage;
+        BarsScript.instance._happinessBar.fillAmount = happinessValAsPercentage;
     }
 
     public int getFieryVal()

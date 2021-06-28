@@ -2,11 +2,19 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AutoLetterbox.ForceCameraRatio
+    - BarsScript
+    - ClickHandler
+    - ClickHandlerHome
     - CloudSaveManager
     - CloudSaveTest
+    - Cook
     - DontDestroyOnLoad
+    - Feeding
+    - FoodManager
+    - FoodScriptableObject
     - GoOnAdventure
     - GoogleLogin
+    - IngredientManager
     - IngredientScriptableObject
     - MainMenu
     - NavBar
@@ -16,7 +24,12 @@ ScriptsOnlyBuild:
     - SceneLoading
     - Shapes2D.Shape
     - StartScript
+    - UI_Crockpot
+    - UI_Fridge
     - UI_Inventory
+    - UI_Volastro
+    - VolastroManager
+    - VolastroScriptableObject
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -81,29 +94,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1660}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 2114}
+      Script: {instanceID: 2116}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 2936}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 4446}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 4648}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 5316}
+      Script: {instanceID: 3698}
+    - Class: 114
+      Script: {instanceID: 3942}
+    - Class: 114
+      Script: {instanceID: 3992}
+    - Class: 114
+      Script: {instanceID: 4280}
+    - Class: 114
+      Script: {instanceID: 4482}
+    - Class: 114
+      Script: {instanceID: 4684}
+    - Class: 114
+      Script: {instanceID: 5032}
+    - Class: 114
+      Script: {instanceID: 5356}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -142,37 +169,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 2006}
+      Script: {instanceID: 2008}
     - Class: 114
-      Script: {instanceID: 2114}
+      Script: {instanceID: 2116}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2588}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 2936}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3160}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 4368}
+      Script: {instanceID: 3176}
     - Class: 114
-      Script: {instanceID: 4446}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 4648}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 5316}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 24502}
+      Script: {instanceID: 3580}
+    - Class: 114
+      Script: {instanceID: 3814}
+    - Class: 114
+      Script: {instanceID: 3822}
+    - Class: 114
+      Script: {instanceID: 3942}
+    - Class: 114
+      Script: {instanceID: 4052}
+    - Class: 114
+      Script: {instanceID: 4184}
+    - Class: 114
+      Script: {instanceID: 4404}
+    - Class: 114
+      Script: {instanceID: 4482}
+    - Class: 114
+      Script: {instanceID: 4684}
+    - Class: 114
+      Script: {instanceID: 5356}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -211,19 +256,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 2114}
+      Script: {instanceID: 2116}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -260,17 +305,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 5128}
+      Script: {instanceID: 5168}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -311,23 +356,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1824}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 2114}
+      Script: {instanceID: 2116}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 2936}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -364,19 +409,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 2114}
+      Script: {instanceID: 2116}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -415,33 +460,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1824}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 2936}
+      Script: {instanceID: 2948}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 3532}
+      Script: {instanceID: 3552}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 4250}
+      Script: {instanceID: 4286}
     - Class: 114
-      Script: {instanceID: 4650}
+      Script: {instanceID: 4686}
     - Class: 114
-      Script: {instanceID: 4972}
+      Script: {instanceID: 5010}
     - Class: 114
-      Script: {instanceID: 4980}
+      Script: {instanceID: 5018}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -480,31 +525,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 2316}
+      Script: {instanceID: 2320}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2330}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2740}
     - Class: 114
-      Script: {instanceID: 2792}
+      Script: {instanceID: 2804}
     - Class: 114
-      Script: {instanceID: 2886}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 3118}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 3334}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3470}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 4650}
+      Script: {instanceID: 4686}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4792}
     - Class: 114
-      Script: {instanceID: 5124}
+      Script: {instanceID: 5164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -610,6 +655,12 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 42ee3cbcfe8899cb0c6a41c696efd2e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DragDrop
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -700,6 +751,18 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
+      Hash: 941158b37823eb3634b67edef1d3a2df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CraftingRecipe
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UI_Volastro
+  - hash:
+      serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -754,6 +817,18 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: ac073021fed55aad12d78c5906be4250
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FoodManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UI_Fridge
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -802,6 +877,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemSlot
+  - hash:
+      serializedVersion: 2
       Hash: 95d86d606c5893d3ac8050d29afcf305
     assemblyName: Assembly-CSharp.dll
     namespaceName: AutoLetterbox
@@ -836,6 +917,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 490e0531c596fb7c264418c745c593e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FoodScriptableObject
   - hash:
       serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
@@ -874,6 +961,12 @@ ScriptsOnlyBuild:
     className: PlayService
   - hash:
       serializedVersion: 2
+      Hash: 74446675e9fbee4b9e146f3eb58e8739
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BarsScript
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -886,6 +979,12 @@ ScriptsOnlyBuild:
     className: Spawner
   - hash:
       serializedVersion: 2
+      Hash: 5fd23092ab8da6c7c98f1650acecc817
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Cook
+  - hash:
+      serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -896,6 +995,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 502389be07f70ddd6f65c90521e04750
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VolastroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 70df4b9a64a7cf1fa4655ee982c71a7f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClickHandlerHome
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -922,6 +1033,18 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 88dba37254746d193b12efab3c7175f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IngredientScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UI_Crockpot
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -938,6 +1061,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 73aaf4b337b774c355f5839fd5fb006e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VolastroManager
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -962,6 +1091,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Shapes2D
     className: EffectDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 9983024baf9cbb871e4a92cd604ec57b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Feeding
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -992,6 +1127,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: d5c41541d52823461637047789abaeef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClickHandler
   - hash:
       serializedVersion: 2
       Hash: 352562fd641bd8bf793aa5b24fda9265
@@ -1040,6 +1181,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: GooglePlayGames.OurUtils
     className: PlayGamesHelperObject
+  - hash:
+      serializedVersion: 2
+      Hash: db23dc5ccccdb8e5928cc91c997aa8e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ItemAssets
   - hash:
       serializedVersion: 2
       Hash: b424b4eeb810aecb0ff91c62639241e9
@@ -1103,6 +1250,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnClickCraft
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkinEntity
@@ -1144,6 +1297,18 @@ ScriptsOnlyBuild:
     className: PixelPerfectCamera
   - hash:
       serializedVersion: 2
+      Hash: a2e5419004678b9f4fde497aad717c10
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IngredientManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UICook_Inventory
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1168,7 +1333,7 @@ ScriptsOnlyBuild:
     className: PacMan
   - hash:
       serializedVersion: 2
-      Hash: f072f51cc7662c66545fa724d0731d90
+      Hash: 387b35654ff9fe48c78b2e271e4f253d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1208,12 +1373,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 88dba37254746d193b12efab3c7175f2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: IngredientScriptableObject
   platform: 13
   scenePathNames:
   - Assets/Scenes/StartPage.unity
@@ -1224,4 +1383,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/ShopPage.unity
   - Assets/Scenes/LibraryPage.unity
   - Assets/Scenes/SettingsPage.unity
-  playerPath: C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis-20-6-21-5.apk
+  playerPath: C:/Users/cheer/Documents/GitHub/orbital-2021-volarvis/Volarvis-28-6-21-1.apk

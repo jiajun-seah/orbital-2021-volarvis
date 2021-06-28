@@ -32,8 +32,8 @@ public class ClickHandler : MonoBehaviour
         //}
     }
 
-    //public void clearSlots() 
-    //{
-    //    Player.instance.crockpot.returnAllToInventory();
-    //}
+    public void clearslots()
+    {
+        Player.instance.crockpot.returnAllToInventory();
+    }
 }

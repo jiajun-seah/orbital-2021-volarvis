@@ -12,7 +12,14 @@ public class BarsScript : MonoBehaviour
     public Image _happinessBar;
 
     public void Awake() {
-        _hungerBar.fillAmount = 0.5f;
-        _happinessBar.fillAmount = 0.5f;
+
+        if (instance == null)
+        {
+            instance = this;
+        }
+
+
+        _hungerBar.fillAmount = 0f;
+        _happinessBar.fillAmount = 0f;
     }
 }

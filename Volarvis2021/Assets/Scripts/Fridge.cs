@@ -37,6 +37,11 @@ public class Fridge
             if (fridgeFood.foodScriptableObject == food.foodScriptableObject)
             {
                 fridgeFood.amount -= 1;
+                if (fridgeFood.amount == 0)
+                {
+                    foods.Remove(fridgeFood);
+                }
+                break;
             }
         }
 

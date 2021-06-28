@@ -13,10 +13,18 @@ public class Cook : MonoBehaviour
     private static int REQUIRED = 4;
 
 
+    //reference to insufficient ingredients message
+    [SerializeField] private Transform ui_cooked;
+    [SerializeField] private Transform cooked_filler;
+    [SerializeField] private Transform insufficientIngredientsMessage;
+    [SerializeField] private Button cook_btn;
+    [SerializeField] private Button clear_btn;
+
     //properties for CookedFood panel
     private Food cookedFood;
     private Transform cookedFoodContainer;
     private Transform cookedFoodTemplate;
+    
 
 
     //reference to FoodScriptableObject
@@ -193,9 +201,20 @@ public class Cook : MonoBehaviour
         Crockpot crockpot = Player.instance.crockpot;
         
         int foodDexNum = 0;
-        if (crockpot.ingredients.Count < REQUIRED) { }
+        if (crockpot.ingredients.Count < REQUIRED) 
+        {
+            insufficientIngredientsMessage.gameObject.SetActive(true);
+            cook_btn.interactable = false;
+            clear_btn.interactable = false;
+        }
         else
         {
+
+            //unhide cooked ui and related filler text
+            ui_cooked.gameObject.SetActive(true);
+            cooked_filler.gameObject.SetActive(true);
+
+
             IngredientScriptableObject[] checkCrockpot = crockpot.ingredients.Select(ingredient => ingredient.ingredientScriptableObject).ToArray();
 
             Array.Sort(checkCrockpot);
@@ -471,39 +490,38 @@ public class Cook : MonoBehaviour
 
             //clear Crockpot
             Player.instance.crockpot.clear();
-        }
+
+            //Display CookedFood
+            //Instantiate gameObjects
 
 
-
-        //Display CookedFood
-        //Instantiate gameObjects
-
-
-        if (cookedFoodContainer != null)
-        {
-
-            foreach (Transform child in cookedFoodContainer)
+            if (cookedFoodContainer != null)
             {
-                if (child == cookedFoodTemplate) continue;
-                Destroy(child.gameObject);
+
+                foreach (Transform child in cookedFoodContainer)
+                {
+                    if (child == cookedFoodTemplate) continue;
+                    Destroy(child.gameObject);
+                }
+
+                RectTransform itemSlotRectTransform = Instantiate(cookedFoodTemplate, cookedFoodContainer).GetComponent<RectTransform>();
+
+                //unhide the slot
+                cookedFoodContainer.gameObject.SetActive(true);
+                itemSlotRectTransform.gameObject.SetActive(true);
+
+                //set position
+                itemSlotRectTransform.anchoredPosition = new Vector2(0, 0);
+
+                //set sprite icon
+                Image image = itemSlotRectTransform.Find("icon").GetComponent<Image>();
+                image.sprite = cookedFood.getSprite();
+
+                //set foodname
+                TextMeshProUGUI uiText = itemSlotRectTransform.Find("text").GetComponent<TextMeshProUGUI>();
+                uiText.SetText(cookedFood.ToString());
             }
-
-            RectTransform itemSlotRectTransform = Instantiate(cookedFoodTemplate, cookedFoodContainer).GetComponent<RectTransform>();
-
-            //unhide the slot
-            cookedFoodContainer.gameObject.SetActive(true);
-            itemSlotRectTransform.gameObject.SetActive(true);
-
-            //set position
-            itemSlotRectTransform.anchoredPosition = new Vector2(0, 0);
-
-            //set sprite icon
-            Image image = itemSlotRectTransform.Find("icon").GetComponent<Image>();
-            image.sprite = cookedFood.getSprite();
-
-            //set foodname
-            TextMeshProUGUI uiText = itemSlotRectTransform.Find("text").GetComponent<TextMeshProUGUI>();
-            uiText.SetText(cookedFood.ToString());
         }
+
     }
 }
