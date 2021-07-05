@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 62
   foodName: Yellow Stuffed Peppers
   hungerVal: 20
-  happinessVal: 10
+  happinessVal: 7
+  price: 150
+  rarity: 1.5
   ingredient1: {fileID: 11400000, guid: 270e9699e52718b45a272bd5ac50d229, type: 2}
   ingredient2: {fileID: 11400000, guid: 681c1da1e5a9c524590cd0dff6486826, type: 2}
   ingredient3: {fileID: 11400000, guid: 681c1da1e5a9c524590cd0dff6486826, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 3
   foodSprite: {fileID: 21300000, guid: e47b88db72b034848b3f75841eb87af4, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: d34e1a9e0699a2e4982787b383362bc3, type: 3}

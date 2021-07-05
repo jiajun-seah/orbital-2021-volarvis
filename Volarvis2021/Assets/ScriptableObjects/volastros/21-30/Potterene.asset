@@ -20,3 +20,10 @@ MonoBehaviour:
   dexDescription: 'Potterene found a cracked pot and decided to live in it so as
     to not let it go to waste. '
   volastroSprite: {fileID: 21300000, guid: e5870c18d72fe57429499068b47fd2f4, type: 3}
+  eggGroup: 2
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 0
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

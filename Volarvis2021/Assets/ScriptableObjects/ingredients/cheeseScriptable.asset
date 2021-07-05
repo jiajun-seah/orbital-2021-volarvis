@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 8
   ingredientName: Cheese
   ingredientSprite: {fileID: 21300000, guid: 20da37b2151584b4d8efd7c0f03c2978, type: 3}
+  price: 20

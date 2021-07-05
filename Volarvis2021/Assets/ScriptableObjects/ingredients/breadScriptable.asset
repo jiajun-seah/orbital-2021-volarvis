@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 4
   ingredientName: Bread
   ingredientSprite: {fileID: 21300000, guid: 4afa68f5eb9184e428edbf1694413c6a, type: 3}
+  price: 10

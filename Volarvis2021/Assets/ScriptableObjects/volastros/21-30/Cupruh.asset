@@ -20,3 +20,14 @@ MonoBehaviour:
   dexDescription: 'Cupruh is a hardy Volastro that grew accustomed to the harsh cold
     climate of its habitat. It can climb up mountains in seconds. '
   volastroSprite: {fileID: 21300000, guid: 295be3775dd57164aa9d20b476d75ec9, type: 3}
+  eggGroup: 0
+  normalEggProb: 1
+  loveEggProb: 0
+  natureEggProb: 0
+  darkEggProb: 0
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 0
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 10
   ingredientName: Chocolate
   ingredientSprite: {fileID: 21300000, guid: 17587e8269245bf4baed8d4157b873f6, type: 3}
+  price: 60

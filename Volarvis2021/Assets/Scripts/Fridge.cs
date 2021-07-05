@@ -34,6 +34,10 @@ public class Fridge
         
         foreach (Food fridgeFood in foods)
         {
+
+            Debug.Log(fridgeFood.foodScriptableObject);
+            Debug.Log(food.foodScriptableObject);
+
             if (fridgeFood.foodScriptableObject == food.foodScriptableObject)
             {
                 fridgeFood.amount -= 1;

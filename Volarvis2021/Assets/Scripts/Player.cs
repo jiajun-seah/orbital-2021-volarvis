@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] private UI_Crockpot uiCrockpot;
     [SerializeField] private UI_Volastro uiVolastro;
     [SerializeField] private UI_Fridge uiFridge;
+    [SerializeField] public UI_CoinBar uiCoinBar;
 
     //Inventory (Ingredients)
     public Inventory inventory;
@@ -26,8 +27,17 @@ public class Player : MonoBehaviour
     //Adventure Status
     public DateTime firstVolastroReturnTime;
 
+    //currency
+    public int voltz;
+    public event EventHandler onVoltzAmountChanged;
+
+    //library
+    public Discovery discovery;
+
     private void Awake()
     {
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
 
         if (instance == null)
         {
@@ -39,7 +49,6 @@ public class Player : MonoBehaviour
         {
             inventory = new Inventory();
             crockpot = new Crockpot();
-           
         }
 
         if (Player.instance.fridge == null)
@@ -47,22 +56,25 @@ public class Player : MonoBehaviour
             fridge = new Fridge();
         }
 
-
-
         if (Player.instance.firstVolastroReturnTime == null)
         {
             firstVolastroReturnTime = DateTime.Now;
         }
 
+        if (Player.instance.voltz == null)
+        {
+           voltz = 0;
+        }
+
+        if (Player.instance.discovery == null)
+        {
+            discovery = new Discovery();
+        }
 
         else if (instance != this)
         {
             Destroy(gameObject);
         }
-
-        /*
-        DontDestroyOnLoad(gameObject);
-        */
 
         if (uiInventory != null)
         {
@@ -80,15 +92,15 @@ public class Player : MonoBehaviour
         }
     }
 
-
-
     void Start()
     {
-        // Create a temporary reference to the current scene.
-        Scene currentScene = SceneManager.GetActiveScene();
+        
+    }
 
-        // Retrieve the name of this scene.
-        string sceneName = currentScene.name;
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        
+        String sceneName = scene.name; 
 
         if (sceneName == "HomePage")
         {
@@ -102,8 +114,45 @@ public class Player : MonoBehaviour
             {
                 uiVolastro.SetVolastro(Player.instance.volastroOne);
             }
+
+            if (uiCoinBar!= null)
+            {
+                uiCoinBar.SetVoltzAmount(Player.instance.voltz);
+            }
+
         }
-            
+
+        if (sceneName == "CookPage")
+        {
+            if (uiCoinBar!= null)
+            {
+                uiCoinBar.SetVoltzAmount(Player.instance.voltz);
+            }
+        }
+
+        if (sceneName == "ShopPage")
+        {
+            if (uiCoinBar != null)
+            {
+                uiCoinBar.SetVoltzAmount(Player.instance.voltz);
+            }
+        }
+    }
+
+    public void addVoltz(int amount)
+    {
+        voltz += amount;
+        onVoltzAmountChanged?.Invoke(this, EventArgs.Empty);
+
+        Debug.Log(amount.ToString() + " voltz was added.");
+    }
+
+    public void minusVoltz(int amount)
+    {
+        voltz -= amount;
+        onVoltzAmountChanged?.Invoke(this, EventArgs.Empty);
+
+        Debug.Log(amount.ToString() + " voltz was added.");
     }
 
 }

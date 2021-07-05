@@ -18,6 +18,16 @@ public class Food
         return foodScriptableObject.foodName;
     }
 
+    public int getPrice()
+    {
+        return foodScriptableObject.price;
+    }
+
+    public int getdexNum()
+    {
+        return foodScriptableObject.dexNum;
+    }
+
     public bool isStackable()
     {
         return true;

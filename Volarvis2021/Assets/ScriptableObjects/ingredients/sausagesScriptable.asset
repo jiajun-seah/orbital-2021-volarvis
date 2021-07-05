@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 21
   ingredientName: Sausages
   ingredientSprite: {fileID: 21300000, guid: 39bfba8a3ac269542acde40e52ee4b63, type: 3}
+  price: 50

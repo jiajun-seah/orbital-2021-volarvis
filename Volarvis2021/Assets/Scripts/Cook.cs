@@ -17,6 +17,7 @@ public class Cook : MonoBehaviour
     [SerializeField] private Transform ui_cooked;
     [SerializeField] private Transform cooked_filler;
     [SerializeField] private Transform insufficientIngredientsMessage;
+    [SerializeField] private Transform fridgeFullMessage;
     [SerializeField] private Button cook_btn;
     [SerializeField] private Button clear_btn;
 
@@ -204,6 +205,12 @@ public class Cook : MonoBehaviour
         if (crockpot.ingredients.Count < REQUIRED) 
         {
             insufficientIngredientsMessage.gameObject.SetActive(true);
+            cook_btn.interactable = false;
+            clear_btn.interactable = false;
+        }
+        else if (Player.instance.fridge.getFoods().Count >= 20)
+        {
+            fridgeFullMessage.gameObject.SetActive(true);
             cook_btn.interactable = false;
             clear_btn.interactable = false;
         }
@@ -490,6 +497,12 @@ public class Cook : MonoBehaviour
 
             //clear Crockpot
             Player.instance.crockpot.clear();
+
+            //Update Discovery
+            if (!Player.instance.discovery.getDiscoveredFoods().Contains(foodDexNum))
+            {
+                Player.instance.discovery.addDiscoveredFood(foodDexNum);
+            }
 
             //Display CookedFood
             //Instantiate gameObjects

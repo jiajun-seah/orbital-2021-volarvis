@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 11
   ingredientName: Cream
   ingredientSprite: {fileID: 21300000, guid: 3ce98c0ef8448464895ba3b38030920c, type: 3}
+  price: 10

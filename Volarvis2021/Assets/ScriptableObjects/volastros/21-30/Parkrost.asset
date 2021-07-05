@@ -20,3 +20,10 @@ MonoBehaviour:
   dexDescription: 'Used to be a lost soul, Parkfrost was rescued by Mothette who
     gave it a warm trenchcoat to tide through the harsh winter. '
   volastroSprite: {fileID: 21300000, guid: 5218226a14adccd4cab791787a086368, type: 3}
+  eggGroup: 3
+  fieryValReq: 0
+  icyValReq: 10
+  magicalValReq: 0
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

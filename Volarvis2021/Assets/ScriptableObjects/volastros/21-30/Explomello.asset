@@ -20,3 +20,10 @@ MonoBehaviour:
   dexDescription: 'After experiencing the shock of bursting under extreme heat, Explomello
     became sentient from the shocl and now lives with the trauma of its past accident. '
   volastroSprite: {fileID: 21300000, guid: 912c0badbbc9b2f41881994326624890, type: 3}
+  eggGroup: 3
+  fieryValReq: 10
+  icyValReq: 0
+  magicalValReq: 0
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

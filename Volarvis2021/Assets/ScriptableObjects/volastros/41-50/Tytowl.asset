@@ -20,3 +20,15 @@ MonoBehaviour:
   dexDescription: 'Born with a star on its left eye, Tytowl is able to foresee the
     future by peering into the night sky using its left eye. '
   volastroSprite: {fileID: 21300000, guid: 47053af3567ecd24e8431ed5e1609d08, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: 09205301adf060840857deb7c1c0691c, type: 3}
+  eggGroup: 3
+  normalEggProb: 0.33
+  loveEggProb: 0.33
+  natureEggProb: 0
+  darkEggProb: 0.33
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 10
+  nauticalValReq: 0
+  aerialValReq: 10
+  terraValReq: 0

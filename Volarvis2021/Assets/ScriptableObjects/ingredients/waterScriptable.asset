@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 26
   ingredientName: Water
   ingredientSprite: {fileID: 21300000, guid: b966812de0307e840b3fa754d57ae1e5, type: 3}
+  price: 40

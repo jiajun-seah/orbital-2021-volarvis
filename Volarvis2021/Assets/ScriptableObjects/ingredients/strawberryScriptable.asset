@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 23
   ingredientName: Strawberry
   ingredientSprite: {fileID: 21300000, guid: b4b46cd7692a12e4f8940f6bd8c36f5a, type: 3}
+  price: 50

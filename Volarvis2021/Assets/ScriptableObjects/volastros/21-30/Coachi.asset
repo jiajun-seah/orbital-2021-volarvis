@@ -19,3 +19,10 @@ MonoBehaviour:
   dexOrigin: 'Treacherous Tangle '
   dexDescription: 'As Coachi grows old, its beard gets increasingly fluffy and big. '
   volastroSprite: {fileID: 21300000, guid: 663440843df9bff439673d87cc04ef54, type: 3}
+  eggGroup: 2
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 5
+  nauticalValReq: 0
+  aerialValReq: 10
+  terraValReq: 0

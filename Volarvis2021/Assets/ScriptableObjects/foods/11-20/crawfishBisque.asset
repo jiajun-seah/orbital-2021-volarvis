@@ -15,11 +15,13 @@ MonoBehaviour:
   dexNum: 15
   foodName: Crawfish Bisque
   hungerVal: 60
-  happinessVal: 60
-  ingredient1: {fileID: 0}
-  ingredient2: {fileID: 0}
-  ingredient3: {fileID: 0}
-  ingredient4: {fileID: 0}
+  happinessVal: 12
+  price: 475
+  rarity: 4.75
+  ingredient1: {fileID: 11400000, guid: 0db76135ac1fc5f44afead68c6785346, type: 2}
+  ingredient2: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
+  ingredient3: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
+  ingredient4: {fileID: 11400000, guid: 9e1ea406d6a24b049bc464ebf27eabea, type: 2}
   fieryVal: 2
   icyVal: 0
   magicalVal: 1
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 2
   foodSprite: {fileID: 21300000, guid: 2e13e0c1a105e00429e8a11a30343262, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 31ecd58ec90435141882bd1158c959bf, type: 3}

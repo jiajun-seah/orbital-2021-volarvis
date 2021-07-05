@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 19
   ingredientName: Prawn
   ingredientSprite: {fileID: 21300000, guid: a4690e0db1076a44e89a211ed0fe0b2c, type: 3}
+  price: 50

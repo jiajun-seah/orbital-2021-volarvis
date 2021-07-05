@@ -9,6 +9,7 @@ public class IngredientScriptableObject : ScriptableObject, IComparable<Ingredie
     public Ingredient.IngredientType ingredientType;
     public string ingredientName;
     public Sprite ingredientSprite;
+    public int price;
 
     int IComparable<IngredientScriptableObject>.CompareTo(IngredientScriptableObject other)
     {

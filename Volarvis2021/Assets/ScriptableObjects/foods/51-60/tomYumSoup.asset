@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 56
   foodName: Tom Yum Soup
   hungerVal: 50
-  happinessVal: 50
+  happinessVal: 11
+  price: 400
+  rarity: 4
   ingredient1: {fileID: 11400000, guid: 270e9699e52718b45a272bd5ac50d229, type: 2}
   ingredient2: {fileID: 11400000, guid: 0db76135ac1fc5f44afead68c6785346, type: 2}
   ingredient3: {fileID: 11400000, guid: 1efc4fdd4d8981249bedc39715ba10c7, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 2
   foodSprite: {fileID: 21300000, guid: 7b1da8d57932cc84ba369f473a627d70, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 1e47f60049e16e74dbcc741b46a79eaf, type: 3}

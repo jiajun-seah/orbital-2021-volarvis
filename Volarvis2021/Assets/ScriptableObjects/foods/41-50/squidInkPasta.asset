@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 48
   foodName: Squid Ink Pasta
   hungerVal: 60
-  happinessVal: 50
+  happinessVal: 12
+  price: 500
+  rarity: 5
   ingredient1: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
   ingredient2: {fileID: 11400000, guid: 8c3f6ac8cc3e53b4faa8093a20eed705, type: 2}
   ingredient3: {fileID: 11400000, guid: 8c3f6ac8cc3e53b4faa8093a20eed705, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: 97db23071d68dc4468a8cb379f941f3e, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: f3e473f39031ce84788b28096b4d40ae, type: 3}

@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 4
   foodName: Blueberry Pie
   hungerVal: 20
-  happinessVal: 20
+  happinessVal: 8
+  price: 275
+  rarity: 2.75
   ingredient1: {fileID: 11400000, guid: bb39936459f4e554eb7e608894ea5ddd, type: 2}
   ingredient2: {fileID: 11400000, guid: 6b5eec5dfe9296a4d844c0bf0d0f5315, type: 2}
   ingredient3: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: 8e1ebcf3c582d3e4ba886f5f778fac4c, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 17a0e13f47f5aaf4c8fa1592f70b8433, type: 3}

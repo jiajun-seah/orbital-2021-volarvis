@@ -19,3 +19,15 @@ MonoBehaviour:
   dexOrigin: 
   dexDescription: 
   volastroSprite: {fileID: 21300000, guid: 45ca84d8b6f556944b662ce06e92e37e, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: 734822d0ad268cd4882a2ba50a553692, type: 3}
+  eggGroup: 0
+  normalEggProb: 0
+  loveEggProb: 0
+  natureEggProb: 0
+  darkEggProb: 0
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 0
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

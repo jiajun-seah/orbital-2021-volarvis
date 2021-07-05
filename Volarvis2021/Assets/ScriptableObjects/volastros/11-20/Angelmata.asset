@@ -20,3 +20,15 @@ MonoBehaviour:
   dexDescription: 'With it''s little wings, Angelmata flutters around the waters
     in a cheerful manner, bringing joy to the Volastros around it. '
   volastroSprite: {fileID: 21300000, guid: c4ff8ce802c265448b5fc3227c82912b, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: 5315cb403d7ee804f910dda256200aba, type: 3}
+  eggGroup: 1
+  normalEggProb: 0
+  loveEggProb: 0
+  natureEggProb: 0
+  darkEggProb: 0
+  fieryValReq: 0
+  icyValReq: 5
+  magicalValReq: 10
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

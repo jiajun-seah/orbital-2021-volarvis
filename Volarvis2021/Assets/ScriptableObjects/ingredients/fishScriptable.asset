@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 12
   ingredientName: Fish
   ingredientSprite: {fileID: 21300000, guid: f6d418195371ba04781ca2022620072f, type: 3}
+  price: 40

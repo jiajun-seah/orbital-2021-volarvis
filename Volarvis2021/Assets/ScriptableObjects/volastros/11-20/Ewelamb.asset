@@ -20,3 +20,15 @@ MonoBehaviour:
   dexDescription: 'Ewelamb is a budding mountain climber and it would rather frolick
     around the lush meadows than practice its climbing. '
   volastroSprite: {fileID: 21300000, guid: ad749f34058b63848ab3f03f37fc80fb, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: 299bae302bf33d548a4ecbec0f28e1c3, type: 3}
+  eggGroup: 0
+  normalEggProb: 0
+  loveEggProb: 0
+  natureEggProb: 0
+  darkEggProb: 0
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 0
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

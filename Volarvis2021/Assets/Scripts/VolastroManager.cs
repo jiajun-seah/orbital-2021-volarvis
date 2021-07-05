@@ -80,6 +80,7 @@ public class VolastroManager : MonoBehaviour
     public VolastroScriptableObject glookScriptable;
     public VolastroScriptableObject trawlelfScriptable;
 
+
     private void Awake()
     {
         if (instance == null)

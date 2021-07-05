@@ -20,3 +20,15 @@ MonoBehaviour:
   dexDescription: 'Being a helpful Volastro, Mothette uses the silk produced from
     its body to make clothes for other Volastros to wear in the winter. '
   volastroSprite: {fileID: 21300000, guid: 19100cc057fa2f64d908b3330c4f599d, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: 53b40cc2ecd2ef24d8481ecdb24b9411, type: 3}
+  eggGroup: 1
+  normalEggProb: 0.1
+  loveEggProb: 0.3
+  natureEggProb: 0.3
+  darkEggProb: 0.3
+  fieryValReq: 5
+  icyValReq: 5
+  magicalValReq: 20
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

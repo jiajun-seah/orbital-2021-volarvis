@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 8
   foodName: Buffalo Wings
   hungerVal: 40
-  happinessVal: 40
+  happinessVal: 11
+  price: 375
+  rarity: 3.75
   ingredient1: {fileID: 11400000, guid: 270e9699e52718b45a272bd5ac50d229, type: 2}
   ingredient2: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}
   ingredient3: {fileID: 11400000, guid: cf97d19ae8f67e84d9ad7c8cfd3c3c41, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 2
   terraVal: 1
   foodSprite: {fileID: 21300000, guid: 12e7d5618dc3bfd4ea693de5dcc8434e, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: a0e4097ef0618aa4d844fafdc3e94bfb, type: 3}

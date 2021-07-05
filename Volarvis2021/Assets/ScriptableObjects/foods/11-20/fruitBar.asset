@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 19
   foodName: Fruit Bar
   hungerVal: 60
-  happinessVal: 50
+  happinessVal: 12
+  price: 450
+  rarity: 4.5
   ingredient1: {fileID: 11400000, guid: f9f91ef43ecbaab4998d8f13ecdaa1b1, type: 2}
   ingredient2: {fileID: 11400000, guid: bb39936459f4e554eb7e608894ea5ddd, type: 2}
   ingredient3: {fileID: 11400000, guid: 5643c39f109d99348910f1806e527de1, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 3
   terraVal: 2
   foodSprite: {fileID: 21300000, guid: 9832c1228ed46cf428c23c74fa36c3da, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: f20956e34a00b334eb0702797afbd4a9, type: 3}

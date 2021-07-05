@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 26
   foodName: Honey Pancake
   hungerVal: 30
-  happinessVal: 20
+  happinessVal: 7
+  price: 225
+  rarity: 2.25
   ingredient1: {fileID: 11400000, guid: 6b5eec5dfe9296a4d844c0bf0d0f5315, type: 2}
   ingredient2: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
   ingredient3: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 2
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: ec12b89bfddf1a9449b8bddfa9b13212, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: f413d8ecaee96aa468affa045c0509a0, type: 3}

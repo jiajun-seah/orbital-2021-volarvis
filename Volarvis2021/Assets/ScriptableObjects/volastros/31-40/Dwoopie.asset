@@ -20,3 +20,15 @@ MonoBehaviour:
   dexDescription: 'Dwoopie is formed when two different scoops of ice cream become
     best friends. Once this happens, they are inseparable. '
   volastroSprite: {fileID: 21300000, guid: efc4cadc63688144da440acb1c47771e, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: dd0fbe8444a256d45826ce59a2ca7b62, type: 3}
+  eggGroup: 1
+  normalEggProb: 0.1
+  loveEggProb: 0.9
+  natureEggProb: 0
+  darkEggProb: 0
+  fieryValReq: 0
+  icyValReq: 10
+  magicalValReq: 10
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

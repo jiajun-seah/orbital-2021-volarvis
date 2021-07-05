@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 3
   foodName: Blueberry Cake
   hungerVal: 20
-  happinessVal: 10
+  happinessVal: 7
+  price: 250
+  rarity: 2.5
   ingredient1: {fileID: 11400000, guid: bb39936459f4e554eb7e608894ea5ddd, type: 2}
   ingredient2: {fileID: 11400000, guid: 6b5eec5dfe9296a4d844c0bf0d0f5315, type: 2}
   ingredient3: {fileID: 11400000, guid: 6b5eec5dfe9296a4d844c0bf0d0f5315, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 2
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: 33a29ec64860f2147b5c8b3bf45b2065, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: a89c47ffd4ed29b4c8bbad2245936993, type: 3}

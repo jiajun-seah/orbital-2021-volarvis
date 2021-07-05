@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 11
   foodName: Chocolate Donuts
   hungerVal: 30
-  happinessVal: 20
+  happinessVal: 9
+  price: 300
+  rarity: 3
   ingredient1: {fileID: 11400000, guid: 3208570fa87727740829ef2adf142614, type: 2}
   ingredient2: {fileID: 11400000, guid: 5643c39f109d99348910f1806e527de1, type: 2}
   ingredient3: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 2
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: 5eb31e650a636144a9293187ac6a532e, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 5ce1eb1322f53994c9e0a119cf1deeab, type: 3}

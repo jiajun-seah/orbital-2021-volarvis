@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 27
   foodName: Jelly Beans
   hungerVal: 50
-  happinessVal: 50
+  happinessVal: 11
+  price: 400
+  rarity: 4
   ingredient1: {fileID: 11400000, guid: b69f2597db16dc346932bbecb557a65c, type: 2}
   ingredient2: {fileID: 11400000, guid: b69f2597db16dc346932bbecb557a65c, type: 2}
   ingredient3: {fileID: 11400000, guid: b69f2597db16dc346932bbecb557a65c, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 1
   terraVal: 1
   foodSprite: {fileID: 21300000, guid: 3833d9a0ea3a6f640a6dd69dfadefd1b, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: e06eb496646f64b47bbb59ea36d4ad11, type: 3}

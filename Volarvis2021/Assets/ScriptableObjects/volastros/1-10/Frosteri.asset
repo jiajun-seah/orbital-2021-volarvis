@@ -20,3 +20,15 @@ MonoBehaviour:
   dexDescription: 'Frosteri is full of love and care for the fellow Volastros around
     it. Its caring heart helps it stay warm even in the extremely cold climate. '
   volastroSprite: {fileID: 21300000, guid: e31592bfd8288214eb103dd0ee660795, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: 348f7648e61104944b4b4a6f9ed0fc82, type: 3}
+  eggGroup: 1
+  normalEggProb: 0
+  loveEggProb: 0
+  natureEggProb: 0
+  darkEggProb: 0
+  fieryValReq: 0
+  icyValReq: 5
+  magicalValReq: 0
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

@@ -20,3 +20,10 @@ MonoBehaviour:
   dexDescription: 'Capsifly has a large red nose that is very spicy in taste. It
     is a mystery how it''s tiny leaf wings can keep Capsifly afloat. '
   volastroSprite: {fileID: 21300000, guid: 96d1e1403f8f3414f8f1a1db555b1090, type: 3}
+  eggGroup: 2
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 5
+  nauticalValReq: 10
+  aerialValReq: 0
+  terraValReq: 0

@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 15
   ingredientName: Mushroom
   ingredientSprite: {fileID: 21300000, guid: 86bc2f1955c4c524192459dd667b9be6, type: 3}
+  price: 40

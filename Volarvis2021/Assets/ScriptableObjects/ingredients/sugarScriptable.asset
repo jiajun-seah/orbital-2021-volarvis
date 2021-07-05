@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 24
   ingredientName: Sugar
   ingredientSprite: {fileID: 21300000, guid: 6a9017a44ae91104084fcf3e4ff48785, type: 3}
+  price: 10

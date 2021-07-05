@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 37
   foodName: Popsicles
   hungerVal: 50
-  happinessVal: 50
+  happinessVal: 11
+  price: 400
+  rarity: 4
   ingredient1: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
   ingredient2: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
   ingredient3: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: af9415448f4a2674484e420f420a035c, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: ff9c3025df799fd489e499052920b637, type: 3}

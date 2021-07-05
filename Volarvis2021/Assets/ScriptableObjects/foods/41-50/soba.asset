@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 47
   foodName: Soba
   hungerVal: 40
-  happinessVal: 30
+  happinessVal: 12
+  price: 425
+  rarity: 4.25
   ingredient1: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
   ingredient2: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
   ingredient3: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 1
   foodSprite: {fileID: 21300000, guid: e736161232d17fe44bf74d74cfadf0a8, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 4df540b7ba7ef97468cd4f9ea0b2ea35, type: 3}

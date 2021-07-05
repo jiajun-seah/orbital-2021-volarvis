@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 3
   ingredientName: Blueberry
   ingredientSprite: {fileID: 21300000, guid: c3942119efa63c44d9ed5f62eb9f5154, type: 3}
+  price: 30

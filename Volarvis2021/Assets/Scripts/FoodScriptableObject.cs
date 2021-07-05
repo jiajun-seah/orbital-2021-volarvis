@@ -15,6 +15,11 @@ public class FoodScriptableObject : ScriptableObject
     [Range(0, 100)]
     public int happinessVal;
 
+    public int price;
+
+    [Range(0, 6)]
+    public float rarity;
+
     //recipe
     public IngredientScriptableObject ingredient1;
     public IngredientScriptableObject ingredient2;
@@ -30,4 +35,5 @@ public class FoodScriptableObject : ScriptableObject
     public int terraVal;
 
     public Sprite foodSprite;
+    public Sprite foodShadowSprite;
 }

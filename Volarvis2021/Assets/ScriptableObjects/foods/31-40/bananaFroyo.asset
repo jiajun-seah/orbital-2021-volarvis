@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 31
   foodName: Banana Froyo
   hungerVal: 40
-  happinessVal: 30
+  happinessVal: 11
+  price: 375
+  rarity: 3.75
   ingredient1: {fileID: 11400000, guid: f9f91ef43ecbaab4998d8f13ecdaa1b1, type: 2}
   ingredient2: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}
   ingredient3: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 1
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: 5f89d64d58e7f5c47af08757c3046d94, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: d8a0f9e8169969b4dbbd6733cce07c6a, type: 3}

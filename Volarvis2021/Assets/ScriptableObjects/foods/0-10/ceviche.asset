@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 10
   foodName: Ceviche
   hungerVal: 40
-  happinessVal: 30
+  happinessVal: 10
+  price: 325
+  rarity: 3.25
   ingredient1: {fileID: 11400000, guid: 9f4a81915e0506e49913d0c70042bfa8, type: 2}
   ingredient2: {fileID: 11400000, guid: 270e9699e52718b45a272bd5ac50d229, type: 2}
   ingredient3: {fileID: 11400000, guid: 0db76135ac1fc5f44afead68c6785346, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: 3aed2f639f52c5d48afa00b79547fe2c, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 264eafe904aa8b64f985a52524c137f5, type: 3}

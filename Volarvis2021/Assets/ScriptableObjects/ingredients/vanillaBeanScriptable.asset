@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 25
   ingredientName: Vanilla Bean
   ingredientSprite: {fileID: 21300000, guid: 0909b6f1ebc65874e8f6de73152b0fcb, type: 3}
+  price: 60

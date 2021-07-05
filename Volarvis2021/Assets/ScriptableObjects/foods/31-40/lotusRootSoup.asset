@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 33
   foodName: Lotus Root Soup
   hungerVal: 20
-  happinessVal: 20
+  happinessVal: 10
+  price: 350
+  rarity: 3.5
   ingredient1: {fileID: 11400000, guid: 9f4a81915e0506e49913d0c70042bfa8, type: 2}
   ingredient2: {fileID: 11400000, guid: 9f4a81915e0506e49913d0c70042bfa8, type: 2}
   ingredient3: {fileID: 11400000, guid: bd2608407ab8f8b4698083a151092a24, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 2
   terraVal: 2
   foodSprite: {fileID: 21300000, guid: 3809d35adbdfa4747afff9e02b207ef1, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: e33be01429371fe4b9dc770b350de166, type: 3}

@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 9
   foodName: Candy Canes
   hungerVal: 10
-  happinessVal: 10
+  happinessVal: 7
+  price: 100
+  rarity: 1
   ingredient1: {fileID: 11400000, guid: d5e308967ecd08348a64379ebbeac48d, type: 2}
   ingredient2: {fileID: 11400000, guid: d5e308967ecd08348a64379ebbeac48d, type: 2}
   ingredient3: {fileID: 11400000, guid: d5e308967ecd08348a64379ebbeac48d, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: 219c7e1a2e011a84f814c1f80139f640, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: d2f8211eb1cbc4746875180728eabbf8, type: 3}

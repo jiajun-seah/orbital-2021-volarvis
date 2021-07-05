@@ -20,3 +20,15 @@ MonoBehaviour:
   dexDescription: 'Korn is a budding seed that cannot wait to turn into majestic
     plants in the future. '
   volastroSprite: {fileID: 21300000, guid: b791214f9f0bb184b82e6b8724064d4f, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: 07ce145a06fbae84b99c5f8e3814f9de, type: 3}
+  eggGroup: 2
+  normalEggProb: 0
+  loveEggProb: 0
+  natureEggProb: 0
+  darkEggProb: 0
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 0
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

@@ -20,3 +20,15 @@ MonoBehaviour:
   dexDescription: 'Composed entirely of clouds, Clare is extremely fluffy and lightweight.
     It''s green eyes help it navigate the clouds. '
   volastroSprite: {fileID: 21300000, guid: 1a0b0d6dc6335974093e2784afc78b3e, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: a4fb89b73832b9b459f006ba5a465035, type: 3}
+  eggGroup: 1
+  normalEggProb: 0.33
+  loveEggProb: 0.33
+  natureEggProb: 0.33
+  darkEggProb: 0
+  fieryValReq: 5
+  icyValReq: 0
+  magicalValReq: 15
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 44
   foodName: Shaved Ice
   hungerVal: 60
-  happinessVal: 60
+  happinessVal: 12
+  price: 500
+  rarity: 5
   ingredient1: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
   ingredient2: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
   ingredient3: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 2
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: 954aefe378ad8fd499b552381c75d2c1, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 087f51a8a38571343882d73179c4437a, type: 3}

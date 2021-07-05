@@ -20,3 +20,15 @@ MonoBehaviour:
   dexDescription: 'Having many layers of leaves to its body, Lettice sheds its skin
     periodically to keep its insides fresh and moist. '
   volastroSprite: {fileID: 21300000, guid: 78c33989485cd374b841056f36d48072, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: 7442090664a2b9948bbca3adbcbbd557, type: 3}
+  eggGroup: 2
+  normalEggProb: 0
+  loveEggProb: 0
+  natureEggProb: 0
+  darkEggProb: 0
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 0
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

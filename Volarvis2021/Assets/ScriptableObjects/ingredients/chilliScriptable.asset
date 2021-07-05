@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 9
   ingredientName: Chilli
   ingredientSprite: {fileID: 21300000, guid: f407c1142cb67664fbaff3695c4b8cbd, type: 3}
+  price: 30

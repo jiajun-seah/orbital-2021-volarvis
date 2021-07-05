@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 1
   ingredientName: Basil
   ingredientSprite: {fileID: 21300000, guid: 777eec682ef1f59428b5635910fe6543, type: 3}
+  price: 60

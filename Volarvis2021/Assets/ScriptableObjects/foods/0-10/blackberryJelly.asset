@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 2
   foodName: Blackberry Jelly
   hungerVal: 20
-  happinessVal: 10
+  happinessVal: 9
+  price: 300
+  rarity: 3
   ingredient1: {fileID: 11400000, guid: bb39936459f4e554eb7e608894ea5ddd, type: 2}
   ingredient2: {fileID: 11400000, guid: d5e308967ecd08348a64379ebbeac48d, type: 2}
   ingredient3: {fileID: 11400000, guid: e02ec2e005a255d4c9d805740acef4a7, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: a52b6ca6c3833e04195a7c00e06b7c07, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: be29bd2755fd2694f9afa9d67da609fe, type: 3}

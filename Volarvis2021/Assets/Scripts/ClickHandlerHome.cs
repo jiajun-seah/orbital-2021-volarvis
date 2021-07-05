@@ -17,6 +17,8 @@ public class ClickHandlerHome : MonoBehaviour
     public void selectedFood() {
         Feeding.instance.food = food;
         Feeding.instance.type = type;
+
+        Debug.Log("Food is selected");
     }
   
 }

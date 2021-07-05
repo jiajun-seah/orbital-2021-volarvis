@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 20
   ingredientName: Rice
   ingredientSprite: {fileID: 21300000, guid: 000b110bb0a49e34c80f0bf612b5fbae, type: 3}
+  price: 10

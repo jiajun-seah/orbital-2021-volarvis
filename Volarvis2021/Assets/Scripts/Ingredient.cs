@@ -42,6 +42,11 @@ public class Ingredient {
         return ingredientScriptableObject.ingredientSprite;
     }
 
+    public int getPrice()
+    {
+        return ingredientScriptableObject.price;
+    }
+
     public override string ToString()
     {
         return ingredientScriptableObject.ingredientName;

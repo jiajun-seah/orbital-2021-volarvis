@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Random = UnityEngine.Random;
 using UnityEngine;
 
 public class Volastro
@@ -9,6 +11,72 @@ public class Volastro
 
 
     public static int MAX_STATS = 100;
+    public static VolastroScriptableObject[] VOLASTRO_LIST  = 
+        new VolastroScriptableObject[] {
+        VolastroManager.instance.normalEggScriptable,
+        VolastroManager.instance.loveEggScriptable,
+        VolastroManager.instance.plantEggScriptable,
+        VolastroManager.instance.shadowEggScriptable,
+
+        VolastroManager.instance.volatScriptable,
+        VolastroManager.instance.kareScriptable,
+        VolastroManager.instance.kornScriptable,
+        VolastroManager.instance.shinjaScriptable,
+        VolastroManager.instance.paoScriptable,
+        VolastroManager.instance.coconautScriptable,
+        VolastroManager.instance.dottieScriptable,
+        VolastroManager.instance.frosteriScriptable,
+        VolastroManager.instance.klayScriptable,
+        VolastroManager.instance.letticeScriptable,
+
+        VolastroManager.instance.jammieScriptable,
+        VolastroManager.instance.spookieScriptable,
+        VolastroManager.instance.ewelambScriptable,
+        VolastroManager.instance.sealourScriptable,
+        VolastroManager.instance.gossyflairScriptable,
+        VolastroManager.instance.molluavaScriptable,
+        VolastroManager.instance.mushyScriptable,
+        VolastroManager.instance.cephiceScriptable,
+        VolastroManager.instance.angelmataScriptable,
+        VolastroManager.instance.bonfernoScriptable,
+
+        VolastroManager.instance.pottereneScriptable,
+        VolastroManager.instance.capsiflyScriptable,
+        VolastroManager.instance.coachiScriptable,
+        VolastroManager.instance.pumpskidScriptable,
+        VolastroManager.instance.pocusScriptable,
+        VolastroManager.instance.explomelloScriptable,
+        VolastroManager.instance.parkrostScriptable,
+        VolastroManager.instance.crystaScriptable,
+        VolastroManager.instance.cupruhScriptable,
+        VolastroManager.instance.ambissScriptable,
+
+        VolastroManager.instance.ducklintScriptable,
+        VolastroManager.instance.dioxaScriptable,
+        VolastroManager.instance.chiropepScriptable,
+        VolastroManager.instance.aurarusScriptable,
+        VolastroManager.instance.coniiScriptable,
+        VolastroManager.instance.snairyScriptable,
+        VolastroManager.instance.delangelScriptable,
+        VolastroManager.instance.dwoopieScriptable,
+        VolastroManager.instance.clareScriptable,
+        VolastroManager.instance.mothetteScriptable,
+
+        VolastroManager.instance.carpentrapScriptable,
+        VolastroManager.instance.avododoScriptable,
+        VolastroManager.instance.carrabbitScriptable,
+        VolastroManager.instance.apriciumScriptable,
+        VolastroManager.instance.fawnaScriptable,
+        VolastroManager.instance.foliaScriptable,
+        VolastroManager.instance.lumidleScriptable,
+        VolastroManager.instance.uniburdScriptable,
+        VolastroManager.instance.dreacoScriptable,
+        VolastroManager.instance.tytowlScriptable,
+
+        VolastroManager.instance.glookScriptable,
+        VolastroManager.instance.trawlelfScriptable
+        };
+
     public VolastroScriptableObject baseVolastro;
     public int hungerVal;
     public int happinessVal;
@@ -16,7 +84,7 @@ public class Volastro
 
     public Volastro()
     {
-        this.baseVolastro = VolastroManager.instance.ambissScriptable;
+        this.baseVolastro = VolastroManager.instance.cupruhScriptable;
         this.hungerVal = 0;
         this.happinessVal = 0;
         this.traitsVal = new int[6];
@@ -34,44 +102,7 @@ public class Volastro
         Debug.Log("New Volastro: " + this.baseVolastro.volastroName + " created");
     }
 
-    /*public Volastro updateTrait(string traitName, int amount)
-    {
-        int oldFiery = this.traitsVal[0];
-        int oldIcy = this.traitsVal[1];
-        int oldMagical = this.traitsVal[2];
-        int oldNautical = this.traitsVal[3];
-        int oldAerial = this.traitsVal[4];
-        int oldTerra = this.traitsVal[5];
-
-        switch (traitName) 
-        {
-            case "fiery":
-                oldFiery = oldFiery + amount;
-                break;
-            case "icy": 
-                oldIcy = oldIcy + amount;
-                break;
-            case "magical": 
-                oldMagical = oldMagical + amount;
-                break;
-            case "nautical": 
-                oldNautical = oldNautical + amount;
-                break;
-            case "aerial": 
-                oldAerial = oldAerial + amount;
-                break;
-            case "terra": 
-                oldTerra = oldTerra + amount;
-                break;
-        }
-        
-        onVolastroChanged?.Invoke(this, EventArgs.Empty);
-        Debug.Log("traits updated");
-
-        return new Volastro(this, this.hungerVal, this.happinessVal, new int[] { oldFiery, oldIcy, oldMagical, oldAerial, oldTerra });
-    }*/
-    // my method
-
+    
     public void updateTrait(int hunger, int happiness, int[] foodTraits) {
         
         for (int i = 0; i < 6; i++) {
@@ -100,6 +131,86 @@ public class Volastro
         // changing the bar
         BarsScript.instance._hungerBar.fillAmount = hungerValAsPercentage;
         BarsScript.instance._happinessBar.fillAmount = happinessValAsPercentage;
+    }
+
+    public void evolve()
+    {
+        if (baseVolastro.growthStage == 4) {
+            this.layEgg();
+        }
+        else
+        {
+            this.updateTrait(0, -100, new int[6]);
+            int newGrowthStage = baseVolastro.growthStage + 1;
+            VolastroScriptableObject.EggGroup eggGroup = baseVolastro.eggGroup;
+
+            VolastroScriptableObject[] eligibleVolastros =
+                VOLASTRO_LIST.Where(v => (v.eggGroup == eggGroup))
+                                .Where(v => (v.growthStage == newGrowthStage))
+                                .Where(v => (this.getFieryVal() >= v.fieryValReq))
+                                .Where(v => (this.getIcyVal() >= v.icyValReq))
+                                .Where(v => (this.getMagicalVal() >= v.magicalValReq))
+                                .Where(v => (this.getNauticalVal() >= v.nauticalValReq))
+                                .Where(v => (this.getAerialVal() >= v.aerialValReq))
+                                .Where(v => (this.getTerraVal() >= v.terraValReq))
+                                .ToArray();
+            Debug.Log(eligibleVolastros.Length + " possible evolutions");
+            int randomIndex = Random.Range(0, eligibleVolastros.Length);
+            VolastroScriptableObject newBaseVolastro = eligibleVolastros[randomIndex];
+            Debug.Log("Random index was " + randomIndex + ". " + newBaseVolastro.volastroName + " was selected by rng");
+
+            Debug.Log("Volastro Evolved!");
+            this.baseVolastro = newBaseVolastro;
+            Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+            onVolastroChanged?.Invoke(this, EventArgs.Empty);
+
+            //Update Discovery
+            if (!Player.instance.discovery.getDiscoveredVolastros().Contains(this.getDexNum()))
+            {
+                Player.instance.discovery.addDiscoveredVolastro(this.getDexNum());
+            }
+        }
+        
+    }
+
+    public void layEgg()
+    {
+        this.updateTrait(0, -100, new int[6]);
+        int newGrowthStage = 0;
+        double eggRng = Random.Range(0, 1);
+
+        List<VolastroScriptableObject> eligibleEggs = new List<VolastroScriptableObject>();
+
+        if (eggRng < baseVolastro.normalEggProb)
+        {
+            eligibleEggs.Add(VOLASTRO_LIST[0]);
+        }
+        if (eggRng < baseVolastro.loveEggProb)
+        {
+            eligibleEggs.Add(VOLASTRO_LIST[1]);
+        }
+        if (eggRng < baseVolastro.natureEggProb)
+        {
+            eligibleEggs.Add(VOLASTRO_LIST[2]);
+        }
+        if (eggRng < baseVolastro.darkEggProb)
+        {
+            eligibleEggs.Add(VOLASTRO_LIST[3]);
+        }
+
+        Debug.Log(eligibleEggs.Count + " possible eggs using RNG");
+        int randomIndex = Random.Range(0, eligibleEggs.Count);
+        VolastroScriptableObject newBaseVolastro = eligibleEggs[randomIndex];
+        Debug.Log("Random index was " + randomIndex + ". " + newBaseVolastro.volastroName + " was selected by rng");
+
+        Debug.Log("Volastro laid an egg!");
+        this.baseVolastro = newBaseVolastro;
+        Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+        onVolastroChanged?.Invoke(this, EventArgs.Empty);
+    }
+    public int getDexNum()
+    {
+        return this.baseVolastro.dexNum;
     }
 
     public int getFieryVal()

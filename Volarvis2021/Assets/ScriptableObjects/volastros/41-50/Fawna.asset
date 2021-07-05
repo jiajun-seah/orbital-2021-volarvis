@@ -21,3 +21,15 @@ MonoBehaviour:
     cares a lot for the environment and will not hesitate to remove those who threaten
     its home. '
   volastroSprite: {fileID: 21300000, guid: 2461ad0435bb49346a67ca91e3ddce36, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: 2b153ff4e691e934fa378947b23bd9f4, type: 3}
+  eggGroup: 2
+  normalEggProb: 0
+  loveEggProb: 0
+  natureEggProb: 0.2
+  darkEggProb: 0.8
+  fieryValReq: 0
+  icyValReq: 0
+  magicalValReq: 15
+  nauticalValReq: 0
+  aerialValReq: 0
+  terraValReq: 0

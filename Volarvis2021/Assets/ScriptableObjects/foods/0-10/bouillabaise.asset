@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 6
   foodName: Bouillabaise
   hungerVal: 60
-  happinessVal: 60
+  happinessVal: 12
+  price: 550
+  rarity: 5.5
   ingredient1: {fileID: 11400000, guid: ff564b2bc5c387b43986de55757fc4bb, type: 2}
   ingredient2: {fileID: 11400000, guid: 8c3f6ac8cc3e53b4faa8093a20eed705, type: 2}
   ingredient3: {fileID: 11400000, guid: 8c3f6ac8cc3e53b4faa8093a20eed705, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 0
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: b2924effc55e1054a8c5fd75aaac76cd, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 214352dd125ddc14b95ada202ae0f389, type: 3}

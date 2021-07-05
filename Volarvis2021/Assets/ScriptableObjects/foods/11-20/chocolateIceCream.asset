@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 12
   foodName: Chocolate Ice Cream
   hungerVal: 40
-  happinessVal: 30
+  happinessVal: 10
+  price: 325
+  rarity: 3.25
   ingredient1: {fileID: 11400000, guid: 5643c39f109d99348910f1806e527de1, type: 2}
   ingredient2: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}
   ingredient3: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 2
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: b49bcf8a066608d4f832040e213bfc70, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 4c1cb458021ee944aa354779bf024371, type: 3}

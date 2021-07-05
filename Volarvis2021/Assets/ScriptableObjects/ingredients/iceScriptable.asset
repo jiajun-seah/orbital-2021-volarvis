@@ -15,3 +15,4 @@ MonoBehaviour:
   ingredientType: 14
   ingredientName: Ice
   ingredientSprite: {fileID: 21300000, guid: 7324d507ee01cb748885c3f118c8ef4d, type: 3}
+  price: 50

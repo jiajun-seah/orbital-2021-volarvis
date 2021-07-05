@@ -15,7 +15,9 @@ MonoBehaviour:
   dexNum: 50
   foodName: Strawberry Cupcake
   hungerVal: 20
-  happinessVal: 20
+  happinessVal: 8
+  price: 275
+  rarity: 2.75
   ingredient1: {fileID: 11400000, guid: 6b5eec5dfe9296a4d844c0bf0d0f5315, type: 2}
   ingredient2: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}
   ingredient3: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}
@@ -27,3 +29,4 @@ MonoBehaviour:
   aerialVal: 1
   terraVal: 0
   foodSprite: {fileID: 21300000, guid: 97a0e069743edc342abbdeee87bd6927, type: 3}
+  foodShadowSprite: {fileID: 21300000, guid: 6984f481d85457d418b0e669d88bc7d8, type: 3}
