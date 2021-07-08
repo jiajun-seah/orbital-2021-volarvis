@@ -21,6 +21,7 @@ MonoBehaviour:
     best friends. Once this happens, they are inseparable. '
   volastroSprite: {fileID: 21300000, guid: efc4cadc63688144da440acb1c47771e, type: 3}
   volastroShadowSprite: {fileID: 21300000, guid: dd0fbe8444a256d45826ce59a2ca7b62, type: 3}
+  habitatSprite: {fileID: 21300000, guid: 1d3df288b519a2b45b30298ac94cf870, type: 3}
   eggGroup: 1
   normalEggProb: 0.1
   loveEggProb: 0.9

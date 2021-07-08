@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Random = UnityEngine.Random;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Volastro
 {
@@ -11,6 +12,7 @@ public class Volastro
 
 
     public static int MAX_STATS = 100;
+    public static int MIN_STATS = 0;
     public static VolastroScriptableObject[] VOLASTRO_LIST  = 
         new VolastroScriptableObject[] {
         VolastroManager.instance.normalEggScriptable,
@@ -84,8 +86,8 @@ public class Volastro
 
     public Volastro()
     {
-        this.baseVolastro = VolastroManager.instance.cupruhScriptable;
-        this.hungerVal = 0;
+        this.baseVolastro = VolastroManager.instance.volatScriptable;
+        this.hungerVal = 100;
         this.happinessVal = 0;
         this.traitsVal = new int[6];
 
@@ -102,7 +104,69 @@ public class Volastro
         Debug.Log("New Volastro: " + this.baseVolastro.volastroName + " created");
     }
 
-    
+    //getters
+    public int getDexNum()
+    {
+        return this.baseVolastro.dexNum;
+    }
+
+    public int getHungerVal()
+    {
+        return this.hungerVal;
+    }
+    public int getHappinessVal()
+    {
+        return this.happinessVal;
+    }
+    public int[] getTraitsVal()
+    {
+        return this.traitsVal;
+    }
+    public int getFieryVal()
+    {
+        return this.traitsVal[0];
+    }
+    public int getIcyVal()
+    {
+        return this.traitsVal[1];
+    }
+    public int getMagicalVal()
+    {
+        return this.traitsVal[2];
+    }
+    public int getNauticalVal()
+    {
+        return this.traitsVal[3];
+    }
+    public int getAerialVal()
+    {
+        return this.traitsVal[4];
+    }
+    public int getTerraVal()
+    {
+        return this.traitsVal[5];
+    }
+    public string getHabitat()
+    {
+        return baseVolastro.dexOrigin;
+    }
+    public Sprite getSprite()
+    {
+        return baseVolastro.volastroSprite;
+    }
+    public Sprite getHabitatSprite()
+    {
+        return baseVolastro.habitatSprite;
+    }
+    public string getClassification()
+    {
+        return baseVolastro.dexType;
+    }
+    public string ToString()
+    {
+        return baseVolastro.volastroName;
+    }
+
     public void updateTrait(int hunger, int happiness, int[] foodTraits) {
         
         for (int i = 0; i < 6; i++) {
@@ -111,11 +175,14 @@ public class Volastro
         this.hungerVal += hunger;
         //max hunger is 100
         this.hungerVal = Math.Min(this.hungerVal, MAX_STATS);
+        this.hungerVal = Math.Max(this.hungerVal, MIN_STATS);
         Debug.Log("Fullness increased to " + this.hungerVal.ToString());
 
         this.happinessVal += happiness;
         //max hunger is 100
         this.happinessVal = Math.Min(this.happinessVal, MAX_STATS);
+        this.happinessVal = Math.Max(this.happinessVal, MIN_STATS);
+
         Debug.Log("Fullness increased to " + this.happinessVal.ToString());
 
         onVolastroChanged?.Invoke(this, EventArgs.Empty);
@@ -133,6 +200,40 @@ public class Volastro
         BarsScript.instance._happinessBar.fillAmount = happinessValAsPercentage;
     }
 
+    public void rebaseTrait(int hunger, int happiness, int[] foodTraits)
+    {
+
+        for (int i = 0; i < 6; i++)
+        {
+            this.traitsVal[i] = foodTraits[i];
+        }
+        this.hungerVal = hunger;
+        //max hunger is 100
+        this.hungerVal = Math.Min(this.hungerVal, MAX_STATS);
+        this.hungerVal = Math.Max(this.hungerVal, MIN_STATS);
+        Debug.Log("Fullness increased to " + this.hungerVal.ToString());
+
+        this.happinessVal = happiness;
+        //max hunger is 100
+        this.happinessVal = Math.Min(this.happinessVal, MAX_STATS);
+        this.happinessVal = Math.Max(this.happinessVal, MIN_STATS);
+        Debug.Log("Fullness increased to " + this.happinessVal.ToString());
+
+        onVolastroChanged?.Invoke(this, EventArgs.Empty);
+        Debug.Log("Traits rebased!");
+        Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+
+        float hungerValAsPercentage = (this.hungerVal / (float)100);
+        float happinessValAsPercentage = (this.happinessVal / (float)100);
+
+        Debug.Log(hungerValAsPercentage.ToString());
+        Debug.Log(happinessValAsPercentage.ToString());
+
+        // changing the bar
+        BarsScript.instance._hungerBar.fillAmount = hungerValAsPercentage;
+        BarsScript.instance._happinessBar.fillAmount = happinessValAsPercentage;
+    }
+
     public void evolve()
     {
         if (baseVolastro.growthStage == 4) {
@@ -140,7 +241,15 @@ public class Volastro
         }
         else
         {
-            this.updateTrait(0, -100, new int[6]);
+            if (baseVolastro.growthStage == 0)
+            {
+                this.updateTrait(0, 0, new int[6]);
+            }
+            else
+            {
+                this.updateTrait(0, -100, new int[6]);
+            }
+            
             int newGrowthStage = baseVolastro.growthStage + 1;
             VolastroScriptableObject.EggGroup eggGroup = baseVolastro.eggGroup;
 
@@ -161,21 +270,33 @@ public class Volastro
 
             Debug.Log("Volastro Evolved!");
             this.baseVolastro = newBaseVolastro;
-            Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
             onVolastroChanged?.Invoke(this, EventArgs.Empty);
+            Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+
+            ReloadScene();
+            
 
             //Update Discovery
             if (!Player.instance.discovery.getDiscoveredVolastros().Contains(this.getDexNum()))
             {
                 Player.instance.discovery.addDiscoveredVolastro(this.getDexNum());
             }
+
+            
         }
         
     }
 
+
+    public void ReloadScene()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
+    }
+
     public void layEgg()
     {
-        this.updateTrait(0, -100, new int[6]);
+        this.rebaseTrait(90, 0, new int[6]);
         int newGrowthStage = 0;
         double eggRng = Random.Range(0, 1);
 
@@ -205,36 +326,25 @@ public class Volastro
 
         Debug.Log("Volastro laid an egg!");
         this.baseVolastro = newBaseVolastro;
-        Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+
         onVolastroChanged?.Invoke(this, EventArgs.Empty);
-    }
-    public int getDexNum()
-    {
-        return this.baseVolastro.dexNum;
+
+        Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+        
+
+        ReloadScene();
+
+
+        //Update Discovery
+        if (!Player.instance.discovery.getDiscoveredVolastros().Contains(this.getDexNum()))
+        {
+            Player.instance.discovery.addDiscoveredVolastro(this.getDexNum());
+        }
+
+        Hatching.instance.volastroOne = this;
+        Hatching.instance.StartHatching();
+        ReloadScene();
     }
 
-    public int getFieryVal()
-    {
-        return this.traitsVal[0];
-    }
-    public int getIcyVal()
-    {
-        return this.traitsVal[1];
-    }
-    public int getMagicalVal()
-    {
-        return this.traitsVal[2];
-    }
-    public int getNauticalVal()
-    {
-        return this.traitsVal[3];
-    }
-    public int getAerialVal()
-    {
-        return this.traitsVal[4];
-    }
-    public int getTerraVal()
-    {
-        return this.traitsVal[5];
-    }
+   
 }

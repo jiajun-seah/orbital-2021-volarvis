@@ -15,6 +15,7 @@ public class Discovery
     {
         discoveredFoods = new List<int>();
         discoveredVolastros = new List<int>();
+        discoveredVolastros.Add(1);
 
         Debug.Log("New discovery storage created");
     }

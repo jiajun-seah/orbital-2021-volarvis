@@ -3122,6 +3122,8 @@ MonoBehaviour:
   uiVolastro: {fileID: 0}
   uiFridge: {fileID: 0}
   uiCoinBar: {fileID: 631483318}
+  hungerAtLastFed: 0
+  happinessAtLastFed: 0
   voltz: 0
 --- !u!212 &1105008730
 SpriteRenderer:
@@ -6345,8 +6347,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -24,6 +24,7 @@ public class VolastroScriptableObject : ScriptableObject
     public string dexDescription;
     public Sprite volastroSprite;
     public Sprite volastroShadowSprite;
+    public Sprite habitatSprite;
     public EggGroup eggGroup;
 
     [Range(0, 1)]

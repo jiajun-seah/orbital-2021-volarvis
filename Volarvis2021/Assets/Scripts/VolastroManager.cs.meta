@@ -3,7 +3,64 @@ guid: 1ca089ce696bd5d4883d3dbd945ad7d4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - normalEggScriptable: {fileID: 11400000, guid: 9a5b337606f3dfe4eaf17c89e9cfb48d, type: 2}
+  - loveEggScriptable: {fileID: 11400000, guid: 25a9bd2fb3cc084458b9d392402fd192, type: 2}
+  - plantEggScriptable: {fileID: 11400000, guid: 28709c6f52b634449966d102e830e39f, type: 2}
+  - shadowEggScriptable: {fileID: 11400000, guid: 4db5eec60e209b240a3e128c09f98d49, type: 2}
+  - defaultScriptable: {instanceID: 0}
+  - volatScriptable: {fileID: 11400000, guid: 8b75ccb1d25b31744a99e533c75d46a3, type: 2}
+  - kareScriptable: {instanceID: 0}
+  - kornScriptable: {instanceID: 0}
+  - shinjaScriptable: {instanceID: 0}
+  - paoScriptable: {instanceID: 0}
+  - coconautScriptable: {instanceID: 0}
+  - dottieScriptable: {instanceID: 0}
+  - frosteriScriptable: {instanceID: 0}
+  - klayScriptable: {instanceID: 0}
+  - letticeScriptable: {instanceID: 0}
+  - jammieScriptable: {instanceID: 0}
+  - spookieScriptable: {instanceID: 0}
+  - ewelambScriptable: {instanceID: 0}
+  - sealourScriptable: {instanceID: 0}
+  - gossyflairScriptable: {instanceID: 0}
+  - molluavaScriptable: {instanceID: 0}
+  - mushyScriptable: {instanceID: 0}
+  - cephiceScriptable: {instanceID: 0}
+  - angelmataScriptable: {instanceID: 0}
+  - bonfernoScriptable: {instanceID: 0}
+  - pottereneScriptable: {instanceID: 0}
+  - capsiflyScriptable: {instanceID: 0}
+  - coachiScriptable: {instanceID: 0}
+  - pumpskidScriptable: {instanceID: 0}
+  - pocusScriptable: {instanceID: 0}
+  - explomelloScriptable: {instanceID: 0}
+  - parkrostScriptable: {instanceID: 0}
+  - crystaScriptable: {instanceID: 0}
+  - cupruhScriptable: {instanceID: 0}
+  - ambissScriptable: {instanceID: 0}
+  - ducklintScriptable: {instanceID: 0}
+  - dioxaScriptable: {instanceID: 0}
+  - chiropepScriptable: {instanceID: 0}
+  - aurarusScriptable: {instanceID: 0}
+  - coniiScriptable: {instanceID: 0}
+  - snairyScriptable: {instanceID: 0}
+  - delangelScriptable: {instanceID: 0}
+  - dwoopieScriptable: {instanceID: 0}
+  - clareScriptable: {instanceID: 0}
+  - mothetteScriptable: {instanceID: 0}
+  - carpentrapScriptable: {instanceID: 0}
+  - avododoScriptable: {instanceID: 0}
+  - carrabbitScriptable: {instanceID: 0}
+  - apriciumScriptable: {instanceID: 0}
+  - fawnaScriptable: {instanceID: 0}
+  - foliaScriptable: {instanceID: 0}
+  - lumidleScriptable: {instanceID: 0}
+  - uniburdScriptable: {instanceID: 0}
+  - dreacoScriptable: {instanceID: 0}
+  - tytowlScriptable: {instanceID: 0}
+  - glookScriptable: {instanceID: 0}
+  - trawlelfScriptable: {instanceID: 0}
   executionOrder: -5
   icon: {instanceID: 0}
   userData: 

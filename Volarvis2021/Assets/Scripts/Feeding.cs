@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -55,13 +56,25 @@ public class Feeding : MonoBehaviour
         {
             foodVal = new int[] { type.fieryVal, type.icyVal, type.magicalVal, type.nauticalVal, type.aerialVal, type.terraVal };
             fridge.removeFood(food); // removing from fridge
-            volastroOne.updateTrait(type.happinessVal, type.hungerVal, foodVal); // update volastro
+            volastroOne.updateTrait(type.hungerVal, type.happinessVal, foodVal); // update volastro
 
             if (volastroOne.happinessVal == 100)
             {
                 volastroOne.evolve();
             }
+
+            //Handle decay of hunger
+            Player.instance.lastFedTime = DateTime.Now;
+            Player.instance.hungerAtLastFed = Player.instance.volastroOne.getHungerVal();
+
+            //Handle decay of hunger
+            Player.instance.emptyHungerTime = DateTime.Now.AddSeconds(Player.instance.volastroOne.getHungerVal());
+            Player.instance.happinessAtHungerEmpty = Player.instance.volastroOne.getHappinessVal();
+
+
         }
+
+         
     }
 
     public void OnClickTrash()

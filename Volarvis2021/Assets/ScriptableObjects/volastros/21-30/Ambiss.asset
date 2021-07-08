@@ -20,6 +20,8 @@ MonoBehaviour:
   dexDescription: 'Ambiss is able to breathe underwater thanks to it''s large nose
     which absorbs oxygen molecules. '
   volastroSprite: {fileID: 21300000, guid: 85e76d9e477fc5442ab9fb218f46eb01, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: ec3f82381e6347844b063af1a95935b5, type: 3}
+  habitatSprite: {fileID: 21300000, guid: bfbff2c6756515a4dba8dcf24445be2f, type: 3}
   eggGroup: 0
   normalEggProb: 1
   loveEggProb: 0

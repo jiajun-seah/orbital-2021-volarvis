@@ -21,6 +21,7 @@ MonoBehaviour:
     weight using its tail. '
   volastroSprite: {fileID: 21300000, guid: 02dcc0d3a0743654fb5a069a3364d2ab, type: 3}
   volastroShadowSprite: {fileID: 21300000, guid: 9d44f42a73b1b8541970494546b2c5e9, type: 3}
+  habitatSprite: {fileID: 21300000, guid: 1d3df288b519a2b45b30298ac94cf870, type: 3}
   eggGroup: 1
   normalEggProb: 0.4
   loveEggProb: 0.6

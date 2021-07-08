@@ -21,6 +21,7 @@ MonoBehaviour:
     of Volastros to make them sleep better. '
   volastroSprite: {fileID: 21300000, guid: 38f043035fd72fa43abc2695cd6a65d5, type: 3}
   volastroShadowSprite: {fileID: 21300000, guid: 151c26959b6792d4abf3d0279f6f1fa7, type: 3}
+  habitatSprite: {fileID: 21300000, guid: 4e6e801b1061d58459f3e62e7b80c807, type: 3}
   eggGroup: 3
   normalEggProb: 0.5
   loveEggProb: 0

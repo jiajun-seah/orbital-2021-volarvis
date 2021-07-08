@@ -20,7 +20,13 @@ MonoBehaviour:
   dexDescription: 'Using the ball on its head, Crystal is able to tell you your future,
     but not that far ahead. '
   volastroSprite: {fileID: 21300000, guid: 67611d71fdb3ac94b9d36ad0bc5118e6, type: 3}
+  volastroShadowSprite: {fileID: 21300000, guid: b7bcb672aee679949af2c50d0d0c45c6, type: 3}
+  habitatSprite: {fileID: 21300000, guid: 4e6e801b1061d58459f3e62e7b80c807, type: 3}
   eggGroup: 3
+  normalEggProb: 0
+  loveEggProb: 0
+  natureEggProb: 0
+  darkEggProb: 0
   fieryValReq: 0
   icyValReq: 0
   magicalValReq: 15

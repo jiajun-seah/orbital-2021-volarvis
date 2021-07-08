@@ -23,6 +23,10 @@ public class Player : MonoBehaviour
 
     //Volastro
     public Volastro volastroOne;
+    public DateTime lastFedTime = DateTime.Now;
+    public DateTime emptyHungerTime = DateTime.Now;
+    [SerializeField] public int hungerAtLastFed;
+    [SerializeField] public int happinessAtHungerEmpty;
 
     //Adventure Status
     public DateTime firstVolastroReturnTime;
@@ -44,6 +48,11 @@ public class Player : MonoBehaviour
             instance = this;
         }
 
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+
         //if inventory is null means new player, create new inventory
         if (Player.instance.inventory == null)
         {
@@ -61,6 +70,26 @@ public class Player : MonoBehaviour
             firstVolastroReturnTime = DateTime.Now;
         }
 
+        //Initialize last fed state of volastro
+        if (Player.instance.lastFedTime == null)
+        {
+            lastFedTime = (DateTime.Now.AddSeconds(-1));
+        }
+        //Initialize hunger zero datetime state of volastro
+        if (Player.instance.emptyHungerTime == null)
+        {
+            lastFedTime = (DateTime.Now.AddSeconds(-1));
+        }
+        if (Player.instance.hungerAtLastFed == null)
+        {
+            hungerAtLastFed = 100;
+            Debug.Log("Starting state: hunger is 100");
+        }
+        if (Player.instance.happinessAtHungerEmpty == null)
+        {
+            happinessAtHungerEmpty = 0;
+        }
+
         if (Player.instance.voltz == null)
         {
            voltz = 0;
@@ -71,10 +100,7 @@ public class Player : MonoBehaviour
             discovery = new Discovery();
         }
 
-        else if (instance != this)
-        {
-            Destroy(gameObject);
-        }
+        
 
         if (uiInventory != null)
         {
