@@ -36,6 +36,8 @@ public class IngredientManager : MonoBehaviour
     public IngredientScriptableObject vanillaBeanScriptable;
     public IngredientScriptableObject waterScriptable;
 
+    Dictionary<int, IngredientScriptableObject> ingredientList = new Dictionary<int, IngredientScriptableObject>();
+
     private void Awake()
     {
         if (instance == null)
@@ -48,5 +50,37 @@ public class IngredientManager : MonoBehaviour
             Destroy(gameObject);
         }
 
+        ingredientList.Add(1, bananaScriptable);
+        ingredientList.Add(2, basilScriptable);
+        ingredientList.Add(3, beansScriptable);
+        ingredientList.Add(4, blueberryScriptable);
+        ingredientList.Add(5, breadScriptable);
+        ingredientList.Add(6, butterScriptable);
+        ingredientList.Add(7, cabbageScriptable);
+        ingredientList.Add(8, carrotScriptable);
+        ingredientList.Add(9, cheeseScriptable);
+        ingredientList.Add(10, chilliScriptable);
+        ingredientList.Add(11, chocolateScriptable);
+        ingredientList.Add(12, creamScriptable);
+        ingredientList.Add(13, fishScriptable);
+        ingredientList.Add(14, flourScriptable);
+        ingredientList.Add(15, iceScriptable);
+        ingredientList.Add(16, mushroomScriptable);
+        ingredientList.Add(17, musselsScriptable);
+        ingredientList.Add(18, onionScriptable);
+        ingredientList.Add(19, potatoScriptable);
+        ingredientList.Add(20, prawnScriptable);
+        ingredientList.Add(21, riceScriptable);
+        ingredientList.Add(22, sausagesScriptable);
+        ingredientList.Add(23, springOnionScriptable);
+        ingredientList.Add(24, strawberryScriptable);
+        ingredientList.Add(25, sugarScriptable);
+        ingredientList.Add(26, vanillaBeanScriptable);
+        ingredientList.Add(27, waterScriptable);
+    }
+
+    public Dictionary<int, IngredientScriptableObject> getIngredientList()
+    {
+        return this.ingredientList;
     }
 }

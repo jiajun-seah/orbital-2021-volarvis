@@ -72,6 +72,17 @@ public class Inventory
         Debug.Log(ingredient.ToString() + " was removed.");
     }
 
+    public void clear()
+    {
+
+        ingredients.Clear();
+
+        onIngredientListChanged?.Invoke(this, EventArgs.Empty);
+
+        Debug.Log("Cleared Inventory ingredients");
+
+
+    }
     public List<Ingredient> getIngredients()
     {
         return ingredients;

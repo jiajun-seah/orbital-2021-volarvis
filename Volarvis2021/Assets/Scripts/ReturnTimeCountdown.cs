@@ -5,9 +5,11 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ReturnTimeCountdown : MonoBehaviour
 {
+
     //make into singleton
     public static ReturnTimeCountdown instance;
     public static ReturnTimeCountdown Instance { get { return instance; } }
@@ -39,13 +41,6 @@ public class ReturnTimeCountdown : MonoBehaviour
 
     private static int CAVE_LOWER_VOLTZ = 200;
     private static int CAVE_UPPER_VOLTZ = 250;
-
-    //properties
-    public TextMeshProUGUI countdownDisplay;
-    public TextMeshProUGUI countdownFillerText;
-    public Button adventureTab;
-    public string location = "";
-    public bool hasReturned = false;
 
 
     //ingredients (scriptable)
@@ -79,6 +74,7 @@ public class ReturnTimeCountdown : MonoBehaviour
 
     private void Awake()
     {
+
         if (instance == null)
         {
             instance = this;
@@ -89,106 +85,97 @@ public class ReturnTimeCountdown : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (instance != null)
-        {
-            if (Player.instance.firstVolastroReturnTime > DateTime.Now)
-            {
-                this.startCounting();
-            }
-        }
-
         Debug.Log("ReturnTimeCountdown awake");
+
     }
+
+    private void Start()
+    {
+        
+    }
+    
+    //private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    //{
+
+    //    String sceneName = scene.name;
+
+    //    if (sceneName == "HomePage")
+    //    {
+
+
+    //    }
+    //}
+
+    //private void GoOnAdventure_onWentOnAdventure(object sender, System.EventArgs e)
+    //{
+
+    //    if (Player.instance.firstVolastroReturnTime > DateTime.Now)
+    //    {
+    //        this.startCounting();
+    //        Debug.Log("ReturnTimeCountdown started");
+    //    }
+
+    //}
+
     private void Update()
     {
-        if (ReturnTimeCountdown.instance.hasReturned)
+        if ((DateTime.Now > Player.instance.firstVolastroReturnTime) && (Player.instance.adventureLocation != ""))
         {
-            //add to inventory and reset state
-            switch (ReturnTimeCountdown.instance.location)
-            {
-                default:
-                    break;
-                case "meadows":
-                    this.finishMeadows();
-                    ReturnTimeCountdown.instance.hasReturned = false;
-                    break;
-                case "tangle":
-                    this.finishTangle();
-                    ReturnTimeCountdown.instance.hasReturned = false;
-                    break;
-                case "peaks":
-                    this.finishPeaks();
-                    ReturnTimeCountdown.instance.hasReturned = false;
-                    break;
-                case "lava":
-                    this.finishLava();
-                    ReturnTimeCountdown.instance.hasReturned = false;
-                    break;
-                case "corals":
-                    this.finishCorals();
-                    ReturnTimeCountdown.instance.hasReturned = false;
-                    break;
-                case "grove":
-                    this.finishGrove();
-                    ReturnTimeCountdown.instance.hasReturned = false;
-                    break;
-                case "chateau":
-                    this.finishChateau();
-                    ReturnTimeCountdown.instance.hasReturned = false;
-                    break;
-                case "cave":
-                    this.finishCave();
-                    ReturnTimeCountdown.instance.hasReturned = false;
-                    break;
-            }
+            handleReturn();
         }
     }
-
-    public void startCounting()
+    public void handleReturn()
     {
-        StartCoroutine(CountdownToReturn());
-        Debug.Log("Countdown initiated.");
-    }
-
-    IEnumerator CountdownToReturn()
-    {
-        TimeSpan durat = (Player.instance.firstVolastroReturnTime - DateTime.Now);
-        int countdownTracker = (int)durat.TotalSeconds;
-
-
-        while (countdownTracker > 0)
+        
+        //add to inventory and reset state
+        switch (Player.instance.adventureLocation)
         {
-            adventureTab.interactable = false;
-            ReturnTimeCountdown.instance.hasReturned = false;
-            durat = (Player.instance.firstVolastroReturnTime - DateTime.Now);
-            int countdownTimeHour = durat.Hours;
-            int countdownTimeMin = durat.Minutes;
-            int countdownTimeSec = durat.Seconds;
-
-            countdownDisplay.gameObject.SetActive(true);
-            countdownFillerText.gameObject.SetActive(true);
-
-            countdownDisplay.SetText(
-                countdownTimeHour.ToString() + ":"
-                + countdownTimeMin.ToString() + ":"
-                + countdownTimeSec.ToString());
-
-            yield return new WaitForSeconds(1f);
-
-            countdownTracker--;
+            default:
+                break;
+            case "meadows":
+                this.finishMeadows();
+                Player.instance.adventureLocation = "";
+                Debug.Log("Player's adventureLocation set to empty string");
+                break;
+            case "tangle":
+                this.finishTangle();
+                Player.instance.adventureLocation = "";
+                Debug.Log("Player's adventureLocation set to empty string");
+                break;
+            case "peaks":
+                this.finishPeaks();
+                Player.instance.adventureLocation = "";
+                Debug.Log("Player's adventureLocation set to empty string");
+                break;
+            case "lava":
+                this.finishLava();
+                Player.instance.adventureLocation = "";
+                Debug.Log("Player's adventureLocation set to empty string");
+                break;
+            case "corals":
+                this.finishCorals();
+                Player.instance.adventureLocation = "";
+                Debug.Log("Player's adventureLocation set to empty string");
+                break;
+            case "grove":
+                this.finishGrove();
+                Player.instance.adventureLocation = "";
+                Debug.Log("Player's adventureLocation set to empty string");
+                break;
+            case "chateau":
+                this.finishChateau();
+                Player.instance.adventureLocation = "";
+                Debug.Log("Player's adventureLocation set to empty string");
+                break;
+            case "cave":
+                this.finishCave();
+                Player.instance.adventureLocation = "";
+                Debug.Log("Player's adventureLocation set to empty string");
+                break;
         }
-
-        countdownFillerText.gameObject.SetActive(false);
-        countdownDisplay.SetText("Volastro Returned!");
-        adventureTab.interactable = true;
-        ReturnTimeCountdown.instance.hasReturned = true;
-
-        yield return new WaitForSeconds(1f);
-
-        //hide the text after countdown ends
-        countdownDisplay.gameObject.SetActive(false);
+        
     }
-
+  
     public void addIngredientFromAdventure(Ingredient ingredient, double baseDropRate, int attempts)
     {
         for (int i = 0; i < attempts; i++)

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UI_CoinBar: MonoBehaviour
@@ -16,7 +17,7 @@ public class UI_CoinBar: MonoBehaviour
 
     void Start()
     {
-        
+        Player.instance.onVoltzAmountChanged += Player_onVoltzAmountChanged;
     }
 
     void Update()
@@ -29,7 +30,7 @@ public class UI_CoinBar: MonoBehaviour
         Debug.Log("voltz was set.");
 
         this.voltz = voltz;
-        Player.instance.onVoltzAmountChanged += Player_onVoltzAmountChanged;
+        
         RefreshVoltzAmount();
     }
 
@@ -47,8 +48,6 @@ public class UI_CoinBar: MonoBehaviour
             //set stack count
             uiText.SetText(Player.instance.voltz.ToString());
         }
-        
-
     }
 }
 

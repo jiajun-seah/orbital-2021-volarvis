@@ -54,6 +54,16 @@ public class Fridge
         Debug.Log(food.ToString() + " was removed.");
     }
 
+    public void clear()
+    {
+        foods.Clear();
+
+        onFoodListChanged?.Invoke(this, EventArgs.Empty);
+
+        Debug.Log("Cleared Fridge foods");
+
+    }
+
     public List<Food> getFoods()
     {
         return foods;

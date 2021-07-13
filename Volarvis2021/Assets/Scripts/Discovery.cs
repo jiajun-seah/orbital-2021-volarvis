@@ -20,6 +20,14 @@ public class Discovery
         Debug.Log("New discovery storage created");
     }
 
+    public Discovery(List<int> dFoods, List<int> dVolastros)
+    {
+        discoveredFoods = dFoods;
+        discoveredVolastros = dVolastros;
+
+        Debug.Log("new discovery storage created from 2 lists");
+    }
+
     public void addDiscoveredFood(int dexNum)
     {
         discoveredFoods.Add(dexNum);

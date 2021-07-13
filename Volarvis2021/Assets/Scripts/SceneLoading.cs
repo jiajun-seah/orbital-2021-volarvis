@@ -8,18 +8,29 @@ public class SceneLoading : MonoBehaviour
 {
     [SerializeField]
     private Image _progressBar;
+
+    public Transform global;
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(LoadAsyncOperation());
+
     }
     
     IEnumerator LoadAsyncOperation() {
         AsyncOperation gameProgress = SceneManager.LoadSceneAsync("HomePage");
-        while (gameProgress.progress < 1) {
+        gameProgress.allowSceneActivation = false;
+        while (!gameProgress.isDone) {
             _progressBar.fillAmount = gameProgress.progress;
-            yield return new WaitForEndOfFrame();
+
+            if (gameProgress.progress >= 0.9f)
+            {
+                global.GetComponent<CloudSaveTest>().Load();
+                gameProgress.allowSceneActivation = true;
+            }
+            yield return null;
         }
+        
     }
 
 }

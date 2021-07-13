@@ -71,7 +71,7 @@ public class Crockpot
 
         onCrockpotListChanged?.Invoke(this, EventArgs.Empty);
 
-        Debug.Log("cleared pot");
+        Debug.Log("Cleared Crockpot ingredients");
 
     }
 

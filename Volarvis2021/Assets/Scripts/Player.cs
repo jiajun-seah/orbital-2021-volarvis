@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,9 +13,9 @@ public class Player : MonoBehaviour
 
 
     [SerializeField] public UI_Inventory uiInventory;
-    [SerializeField] private UI_Crockpot uiCrockpot;
-    [SerializeField] private UI_Volastro uiVolastro;
-    [SerializeField] private UI_Fridge uiFridge;
+    [SerializeField] public UI_Crockpot uiCrockpot;
+    [SerializeField] public UI_Volastro uiVolastro;
+    [SerializeField] public UI_Fridge uiFridge;
     [SerializeField] public UI_CoinBar uiCoinBar;
 
     //Inventory (Ingredients)
@@ -25,11 +27,12 @@ public class Player : MonoBehaviour
     public Volastro volastroOne;
     public DateTime lastFedTime = DateTime.Now;
     public DateTime emptyHungerTime = DateTime.Now;
-    [SerializeField] public int hungerAtLastFed;
-    [SerializeField] public int happinessAtHungerEmpty;
+    public int hungerAtLastFed;
+    public int happinessAtHungerEmpty;
 
     //Adventure Status
     public DateTime firstVolastroReturnTime;
+    public string adventureLocation;
 
     //currency
     public int voltz;
@@ -52,6 +55,11 @@ public class Player : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        //if volastroOne is null means new player or volastro ran away, create new normal egg
+        if (Player.instance.volastroOne == null)
+        {
+            volastroOne = new Volastro();
+        }
 
         //if inventory is null means new player, create new inventory
         if (Player.instance.inventory == null)
@@ -68,6 +76,11 @@ public class Player : MonoBehaviour
         if (Player.instance.firstVolastroReturnTime == null)
         {
             firstVolastroReturnTime = DateTime.Now;
+        }
+
+        if (Player.instance.adventureLocation == null)
+        {
+            adventureLocation = "";
         }
 
         //Initialize last fed state of volastro
@@ -100,8 +113,10 @@ public class Player : MonoBehaviour
             discovery = new Discovery();
         }
 
-        
+    }
 
+    public void RefreshUI()
+    {
         if (uiInventory != null)
         {
             uiInventory.SetInventory(Player.instance.inventory);
@@ -116,11 +131,21 @@ public class Player : MonoBehaviour
         {
             uiFridge.SetFridge(Player.instance.fridge);
         }
+
+        if (uiVolastro != null)
+        {
+            uiVolastro.SetVolastro(Player.instance.volastroOne);
+        }
+
+        if (uiCoinBar != null)
+        {
+            uiCoinBar.SetVoltzAmount(Player.instance.voltz);
+        }
     }
 
     void Start()
     {
-        
+
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -130,20 +155,20 @@ public class Player : MonoBehaviour
 
         if (sceneName == "HomePage")
         {
-            //if volastroOne is null means new player or volastro ran away, create new normal egg
-            if (Player.instance.volastroOne == null)
-            {
-                volastroOne = new Volastro();
-            }
 
             if (uiVolastro != null)
             {
                 uiVolastro.SetVolastro(Player.instance.volastroOne);
             }
 
-            if (uiCoinBar!= null)
+            //if (uiCoinBar != null)
+            //{
+            //    uiCoinBar.SetVoltzAmount(Player.instance.voltz);
+            //}
+
+            if (uiFridge != null)
             {
-                uiCoinBar.SetVoltzAmount(Player.instance.voltz);
+                uiFridge.SetFridge(Player.instance.fridge);
             }
 
         }
@@ -181,6 +206,97 @@ public class Player : MonoBehaviour
         Debug.Log(amount.ToString() + " voltz was added.");
     }
 
+    public void loadPlayerFromState()
+    {
+        //Set Player inventory
+        Player.instance.inventory.clear();
+        foreach (KeyValuePair<int, int> entry in CloudSaveManager.Instance.State.inventory)
+        {
+            Player.instance.inventory.addIngredient(new Ingredient { ingredientScriptableObject = IngredientManager.instance.getIngredientList()[entry.Key], amount = entry.Value });
+        }
+
+
+        //Set Player crockpot
+        Player.instance.crockpot.clear();
+        foreach (int i in CloudSaveManager.Instance.State.crockpot)
+        {
+            Player.instance.crockpot.addIngredient(new Ingredient { ingredientScriptableObject = IngredientManager.instance.getIngredientList()[i], amount = 1 });
+        }
+
+        //Set Player fridge
+        Player.instance.fridge.clear();
+        foreach (int i in CloudSaveManager.Instance.State.fridge)
+        {
+            Player.instance.fridge.addFood(new Food { foodScriptableObject = FoodManager.instance.getFoodList()[i], amount = 1 });
+        }
+
+        Player.instance.voltz = CloudSaveManager.Instance.State.voltz;
+
+        int vDexNum = CloudSaveManager.Instance.State.volastroOneDexNum;
+        int vHungerVal = CloudSaveManager.Instance.State.hungerVal;
+        int vHappinessVal = CloudSaveManager.Instance.State.happinessVal;
+        int[] vTraitsVal = CloudSaveManager.Instance.State.traits;
+        Player.instance.volastroOne.rebaseVolastro(VolastroManager.instance.getVolastroList()[vDexNum], vHungerVal, vHappinessVal, vTraitsVal);
+
+        Player.instance.lastFedTime = CloudSaveManager.Instance.State.lastFedTime;
+        Player.instance.emptyHungerTime = CloudSaveManager.Instance.State.emptyHungerTime;
+
+        Player.instance.hungerAtLastFed = CloudSaveManager.Instance.State.hungerAtLastFed;
+        Player.instance.happinessAtHungerEmpty = CloudSaveManager.Instance.State.happinessAtHungerEmpty;
+
+        Player.instance.firstVolastroReturnTime = CloudSaveManager.Instance.State.firstVolastroReturnTime;
+        Player.instance.adventureLocation = CloudSaveManager.Instance.State.adventureLocation;
+
+
+
+        List<int> tempFoodDiscovery = CloudSaveManager.Instance.State.foodDiscovery.OfType<int>().ToList();
+        List<int> tempVolastroDiscovery = CloudSaveManager.Instance.State.volastroDiscovery.OfType<int>().ToList();
+        Player.instance.discovery = new Discovery(tempFoodDiscovery, tempVolastroDiscovery);
+    }
+
+    public void savePlayerToState()
+    {
+        Dictionary<int, int> tempInventory = new Dictionary<int, int>();
+        foreach (Ingredient ingredient in Player.instance.inventory.getIngredients())
+        {
+            tempInventory.Add(ingredient.getDexNum(), ingredient.getQty());
+        }
+        CloudSaveManager.Instance.State.inventory = tempInventory;
+
+        List<int> tempCrockpot = new List<int>();
+        foreach (Ingredient ingredient in Player.instance.crockpot.getIngredients())
+        {
+            tempCrockpot.Add(ingredient.getDexNum());
+        }
+        CloudSaveManager.Instance.State.crockpot = tempCrockpot.ToArray();
+
+        List<int> tempFridge = new List<int>();
+        foreach (Food food in Player.instance.fridge.getFoods())
+        {
+            tempFridge.Add(food.getDexNum());
+        }
+        CloudSaveManager.Instance.State.fridge = tempFridge.ToArray();
+
+        CloudSaveManager.Instance.State.voltz = Player.instance.voltz;
+
+        CloudSaveManager.Instance.State.volastroOneDexNum = Player.instance.volastroOne.getDexNum();
+        CloudSaveManager.Instance.State.hungerVal = Player.instance.volastroOne.getHungerVal();
+        CloudSaveManager.Instance.State.happinessVal = Player.instance.volastroOne.getHappinessVal();
+        CloudSaveManager.Instance.State.traits = Player.instance.volastroOne.getTraitsVal();
+
+        CloudSaveManager.Instance.State.lastFedTime = Player.instance.lastFedTime;
+        CloudSaveManager.Instance.State.emptyHungerTime = Player.instance.emptyHungerTime;
+
+        CloudSaveManager.Instance.State.hungerAtLastFed = Player.instance.hungerAtLastFed;
+        CloudSaveManager.Instance.State.happinessAtHungerEmpty = Player.instance.happinessAtHungerEmpty;
+
+        CloudSaveManager.Instance.State.firstVolastroReturnTime = Player.instance.firstVolastroReturnTime;
+        CloudSaveManager.Instance.State.adventureLocation = Player.instance.adventureLocation;
+
+
+        CloudSaveManager.Instance.State.volastroDiscovery = Player.instance.discovery.getDiscoveredVolastros().ToArray();
+        CloudSaveManager.Instance.State.foodDiscovery = Player.instance.discovery.getDiscoveredFoods().ToArray();
+    }
 }
 
 

@@ -18,8 +18,7 @@ public class CloudSaveTest : MonoBehaviour
         switch (status)
         {
             case SavedGameRequestStatus.Success:
-                CloudSaveManager.Instance.State.SaveCount++;
-                CloudSaveManager.Instance.State.LastSaveTime = DateTime.Now;
+                
                 debugText.text = "Saving.. : " + CloudSaveManager.Instance.State.SaveCount.ToString() + " at " + CloudSaveManager.Instance.State.LastSaveTime.ToString();
                 break;
             default:
@@ -34,6 +33,9 @@ public class CloudSaveTest : MonoBehaviour
             switch (status)
             {
                 case SavedGameRequestStatus.Success:
+                    
+                    Player.instance.loadPlayerFromState();
+                    
                     debugText.text = "Loaded save! : " + CloudSaveManager.Instance.State.SaveCount.ToString() + " from " + CloudSaveManager.Instance.State.LastSaveTime.ToString();
                     break;
                 default:
@@ -53,19 +55,34 @@ public class CloudSaveTest : MonoBehaviour
 
     public void Save()
     {
-        CloudSaveManager.Instance.SaveToCloud(OnPlayError);
+        //Rearranged SaveCount increment and LastSaveTime assignement
+        CloudSaveManager.Instance.State.SaveCount++;
+        CloudSaveManager.Instance.State.LastSaveTime = DateTime.Now;
+
+        Player.instance.savePlayerToState();
+
         debugText.text = "Saving to cloud...";
+        CloudSaveManager.Instance.SaveToCloud(OnPlayError);
+        
     }
     public void Load()
     {
-        CloudSaveManager.Instance.LoadFromCloud(OnPlayError);
         debugText.text = "Loading from cloud...";
+        CloudSaveManager.Instance.LoadFromCloud(OnPlayError);
+        
     }
     public void Login()
     {
-        debugText.text = "Login..";
+        debugText.text = "Login...";
         PlayService.Instance.SignIn(OnLoginSuccess,OnLoginFail);
     }
+
+    public void LoginOnly()
+    {
+        debugText.text = "Login only.";
+        PlayService.Instance.SignIn(OnLoginOnlySuccess, OnLoginFail);
+    }
+
     public void Logout()
     {
         debugText.text = "Logged out!";
@@ -73,8 +90,12 @@ public class CloudSaveTest : MonoBehaviour
     }
     private void OnLoginSuccess()
     {
-        Load();
         debugText.text = "Successful login! Attempting to load save file";
+        Load();
+    }
+    private void OnLoginOnlySuccess()
+    {
+        debugText.text = "Successful login!";
     }
     private void OnLoginFail()
     {

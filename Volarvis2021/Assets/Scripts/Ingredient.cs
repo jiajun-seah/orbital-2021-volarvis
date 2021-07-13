@@ -37,6 +37,15 @@ public class Ingredient {
     public IngredientScriptableObject ingredientScriptableObject;
     public int amount;
 
+    public int getDexNum()
+    {
+        return ingredientScriptableObject.dexNum;
+    }
+
+    public int getQty()
+    {
+        return this.amount;
+    }
     public Sprite getSprite()
     {
         return ingredientScriptableObject.ingredientSprite;

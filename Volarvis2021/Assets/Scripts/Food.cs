@@ -23,7 +23,7 @@ public class Food
         return foodScriptableObject.price;
     }
 
-    public int getdexNum()
+    public int getDexNum()
     {
         return foodScriptableObject.dexNum;
     }

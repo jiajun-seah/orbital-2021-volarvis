@@ -6,6 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "ScriptableObjects/IngredientScriptableObject")]
 public class IngredientScriptableObject : ScriptableObject, IComparable<IngredientScriptableObject>
 {
+    public int dexNum;
     public Ingredient.IngredientType ingredientType;
     public string ingredientName;
     public Sprite ingredientSprite;

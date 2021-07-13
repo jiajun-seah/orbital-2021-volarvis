@@ -101,6 +101,16 @@ public class Volastro
         this.happinessVal = happinessVal;
         this.traitsVal = traitsVal;
 
+        Debug.Log("New Volastro: " + this.baseVolastro.volastroName + " updated");
+    }
+
+    public Volastro(VolastroScriptableObject volastroScriptableObject, int hungerVal, int happinessVal, int[] traitsVal)
+    {
+        this.baseVolastro = volastroScriptableObject;
+        this.hungerVal = hungerVal;
+        this.happinessVal = happinessVal;
+        this.traitsVal = traitsVal;
+
         Debug.Log("New Volastro: " + this.baseVolastro.volastroName + " created");
     }
 
@@ -187,7 +197,7 @@ public class Volastro
 
         onVolastroChanged?.Invoke(this, EventArgs.Empty);
         Debug.Log("Traits updated!");
-        Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+        //Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
 
         float hungerValAsPercentage =  (this.hungerVal / (float) 100);
         float happinessValAsPercentage =  (this.happinessVal / (float) 100);
@@ -221,7 +231,46 @@ public class Volastro
 
         onVolastroChanged?.Invoke(this, EventArgs.Empty);
         Debug.Log("Traits rebased!");
-        Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+        //Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+
+        float hungerValAsPercentage = (this.hungerVal / (float)100);
+        float happinessValAsPercentage = (this.happinessVal / (float)100);
+
+        Debug.Log(hungerValAsPercentage.ToString());
+        Debug.Log(happinessValAsPercentage.ToString());
+
+        // changing the bar
+        if (BarsScript.instance._hungerBar.fillAmount != null && BarsScript.instance._happinessBar.fillAmount != null)
+        {
+            BarsScript.instance._hungerBar.fillAmount = hungerValAsPercentage;
+            BarsScript.instance._happinessBar.fillAmount = happinessValAsPercentage;
+        }
+        
+    }
+
+    public void rebaseVolastro(VolastroScriptableObject volastroScriptableObject, int hunger, int happiness, int[] foodTraits)
+    {
+        this.baseVolastro = volastroScriptableObject;
+
+        for (int i = 0; i < 6; i++)
+        {
+            this.traitsVal[i] = foodTraits[i];
+        }
+        this.hungerVal = hunger;
+        //max hunger is 100
+        this.hungerVal = Math.Min(this.hungerVal, MAX_STATS);
+        this.hungerVal = Math.Max(this.hungerVal, MIN_STATS);
+        Debug.Log("Fullness increased to " + this.hungerVal.ToString());
+
+        this.happinessVal = happiness;
+        //max hunger is 100
+        this.happinessVal = Math.Min(this.happinessVal, MAX_STATS);
+        this.happinessVal = Math.Max(this.happinessVal, MIN_STATS);
+        Debug.Log("Fullness increased to " + this.happinessVal.ToString());
+
+        onVolastroChanged?.Invoke(this, EventArgs.Empty);
+        Debug.Log("Volastro rebased!");
+        //Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
 
         float hungerValAsPercentage = (this.hungerVal / (float)100);
         float happinessValAsPercentage = (this.happinessVal / (float)100);
@@ -268,10 +317,13 @@ public class Volastro
             VolastroScriptableObject newBaseVolastro = eligibleVolastros[randomIndex];
             Debug.Log("Random index was " + randomIndex + ". " + newBaseVolastro.volastroName + " was selected by rng");
 
-            Debug.Log("Volastro Evolved!");
             this.baseVolastro = newBaseVolastro;
+
+            Debug.Log("Volastro Evolved!");
+            Debug.Log("Player's instance volastro: " + Player.instance.volastroOne.ToString());
+            
             onVolastroChanged?.Invoke(this, EventArgs.Empty);
-            Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+            //Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
 
             ReloadScene();
             
@@ -281,10 +333,7 @@ public class Volastro
             {
                 Player.instance.discovery.addDiscoveredVolastro(this.getDexNum());
             }
-
-            
         }
-        
     }
 
 
@@ -329,7 +378,7 @@ public class Volastro
 
         onVolastroChanged?.Invoke(this, EventArgs.Empty);
 
-        Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+        //Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
         
 
         ReloadScene();
