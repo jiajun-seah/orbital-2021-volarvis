@@ -36,7 +36,7 @@ public class HungerHappinessManager : MonoBehaviour
         int duratInSeconds = (int)duratSinceLastFed.TotalSeconds;
         int hungerAtLastFed = Player.instance.hungerAtLastFed;
 
-        hungerAtLastFed -= (duratInSeconds * 1);
+        hungerAtLastFed -= ((duratInSeconds/1800) * 1);
 
         Debug.Log("New hunger value is: " + hungerAtLastFed);
 
@@ -50,7 +50,7 @@ public class HungerHappinessManager : MonoBehaviour
         int duratInSeconds = (int)duratSinceHungerEmpty.TotalSeconds;
         int happinessAtHungerEmpty = Player.instance.happinessAtHungerEmpty;
 
-        happinessAtHungerEmpty -= (duratInSeconds * 1);
+        happinessAtHungerEmpty -= ((duratInSeconds/900) * 1);
 
         Debug.Log("New happiness value is: " + happinessAtHungerEmpty);
 

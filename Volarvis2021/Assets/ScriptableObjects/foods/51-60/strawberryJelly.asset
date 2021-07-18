@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 54
   foodName: Strawberry Jelly
   hungerVal: 20
-  happinessVal: 10
+  happinessVal: 13
   price: 350
   rarity: 3.5
   ingredient1: {fileID: 11400000, guid: bde953b7b0bdfa849a80c434f999c8ab, type: 2}

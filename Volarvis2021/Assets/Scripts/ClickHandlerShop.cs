@@ -62,6 +62,13 @@ public class ClickHandlerShop : MonoBehaviour
             fridge.addFood(food);
             buySuccessMessage.gameObject.SetActive(true);
             Debug.Log("Bought" + food.ToString() + " using " + foodScriptableObject.price + " voltz.");
+
+            //Update Discovery
+            if (!Player.instance.discovery.getDiscoveredFoods().Contains(food.getDexNum()))
+            {
+                Player.instance.discovery.addDiscoveredFood(food.getDexNum());
+            }
+
         }
     }
 }

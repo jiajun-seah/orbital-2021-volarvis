@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 1
   foodName: Avocado Toast
   hungerVal: 20
-  happinessVal: 7
+  happinessVal: 10
   price: 250
   rarity: 2.5
   ingredient1: {fileID: 11400000, guid: b69f2597db16dc346932bbecb557a65c, type: 2}

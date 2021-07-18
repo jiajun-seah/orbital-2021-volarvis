@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 45
   foodName: Shrimp Pasta
   hungerVal: 20
-  happinessVal: 10
+  happinessVal: 13
   price: 350
   rarity: 3.5
   ingredient1: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}

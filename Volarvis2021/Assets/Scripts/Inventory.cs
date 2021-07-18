@@ -40,7 +40,7 @@ public class Inventory
         }
         onIngredientListChanged?.Invoke(this, EventArgs.Empty);
 
-        Debug.Log(ingredient.ToString() + " was added.");
+        //Debug.Log(ingredient.ToString() + " was added.");
     }
 
     public void removeOneIngredient(Ingredient ingredient)
@@ -69,7 +69,7 @@ public class Inventory
 
         onIngredientListChanged?.Invoke(this, EventArgs.Empty);
 
-        Debug.Log(ingredient.ToString() + " was removed.");
+        //Debug.Log(ingredient.ToString() + " was removed.");
     }
 
     public void clear()

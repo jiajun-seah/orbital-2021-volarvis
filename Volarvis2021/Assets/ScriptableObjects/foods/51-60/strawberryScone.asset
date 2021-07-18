@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 55
   foodName: Strawberry Scone
   hungerVal: 30
-  happinessVal: 9
+  happinessVal: 12
   price: 300
   rarity: 3
   ingredient1: {fileID: 11400000, guid: 3208570fa87727740829ef2adf142614, type: 2}

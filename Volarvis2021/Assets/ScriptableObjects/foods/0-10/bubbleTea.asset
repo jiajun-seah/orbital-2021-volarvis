@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 7
   foodName: Bubble Tea
   hungerVal: 10
-  happinessVal: 7
+  happinessVal: 10
   price: 250
   rarity: 2.5
   ingredient1: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}

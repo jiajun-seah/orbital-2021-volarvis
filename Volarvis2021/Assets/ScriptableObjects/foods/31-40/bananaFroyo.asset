@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 31
   foodName: Banana Froyo
   hungerVal: 40
-  happinessVal: 11
+  happinessVal: 14
   price: 375
   rarity: 3.75
   ingredient1: {fileID: 11400000, guid: f9f91ef43ecbaab4998d8f13ecdaa1b1, type: 2}

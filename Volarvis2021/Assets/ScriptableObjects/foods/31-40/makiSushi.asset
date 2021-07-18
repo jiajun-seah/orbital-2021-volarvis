@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 35
   foodName: Maki Sushi
   hungerVal: 30
-  happinessVal: 7
+  happinessVal: 10
   price: 250
   rarity: 2.5
   ingredient1: {fileID: 11400000, guid: 0db76135ac1fc5f44afead68c6785346, type: 2}

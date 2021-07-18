@@ -13,6 +13,7 @@ public class UI_Countdown : MonoBehaviour
     public TextMeshProUGUI countdownDisplay;
     public TextMeshProUGUI countdownFillerText;
     public Button adventureTab;
+    public Button cancelAdventureButton;
 
     // Start is called before the first frame update
     void Start()
@@ -65,12 +66,15 @@ public class UI_Countdown : MonoBehaviour
             countdownDisplay.gameObject.SetActive(true);
             countdownFillerText.gameObject.SetActive(true);
 
+            cancelAdventureButton.gameObject.SetActive(true);
             adventureTab.interactable = false;
         }
         else
         {
             countdownFillerText.gameObject.SetActive(false);
             countdownDisplay.gameObject.SetActive(false);
+
+            cancelAdventureButton.gameObject.SetActive(false);
             adventureTab.interactable = true;
         }
     }

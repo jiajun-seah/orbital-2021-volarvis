@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 25
   foodName: Hamburger
   hungerVal: 30
-  happinessVal: 9
+  happinessVal: 12
   price: 300
   rarity: 3
   ingredient1: {fileID: 11400000, guid: ed18304a3b742ff458cebb8b23ed98b3, type: 2}

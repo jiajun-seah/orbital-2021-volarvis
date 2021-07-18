@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 41
   foodName: Rosemary Chicken
   hungerVal: 40
-  happinessVal: 12
+  happinessVal: 15
   price: 425
   rarity: 4.25
   ingredient1: {fileID: 11400000, guid: ff564b2bc5c387b43986de55757fc4bb, type: 2}

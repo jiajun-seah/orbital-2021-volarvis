@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 57
   foodName: Tortilla Chips
   hungerVal: 20
-  happinessVal: 7
+  happinessVal: 10
   price: 175
   rarity: 1.75
   ingredient1: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}

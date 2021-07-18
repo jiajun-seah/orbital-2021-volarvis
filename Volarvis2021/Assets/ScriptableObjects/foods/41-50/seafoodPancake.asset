@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 43
   foodName: Seafood Pancake
   hungerVal: 40
-  happinessVal: 11
+  happinessVal: 14
   price: 400
   rarity: 4
   ingredient1: {fileID: 11400000, guid: 97c92a6a05e81c348932193bd4f2fdfe, type: 2}

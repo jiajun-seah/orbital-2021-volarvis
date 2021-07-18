@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 22
   foodName: Garlic Chicken
   hungerVal: 60
-  happinessVal: 12
+  happinessVal: 15
   price: 450
   rarity: 4.5
   ingredient1: {fileID: 11400000, guid: e4f22a9eac8e1a64f8f9163aa387c82a, type: 2}

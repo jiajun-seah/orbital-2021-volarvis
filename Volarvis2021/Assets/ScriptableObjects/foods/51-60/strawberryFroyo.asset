@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 52
   foodName: Strawberry Froyo
   hungerVal: 50
-  happinessVal: 11
+  happinessVal: 14
   price: 400
   rarity: 4
   ingredient1: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}

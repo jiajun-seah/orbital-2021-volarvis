@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dexNum: 0
   foodName: Wet Goop
-  hungerVal: 1
-  happinessVal: 1
+  hungerVal: 5
+  happinessVal: 5
   price: 0
   rarity: 0
   ingredient1: {fileID: 0}

@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 32
   foodName: Liquorice Candy
   hungerVal: 40
-  happinessVal: 10
+  happinessVal: 13
   price: 350
   rarity: 3.5
   ingredient1: {fileID: 11400000, guid: b69f2597db16dc346932bbecb557a65c, type: 2}

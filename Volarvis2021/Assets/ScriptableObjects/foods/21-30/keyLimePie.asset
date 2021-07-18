@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 28
   foodName: Key Lime Pie
   hungerVal: 50
-  happinessVal: 9
+  happinessVal: 12
   price: 300
   rarity: 3
   ingredient1: {fileID: 11400000, guid: f9f91ef43ecbaab4998d8f13ecdaa1b1, type: 2}

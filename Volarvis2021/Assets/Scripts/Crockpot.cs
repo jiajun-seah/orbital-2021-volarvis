@@ -34,7 +34,7 @@ public class Crockpot
 
             onCrockpotListChanged?.Invoke(this, EventArgs.Empty);
 
-            Debug.Log(ingredient.ToString() + " was added to pot");
+            //Debug.Log(ingredient.ToString() + " was added to pot");
         }
         
     }
@@ -45,7 +45,7 @@ public class Crockpot
 
         onCrockpotListChanged?.Invoke(this, EventArgs.Empty);
 
-        Debug.Log(ingredient.ToString() + " was removed to pot");
+        //Debug.Log(ingredient.ToString() + " was removed to pot");
 
     }
 

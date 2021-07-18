@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 21
   foodName: Garden Salad
   hungerVal: 40
-  happinessVal: 100
+  happinessVal: 13
   price: 350
   rarity: 3.5
   ingredient1: {fileID: 11400000, guid: e4f22a9eac8e1a64f8f9163aa387c82a, type: 2}

@@ -13,71 +13,6 @@ public class Volastro
 
     public static int MAX_STATS = 100;
     public static int MIN_STATS = 0;
-    public static VolastroScriptableObject[] VOLASTRO_LIST  = 
-        new VolastroScriptableObject[] {
-        VolastroManager.instance.normalEggScriptable,
-        VolastroManager.instance.loveEggScriptable,
-        VolastroManager.instance.plantEggScriptable,
-        VolastroManager.instance.shadowEggScriptable,
-
-        VolastroManager.instance.volatScriptable,
-        VolastroManager.instance.kareScriptable,
-        VolastroManager.instance.kornScriptable,
-        VolastroManager.instance.shinjaScriptable,
-        VolastroManager.instance.paoScriptable,
-        VolastroManager.instance.coconautScriptable,
-        VolastroManager.instance.dottieScriptable,
-        VolastroManager.instance.frosteriScriptable,
-        VolastroManager.instance.klayScriptable,
-        VolastroManager.instance.letticeScriptable,
-
-        VolastroManager.instance.jammieScriptable,
-        VolastroManager.instance.spookieScriptable,
-        VolastroManager.instance.ewelambScriptable,
-        VolastroManager.instance.sealourScriptable,
-        VolastroManager.instance.gossyflairScriptable,
-        VolastroManager.instance.molluavaScriptable,
-        VolastroManager.instance.mushyScriptable,
-        VolastroManager.instance.cephiceScriptable,
-        VolastroManager.instance.angelmataScriptable,
-        VolastroManager.instance.bonfernoScriptable,
-
-        VolastroManager.instance.pottereneScriptable,
-        VolastroManager.instance.capsiflyScriptable,
-        VolastroManager.instance.coachiScriptable,
-        VolastroManager.instance.pumpskidScriptable,
-        VolastroManager.instance.pocusScriptable,
-        VolastroManager.instance.explomelloScriptable,
-        VolastroManager.instance.parkrostScriptable,
-        VolastroManager.instance.crystaScriptable,
-        VolastroManager.instance.cupruhScriptable,
-        VolastroManager.instance.ambissScriptable,
-
-        VolastroManager.instance.ducklintScriptable,
-        VolastroManager.instance.dioxaScriptable,
-        VolastroManager.instance.chiropepScriptable,
-        VolastroManager.instance.aurarusScriptable,
-        VolastroManager.instance.coniiScriptable,
-        VolastroManager.instance.snairyScriptable,
-        VolastroManager.instance.delangelScriptable,
-        VolastroManager.instance.dwoopieScriptable,
-        VolastroManager.instance.clareScriptable,
-        VolastroManager.instance.mothetteScriptable,
-
-        VolastroManager.instance.carpentrapScriptable,
-        VolastroManager.instance.avododoScriptable,
-        VolastroManager.instance.carrabbitScriptable,
-        VolastroManager.instance.apriciumScriptable,
-        VolastroManager.instance.fawnaScriptable,
-        VolastroManager.instance.foliaScriptable,
-        VolastroManager.instance.lumidleScriptable,
-        VolastroManager.instance.uniburdScriptable,
-        VolastroManager.instance.dreacoScriptable,
-        VolastroManager.instance.tytowlScriptable,
-
-        VolastroManager.instance.glookScriptable,
-        VolastroManager.instance.trawlelfScriptable
-        };
 
     public VolastroScriptableObject baseVolastro;
     public int hungerVal;
@@ -111,7 +46,7 @@ public class Volastro
         this.happinessVal = happinessVal;
         this.traitsVal = traitsVal;
 
-        Debug.Log("New Volastro: " + this.baseVolastro.volastroName + " created");
+        //Debug.Log("New Volastro: " + this.baseVolastro.volastroName + " created");
     }
 
     //getters
@@ -290,14 +225,13 @@ public class Volastro
         }
         else
         {
-            if (baseVolastro.growthStage == 0)
-            {
-                this.updateTrait(0, 0, new int[6]);
-            }
-            else
-            {
-                this.updateTrait(0, -100, new int[6]);
-            }
+
+            VolastroScriptableObject[] VOLASTRO_LIST = new VolastroScriptableObject[VolastroManager.instance.getVolastroList().Count];
+            VolastroManager.instance.getVolastroList().Values.CopyTo(VOLASTRO_LIST, 0);
+
+            Debug.Log("VOLASTRO_LIST size is: " + VOLASTRO_LIST.Length);
+
+            this.updateTrait(0, -100, new int[6]);
             
             int newGrowthStage = baseVolastro.growthStage + 1;
             VolastroScriptableObject.EggGroup eggGroup = baseVolastro.eggGroup;
@@ -323,7 +257,7 @@ public class Volastro
             Debug.Log("Player's instance volastro: " + Player.instance.volastroOne.ToString());
             
             onVolastroChanged?.Invoke(this, EventArgs.Empty);
-            //Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+            Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
 
             ReloadScene();
             
@@ -345,7 +279,11 @@ public class Volastro
 
     public void layEgg()
     {
-        this.rebaseTrait(90, 0, new int[6]);
+
+        VolastroScriptableObject[] VOLASTRO_LIST = new VolastroScriptableObject[VolastroManager.instance.getVolastroList().Count];
+        VolastroManager.instance.getVolastroList().Values.CopyTo(VOLASTRO_LIST, 0);
+
+        this.rebaseTrait(100, 0, new int[6]);
         int newGrowthStage = 0;
         double eggRng = Random.Range(0, 1);
 
@@ -353,19 +291,19 @@ public class Volastro
 
         if (eggRng < baseVolastro.normalEggProb)
         {
-            eligibleEggs.Add(VOLASTRO_LIST[0]);
+            eligibleEggs.Add(VOLASTRO_LIST[5]);
         }
         if (eggRng < baseVolastro.loveEggProb)
         {
-            eligibleEggs.Add(VOLASTRO_LIST[1]);
+            eligibleEggs.Add(VOLASTRO_LIST[6]);
         }
         if (eggRng < baseVolastro.natureEggProb)
         {
-            eligibleEggs.Add(VOLASTRO_LIST[2]);
+            eligibleEggs.Add(VOLASTRO_LIST[7]);
         }
         if (eggRng < baseVolastro.darkEggProb)
         {
-            eligibleEggs.Add(VOLASTRO_LIST[3]);
+            eligibleEggs.Add(VOLASTRO_LIST[8]);
         }
 
         Debug.Log(eligibleEggs.Count + " possible eggs using RNG");
@@ -378,7 +316,7 @@ public class Volastro
 
         onVolastroChanged?.Invoke(this, EventArgs.Empty);
 
-        //Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
+        Player.instance.volastroOne = new Volastro(this, this.hungerVal, this.happinessVal, this.traitsVal);
         
 
         ReloadScene();
@@ -390,9 +328,9 @@ public class Volastro
             Player.instance.discovery.addDiscoveredVolastro(this.getDexNum());
         }
 
-        Hatching.instance.volastroOne = this;
-        Hatching.instance.StartHatching();
-        ReloadScene();
+        //Hatching.instance.volastroOne = this;
+        //Hatching.instance.StartHatching();
+        //ReloadScene();
     }
 
    

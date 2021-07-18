@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 29
   foodName: Lasagna
   hungerVal: 30
-  happinessVal: 10
+  happinessVal: 13
   price: 325
   rarity: 3.25
   ingredient1: {fileID: 11400000, guid: ff564b2bc5c387b43986de55757fc4bb, type: 2}

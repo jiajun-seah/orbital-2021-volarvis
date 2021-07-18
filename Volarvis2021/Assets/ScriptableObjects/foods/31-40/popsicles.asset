@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 37
   foodName: Popsicles
   hungerVal: 50
-  happinessVal: 11
+  happinessVal: 14
   price: 400
   rarity: 4
   ingredient1: {fileID: 11400000, guid: 1c52f7ee00b1af149a15e27b67555faf, type: 2}

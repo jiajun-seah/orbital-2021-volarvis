@@ -36,4 +36,9 @@ public class AdventureManager : MonoBehaviour
     {
         GoOnAdventure.instance.visitCave();
     }
+
+    public void forceReturn()
+    {
+        GoOnAdventure.instance.forceReturnAdventure();
+    }
 }

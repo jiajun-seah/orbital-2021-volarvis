@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 34
   foodName: Lychee Jelly
   hungerVal: 20
-  happinessVal: 11
+  happinessVal: 14
   price: 375
   rarity: 3.75
   ingredient1: {fileID: 11400000, guid: d5e308967ecd08348a64379ebbeac48d, type: 2}

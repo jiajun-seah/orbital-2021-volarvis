@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 18
   foodName: Fish Curry
   hungerVal: 40
-  happinessVal: 10
+  happinessVal: 13
   price: 350
   rarity: 3.5
   ingredient1: {fileID: 11400000, guid: 270e9699e52718b45a272bd5ac50d229, type: 2}

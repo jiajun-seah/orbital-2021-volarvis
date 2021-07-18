@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 40
   foodName: Red Stuffed Peppers
   hungerVal: 40
-  happinessVal: 7
+  happinessVal: 10
   price: 250
   rarity: 2.5
   ingredient1: {fileID: 11400000, guid: 270e9699e52718b45a272bd5ac50d229, type: 2}

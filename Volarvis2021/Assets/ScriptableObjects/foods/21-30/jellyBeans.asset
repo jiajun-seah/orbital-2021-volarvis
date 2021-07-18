@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 27
   foodName: Jelly Beans
   hungerVal: 50
-  happinessVal: 11
+  happinessVal: 14
   price: 400
   rarity: 4
   ingredient1: {fileID: 11400000, guid: b69f2597db16dc346932bbecb557a65c, type: 2}

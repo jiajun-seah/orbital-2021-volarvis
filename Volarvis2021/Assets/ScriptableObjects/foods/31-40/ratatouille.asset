@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 39
   foodName: Ratatouille
   hungerVal: 40
-  happinessVal: 10
+  happinessVal: 13
   price: 325
   rarity: 3.25
   ingredient1: {fileID: 11400000, guid: e4f22a9eac8e1a64f8f9163aa387c82a, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 5
   foodName: Blueberry Scone
   hungerVal: 20
-  happinessVal: 7
+  happinessVal: 10
   price: 250
   rarity: 2.5
   ingredient1: {fileID: 11400000, guid: bb39936459f4e554eb7e608894ea5ddd, type: 2}

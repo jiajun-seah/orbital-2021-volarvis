@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 61
   foodName: Vanilla Ice Cream
   hungerVal: 40
-  happinessVal: 10
+  happinessVal: 13
   price: 325
   rarity: 3.25
   ingredient1: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}

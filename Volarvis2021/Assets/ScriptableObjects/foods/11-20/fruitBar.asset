@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 19
   foodName: Fruit Bar
   hungerVal: 60
-  happinessVal: 12
+  happinessVal: 15
   price: 450
   rarity: 4.5
   ingredient1: {fileID: 11400000, guid: f9f91ef43ecbaab4998d8f13ecdaa1b1, type: 2}

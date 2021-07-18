@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 24
   foodName: Green Stuffed Peppers
   hungerVal: 30
-  happinessVal: 7
+  happinessVal: 10
   price: 200
   rarity: 2
   ingredient1: {fileID: 11400000, guid: 270e9699e52718b45a272bd5ac50d229, type: 2}

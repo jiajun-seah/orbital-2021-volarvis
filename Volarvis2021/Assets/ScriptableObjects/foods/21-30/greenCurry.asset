@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 23
   foodName: Green Curry
   hungerVal: 40
-  happinessVal: 11
+  happinessVal: 14
   price: 400
   rarity: 4
   ingredient1: {fileID: 11400000, guid: ff564b2bc5c387b43986de55757fc4bb, type: 2}

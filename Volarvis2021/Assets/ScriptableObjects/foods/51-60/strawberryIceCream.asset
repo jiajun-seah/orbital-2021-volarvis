@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 53
   foodName: Strawberry Ice Cream
   hungerVal: 40
-  happinessVal: 9
+  happinessVal: 12
   price: 300
   rarity: 3
   ingredient1: {fileID: 11400000, guid: 819744cbd9f5b4041840e486b944e918, type: 2}

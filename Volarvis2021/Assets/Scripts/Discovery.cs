@@ -30,7 +30,9 @@ public class Discovery
 
     public void addDiscoveredFood(int dexNum)
     {
-        discoveredFoods.Add(dexNum);
+        if (!discoveredFoods.Contains(dexNum)) { 
+            discoveredFoods.Add(dexNum);
+        }
 
         onDiscoveredFoodsListChanged?.Invoke(this, EventArgs.Empty);
 
@@ -39,7 +41,10 @@ public class Discovery
 
     public void addDiscoveredVolastro(int dexNum)
     {
-        discoveredVolastros.Add(dexNum);
+        if (!discoveredVolastros.Contains(dexNum))
+        {
+            discoveredVolastros.Add(dexNum);
+        }
 
         onDiscoveredVolastrosListChanged?.Invoke(this, EventArgs.Empty);
 

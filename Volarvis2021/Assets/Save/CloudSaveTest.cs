@@ -19,7 +19,7 @@ public class CloudSaveTest : MonoBehaviour
         {
             case SavedGameRequestStatus.Success:
                 
-                debugText.text = "Saving.. : " + CloudSaveManager.Instance.State.SaveCount.ToString() + " at " + CloudSaveManager.Instance.State.LastSaveTime.ToString();
+                debugText.text = "Saved game data #" + CloudSaveManager.Instance.State.SaveCount.ToString() + " at " + CloudSaveManager.Instance.State.LastSaveTime.ToString();
                 break;
             default:
                 debugText.text = status.ToString();
@@ -36,7 +36,7 @@ public class CloudSaveTest : MonoBehaviour
                     
                     Player.instance.loadPlayerFromState();
                     
-                    debugText.text = "Loaded save! : " + CloudSaveManager.Instance.State.SaveCount.ToString() + " from " + CloudSaveManager.Instance.State.LastSaveTime.ToString();
+                    debugText.text = "Loaded save #" + CloudSaveManager.Instance.State.SaveCount.ToString() + " from " + CloudSaveManager.Instance.State.LastSaveTime.ToString();
                     break;
                 default:
                     debugText.text = status.ToString();
@@ -67,13 +67,13 @@ public class CloudSaveTest : MonoBehaviour
     }
     public void Load()
     {
-        debugText.text = "Loading from cloud...";
+        debugText.text = "Loading from cloud...Ready!";
         CloudSaveManager.Instance.LoadFromCloud(OnPlayError);
         
     }
     public void Login()
     {
-        debugText.text = "Login...";
+        debugText.text = "Logging in...";
         PlayService.Instance.SignIn(OnLoginSuccess,OnLoginFail);
     }
 

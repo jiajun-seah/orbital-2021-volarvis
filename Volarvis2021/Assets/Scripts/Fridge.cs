@@ -12,8 +12,9 @@ public class Fridge
     public Fridge()
     {
         foods = new List<Food>();
-        //addFood(new Food {foodScriptableObject = FoodManager.instance.avocadoToastScriptable, amount = 1 });
-        
+        addFood(new Food { foodScriptableObject = FoodManager.instance.gardenSaladScriptable, amount = 1 });
+        addFood(new Food { foodScriptableObject = FoodManager.instance.gardenSaladScriptable, amount = 1 });
+        addFood(new Food { foodScriptableObject = FoodManager.instance.gardenSaladScriptable, amount = 1 });
         Debug.Log("New fridge created");
     }
 
@@ -24,8 +25,8 @@ public class Fridge
         else { 
             foods.Add(food);
             onFoodListChanged?.Invoke(this, EventArgs.Empty);
-
-            Debug.Log(food.ToString() + " was added to fridge.");
+            
+            //Debug.Log(food.ToString() + " was added to fridge.");
         }
     }
 
@@ -51,7 +52,7 @@ public class Fridge
 
         onFoodListChanged?.Invoke(this, EventArgs.Empty);
 
-        Debug.Log(food.ToString() + " was removed.");
+        //Debug.Log(food.ToString() + " was removed.");
     }
 
     public void clear()
@@ -60,7 +61,7 @@ public class Fridge
 
         onFoodListChanged?.Invoke(this, EventArgs.Empty);
 
-        Debug.Log("Cleared Fridge foods");
+        //Debug.Log("Cleared Fridge foods");
 
     }
 

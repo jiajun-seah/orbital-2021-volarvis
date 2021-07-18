@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 51
   foodName: Strawberry Donuts
   hungerVal: 20
-  happinessVal: 8
+  happinessVal: 11
   price: 275
   rarity: 2.75
   ingredient1: {fileID: 11400000, guid: 3208570fa87727740829ef2adf142614, type: 2}

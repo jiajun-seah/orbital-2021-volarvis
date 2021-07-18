@@ -196,7 +196,7 @@ public class ReturnTimeCountdown : MonoBehaviour
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = butterScriptable, amount = 1 }, 0.2, 2);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cheeseScriptable, amount = 1 }, 0.1, 1);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = creamScriptable, amount = 1 }, 0.5, 2);
-        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.2, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = onionScriptable, amount = 1 }, 0.4, 1);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = potatoScriptable, amount = 1 }, 0.2, 1);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = riceScriptable, amount = 1 }, 0.5, 2);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 2);
@@ -250,7 +250,7 @@ public class ReturnTimeCountdown : MonoBehaviour
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = sugarScriptable, amount = 1 }, 0.5, 2);
 
         //Localised Ingredients
-        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = waterScriptable, amount = 1 }, 0.4, 1);
+        addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = waterScriptable, amount = 1 }, 0.4, 2);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = iceScriptable, amount = 1 }, 0.8, 2);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = flourScriptable, amount = 1 }, 0.4, 1);
         addIngredientFromAdventure(new Ingredient { ingredientScriptableObject = cabbageScriptable, amount = 1 }, 0.05, 2);

@@ -32,11 +32,13 @@ public class Hatching : MonoBehaviour
     public void StartHatching()
     {
         StartCoroutine(HatchEgg());
+        Debug.Log("Hatching...");
     }
 
     IEnumerator HatchEgg()
     {
-        yield return new WaitForSeconds(5);
+        Debug.Log("Waiting 5 seconds");
+        yield return new WaitForSeconds(3);
         Debug.Log("Egg hatched. Now evolving to baby");
         volastroOne.evolve();
         Debug.Log("Volastro evolved to baby");

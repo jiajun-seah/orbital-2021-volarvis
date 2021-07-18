@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 17
   foodName: Fish and Chips
   hungerVal: 30
-  happinessVal: 10
+  happinessVal: 13
   price: 350
   rarity: 3.5
   ingredient1: {fileID: 11400000, guid: 0db76135ac1fc5f44afead68c6785346, type: 2}

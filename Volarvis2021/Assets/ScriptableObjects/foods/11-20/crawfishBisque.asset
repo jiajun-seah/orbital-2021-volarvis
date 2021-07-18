@@ -15,7 +15,7 @@ MonoBehaviour:
   dexNum: 15
   foodName: Crawfish Bisque
   hungerVal: 60
-  happinessVal: 12
+  happinessVal: 15
   price: 475
   rarity: 4.75
   ingredient1: {fileID: 11400000, guid: 0db76135ac1fc5f44afead68c6785346, type: 2}
