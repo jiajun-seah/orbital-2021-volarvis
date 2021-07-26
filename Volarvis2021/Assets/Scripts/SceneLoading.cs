@@ -19,14 +19,15 @@ public class SceneLoading : MonoBehaviour
     
     IEnumerator LoadAsyncOperation() {
         AsyncOperation gameProgress = SceneManager.LoadSceneAsync("HomePage");
+        global.GetComponent<CloudSaveTest>().Load();
         gameProgress.allowSceneActivation = false;
         while (!gameProgress.isDone) {
             _progressBar.fillAmount = gameProgress.progress;
 
             if (gameProgress.progress >= 0.9f)
             {
-                global.GetComponent<CloudSaveTest>().Load();
                 gameProgress.allowSceneActivation = true;
+                
             }
             yield return null;
         }

@@ -52,7 +52,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -1575,4 +1574,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/ShopPage.unity
   - Assets/Scenes/LibraryPage.unity
   - Assets/Scenes/SettingsPage.unity
-  playerPath: C:/Users/cheer/Documents/GitHub LFS4/14-7-21/18-7-21.aab
+  playerPath: C:/Users/cheer/Documents/GitHub LFS4/Volarvis-FINAL.apk
